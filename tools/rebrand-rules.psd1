@@ -40,6 +40,8 @@
         @{ File = 'source/BCU-console/BCU-console.csproj'; Find = "offers some of BCU's functionality"; Replace = "offers some of Neverwas's functionality" }
         @{ File = 'source/ScriptHelper/ScriptHelper.csproj'; Find = 'registry tweaks and scripts to BCU'; Replace = 'registry tweaks and scripts to Neverwas' }
         @{ File = 'source/UniversalUninstaller/UniversalUninstaller.csproj'; Find = 'Utility used by BCU in place'; Replace = 'Utility used by Neverwas in place' }
+        # The Greek wizard label carries the full name although the "B" image sits next to it; the image is now an "N".
+        @{ File = 'source/BulkCrapUninstaller/Forms/Wizards/FirstStartBox.el.resx'; Find = '<value>Bulk crap unistaller</value>'; Replace = '<value>everwas</value>' }
     )
 
     # Resx rules: applied inside <value> of plain string <data> elements only, in this order.
@@ -48,6 +50,13 @@
         @{ Find = 'http://klocmansoftware.weebly.com/'; Replace = 'https://github.com/ErickuchoSan/Neverwas/discussions'; Regex = $false }
         @{ Find = 'Bulk Crap Uninstaller'; Replace = 'Neverwas'; Regex = $false }
         @{ Find = 'BCUninstaller'; Replace = 'Neverwas'; Regex = $false }
+        # Case and spelling variants of the full name ("Bulk crap uninstaller", "Bulk crap unistaller").
+        @{ Find = '(?i)(?<![A-Za-z0-9_])bulk\s+crap\s+un[A-Za-z]*'; Replace = 'Neverwas'; Regex = $true }
+        # First-start wizard: the "B" lives in an image next to the label, so the text starts at "ulk crap".
+        # The trailing "uninstaller" is optional: the zh-Hans/zh-Hant labels only carry "ulk crap".
+        @{ Find = '(?i)(?<![A-Za-z])ulk\s+crap(?:\s+uninstaller)?'; Replace = 'everwas'; Regex = $true }
+        # nl About box: "Neverwas" is followed by the old name on the next lines.
+        @{ Find = '\r?\n\(BulkCrap\s+Uninstaller\)'; Replace = ''; Regex = $true }
         # Upstream typos of the product name (the boundary rule below does not catch them).
         @{ Find = 'delBCU'; Replace = 'del Neverwas'; Regex = $false }
         @{ Find = 'BCUininstaller'; Replace = 'Neverwas'; Regex = $false }

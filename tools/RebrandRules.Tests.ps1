@@ -26,4 +26,24 @@ Describe 'rebrand-rules.psd1' {
         $exp = '<data name="A"><value>Neverwas' + [char]0x304C + [char]0x5909 + [char]0x66F4 + ' ' + [char]0x91CD + [char]0x542F + 'Neverwas' + [char]0x3002 + ' Neverwas' + [char]0xB97C + ' del Neverwas Neverwas Neverwas BCUX</value></data>'
         Convert-ResxBrand -Text $in -ValueRules $rules.ResxValue | Should BeExactly $exp
     }
+    It 'rebrands case variants, the split wizard wordmark and the nl About name' {
+        $cases = @(
+            @{ In = 'Bulk crap uninstaller'; Out = 'Neverwas' }
+            @{ In = 'Bulk crap unistaller'; Out = 'Neverwas' }
+            @{ In = 'ulk crap' + "`n" + 'uninstaller'; Out = 'everwas' }
+            @{ In = 'ulk Crap' + "`n" + 'Uninstaller'; Out = 'everwas' }
+            @{ In = 'ulk crap uninstaller'; Out = 'everwas' }
+            @{ In = 'ulk crap'; Out = 'everwas' }
+            @{ In = 'Neverwas' + "`n" + '(BulkCrap' + "`n" + 'Uninstaller)'; Out = 'Neverwas' }
+        )
+        foreach ($case in $cases) {
+            $text = '<data name="A" xml:space="preserve"><value>' + $case.In + '</value></data>'
+            $exp = '<data name="A" xml:space="preserve"><value>' + $case.Out + '</value></data>'
+            Convert-ResxBrand -Text $text -ValueRules $rules.ResxValue | Should BeExactly $exp
+        }
+    }
+    It 'leaves type-qualified namespace values alone' {
+        $text = '<data name="A" xml:space="preserve"><value>BulkCrapUninstaller.Functions.Tracking.UsageTracker, Neverwas, Culture=neutral</value></data>'
+        Convert-ResxBrand -Text $text -ValueRules $rules.ResxValue | Should BeExactly $text
+    }
 }
