@@ -44,6 +44,19 @@
         @{ File = 'source/UniversalUninstaller/UniversalUninstaller.csproj'; Find = 'Utility used by BCU in place'; Replace = 'Utility used by Neverwas in place' }
         # The Greek wizard label carries the full name although the "B" image sits next to it; the image is now an "N".
         @{ File = 'source/BulkCrapUninstaller/Forms/Wizards/FirstStartBox.el.resx'; Find = '<value>Bulk crap unistaller</value>'; Replace = '<value>everwas</value>' }
+        # Help manual (Help > F1). Its file name stays BCU_manual.html: the code opens it by that name.
+        @{ File = 'doc/BCU_manual.html'; Find = 'https://www.bcuninstaller.com/'; Replace = 'https://github.com/ErickuchoSan/Neverwas' }
+        @{ File = 'doc/BCU_manual.html'; Find = 'https://github.com/Klocman/Bulk-Crap-Uninstaller'; Replace = 'https://github.com/ErickuchoSan/Neverwas' }
+        @{ File = 'doc/BCU_manual.html'; Find = '<span class="T2">and a contact form</span>'; Replace = '<span class="T2">and discussions</span>' }
+        @{ File = 'doc/BCU_manual.html'; Find = '<p class="P51">Bulk Crap</p><p class="P51">Uninstaller</p>'; Replace = '<p class="P51">Neverwas</p>' }
+        @{ File = 'doc/BCU_manual.html'; Find = 'Bulk Crap Uninstaller (or BCUninstaller) is'; Replace = 'Neverwas is' }
+        @{ File = 'doc/BCU_manual.html'; Find = 'BCU-console'; Replace = 'neverwas-cli' }
+    )
+
+    # Text files rebranded whole: the ResxValue rules below run over their entire text (after their literal
+    # rules), except inside base64 data URIs.
+    TextFiles = @(
+        'doc/BCU_manual.html'
     )
 
     # Resx rules: applied inside <value> of plain string <data> elements only, in this order.

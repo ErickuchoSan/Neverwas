@@ -32,6 +32,14 @@ Describe 'Find-ForbiddenEndpoint' {
         Set-Content (Join-Path $root 'source\App\R.resx') -Value '<value>https://github.com/Neverwas/Bulk-Crap-Uninstaller/issues</value>'
         @(Find-ForbiddenEndpoint -Root $root).Count | Should Be 1
     }
+    It 'scans the shipped manual under doc' {
+        $root = New-Tree
+        New-Item -ItemType Directory -Path (Join-Path $root 'doc') -Force | Out-Null
+        Set-Content (Join-Path $root 'doc\BCU_manual.html') -Value '<p><a href="https://www.bcuninstaller.com/">site</a></p>'
+        $hits = @(Find-ForbiddenEndpoint -Root $root)
+        $hits.Count | Should Be 1
+        $hits[0].File | Should Be 'doc/BCU_manual.html'
+    }
     It 'ignores comment lines' {
         $root = New-Tree
         Set-Content (Join-Path $root 'source\App\A.cs') -Value @('    // was http://bugsklocman.ddns.net', '/// similar to http://klocmansoftware.weebly.com/', ' * dappcdn')

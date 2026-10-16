@@ -29,6 +29,18 @@ function Write-TextFile {
     [IO.File]::WriteAllText($Path, $Text, $Encoding)
 }
 
+function Convert-BrandValue {
+    param(
+        [Parameter(Mandatory = $true)][AllowEmptyString()][string]$Text,
+        [Parameter(Mandatory = $true)][AllowEmptyCollection()][object[]]$ValueRules
+    )
+    foreach ($rule in $ValueRules) {
+        if ($rule.Regex) { $Text = [regex]::Replace($Text, $rule.Find, $rule.Replace) }
+        else { $Text = $Text.Replace($rule.Find, $rule.Replace) }
+    }
+    $Text
+}
+
 function Convert-ResxBrand {
     param(
         [Parameter(Mandatory = $true)][AllowEmptyString()][string]$Text,
@@ -41,18 +53,33 @@ function Convert-ResxBrand {
         if ($attrs -cmatch '\s(type|mimetype)\s*=') { return $dataMatch.Value }
         $valueEvaluator = {
             param($valueMatch)
-            $value = $valueMatch.Groups['v'].Value
-            foreach ($rule in $ValueRules) {
-                if ($rule.Regex) { $value = [regex]::Replace($value, $rule.Find, $rule.Replace) }
-                else { $value = $value.Replace($rule.Find, $rule.Replace) }
-            }
-            '<value>' + $value + '</value>'
+            '<value>' + (Convert-BrandValue -Text $valueMatch.Groups['v'].Value -ValueRules $ValueRules) + '</value>'
         }
         $body = [regex]::Replace($dataMatch.Groups['body'].Value, '(?s)<value>(?<v>.*?)</value>', $valueEvaluator)
         '<data' + $attrs + '>' + $body + '</data>'
     }
     # (?<!/) skips self-closing <data ... />, which would otherwise capture the next element's body.
     [regex]::Replace($Text, '(?s)<data\b(?<attrs>[^>]*)(?<!/)>(?<body>.*?)</data>', $dataEvaluator)
+}
+
+# Embedded images (data:...;base64,...) in text files such as the HTML manual: base64 can spell "BCU" by chance.
+$script:DataUriPattern = 'data:[A-Za-z0-9.+/-]+;base64,[A-Za-z0-9+/=\r\n]*'
+
+function Convert-TextBrand {
+    # Text files listed in TextFiles: the resx value rules over the whole text, except inside data URIs.
+    param(
+        [Parameter(Mandatory = $true)][AllowEmptyString()][string]$Text,
+        [Parameter(Mandatory = $true)][AllowEmptyCollection()][object[]]$ValueRules
+    )
+    $out = New-Object System.Text.StringBuilder
+    $pos = 0
+    foreach ($m in [regex]::Matches($Text, $script:DataUriPattern)) {
+        [void]$out.Append((Convert-BrandValue -Text $Text.Substring($pos, $m.Index - $pos) -ValueRules $ValueRules))
+        [void]$out.Append($m.Value)
+        $pos = $m.Index + $m.Length
+    }
+    [void]$out.Append((Convert-BrandValue -Text $Text.Substring($pos) -ValueRules $ValueRules))
+    $out.ToString()
 }
 
 function Convert-LiteralRules {
@@ -70,6 +97,13 @@ function Convert-LiteralRules {
         }
     }
     $Text
+}
+
+function Get-RuleList {
+    # Optional rule sets (TextFiles, ResidualAllowlist) may be absent; strict mode throws on a missing key.
+    param([Parameter(Mandatory = $true)][hashtable]$Rules, [Parameter(Mandatory = $true)][string]$Name)
+    if (-not $Rules.ContainsKey($Name)) { return @() }
+    @($Rules[$Name] | Where-Object { $_ })
 }
 
 function Get-LiteralRulesByFile {
@@ -96,7 +130,8 @@ function Get-SourceFiles {
 }
 
 function Convert-FileBrand {
-    # The in-memory result of the rebrand for one file: its literal rules first, then the resx value rules.
+    # The in-memory result of the rebrand for one file: its literal rules first, then the resx value rules
+    # (inside <value> for .resx, over the whole text for files listed in TextFiles).
     param(
         [Parameter(Mandatory = $true)][string]$Rel,
         [Parameter(Mandatory = $true)][AllowEmptyString()][string]$Text,
@@ -105,6 +140,7 @@ function Convert-FileBrand {
     )
     if ($LiteralByFile.ContainsKey($Rel)) { $Text = Convert-LiteralRules -Text $Text -Rules $LiteralByFile[$Rel] -File $Rel }
     if ($Rel.EndsWith('.resx')) { $Text = Convert-ResxBrand -Text $Text -ValueRules @($Rules.ResxValue) }
+    elseif ((Get-RuleList -Rules $Rules -Name 'TextFiles') -contains $Rel) { $Text = Convert-TextBrand -Text $Text -ValueRules @($Rules.ResxValue) }
     $Text
 }
 
@@ -119,6 +155,7 @@ function Invoke-Rebrand {
 
     $files = @{}
     foreach ($rel in $literalByFile.Keys) { $files[$rel] = $true }
+    foreach ($rel in (Get-RuleList -Rules $Rules -Name 'TextFiles')) { $files[$rel] = $true }
     foreach ($rel in (Get-SourceFiles -Root $Root -Extensions @('.resx'))) { $files[$rel] = $true }
 
     $changed = New-Object System.Collections.Generic.List[string]
@@ -207,6 +244,20 @@ function Find-CodeResidual {
     $hits.ToArray()
 }
 
+function Find-TextResidual {
+    # Whole-text scan for TextFiles (one hit per line), with data URIs and allowlisted tokens masked.
+    param([string]$File, [string]$Text, [string[]]$Allowlist)
+    $hits = New-Object System.Collections.Generic.List[object]
+    $masked = [regex]::Replace($Text, $script:DataUriPattern, { param($m) New-Object string ('#', $m.Length) })
+    $masked = Hide-AllowedToken -Text $masked -Allowlist $Allowlist
+    $lastLine = 0
+    foreach ($m in [regex]::Matches($masked, $script:CodeResidualPattern)) {
+        $hit = New-ResidualHit -File $File -Text $Text -Index $m.Index
+        if ($hit.Line -ne $lastLine) { $hits.Add($hit); $lastLine = $hit.Line }
+    }
+    $hits.ToArray()
+}
+
 function Read-ScanText {
     # Read-only decode for the residual scan: strict UTF-8 first; otherwise BOM detection (UTF-16) or Windows-1252.
     # Safe because the scan never writes; files the rebrand writes still go through the strict Read-TextFile.
@@ -225,15 +276,20 @@ function Find-BrandResidual {
     )
     $Root = (Resolve-Path -LiteralPath $Root).Path.TrimEnd('\', '/')
     $literalByFile = Get-LiteralRulesByFile -Rules $Rules
-    $allowlist = [string[]]@($Rules.ResidualAllowlist | Where-Object { $_ })
+    $allowlist = [string[]]@(Get-RuleList -Rules $Rules -Name 'ResidualAllowlist')
 
     $files = @(Get-SourceFiles -Root $Root -Extensions (@('.resx') + $script:CodeResidualExtensions))
     if (Test-Path -LiteralPath (Join-Path $Root 'publish.bat')) { $files += 'publish.bat' }
+    $textFiles = @(Get-RuleList -Rules $Rules -Name 'TextFiles')
+    $files += $textFiles
 
     $hits = New-Object System.Collections.Generic.List[object]
-    foreach ($rel in ($files | Where-Object { -not $_.StartsWith($script:ResidualSkippedPrefix) } | Sort-Object)) {
+    foreach ($rel in ($files | Where-Object { -not $_.StartsWith($script:ResidualSkippedPrefix) } | Sort-Object -Unique)) {
         $text = Convert-FileBrand -Rel $rel -Text (Read-ScanText -Path (Join-Path $Root $rel)) -Rules $Rules -LiteralByFile $literalByFile
-        if ($rel.EndsWith('.resx')) {
+        if ($textFiles -contains $rel) {
+            foreach ($hit in (Find-TextResidual -File $rel -Text $text -Allowlist $allowlist)) { $hits.Add($hit) }
+        }
+        elseif ($rel.EndsWith('.resx')) {
             if ($text -notmatch $script:ResxResidualPattern) { continue }
             foreach ($hit in (Find-ResxResidual -File $rel -Text $text -Allowlist $allowlist)) { $hits.Add($hit) }
         }
@@ -245,4 +301,4 @@ function Find-BrandResidual {
     $hits.ToArray()
 }
 
-Export-ModuleMember -Function Read-TextFile, Write-TextFile, Convert-ResxBrand, Convert-LiteralRules, Invoke-Rebrand, Find-BrandResidual
+Export-ModuleMember -Function Read-TextFile, Write-TextFile, Convert-ResxBrand, Convert-TextBrand, Convert-LiteralRules, Invoke-Rebrand, Find-BrandResidual

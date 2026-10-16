@@ -53,6 +53,22 @@ Describe 'Convert-ResxBrand' {
     }
 }
 
+Describe 'Convert-TextBrand' {
+    It 'applies the value rules over the whole text, not only resx values' {
+        Convert-TextBrand -Text '<title>BCU docs</title><p>Run BCUninstaller.</p>' -ValueRules $valueRules |
+            Should Be '<title>Neverwas docs</title><p>Run Neverwas.</p>'
+    }
+    It 'leaves base64 data URIs untouched' {
+        $in = "<img src=`"data:image/png;base64,AA/BCU+AA`r`nBB/BCU+B==`"/> BCU"
+        Convert-TextBrand -Text $in -ValueRules $valueRules |
+            Should Be "<img src=`"data:image/png;base64,AA/BCU+AA`r`nBB/BCU+B==`"/> Neverwas"
+    }
+    It 'is idempotent' {
+        $once = Convert-TextBrand -Text 'BCUninstaller (Bulk Crap Uninstaller) and BCU' -ValueRules $valueRules
+        Convert-TextBrand -Text $once -ValueRules $valueRules | Should Be $once
+    }
+}
+
 Describe 'Convert-LiteralRules' {
     $rules = @(@{ File = 'a.cs'; Find = '"BCU Backup "'; Replace = '"Neverwas Backup "' })
 
@@ -148,6 +164,22 @@ Describe 'Invoke-Rebrand' {
         $bad = @{ Literal = @(@{ File = 'source/App/Missing.cs'; Find = 'a'; Replace = 'b' }); ResxValue = @() }
         { Invoke-Rebrand -Root $root -Rules $bad -Check } | Should Throw 'missing file: source/App/Missing.cs'
     }
+    It 'rebrands listed text files whole, after their literal rules, and is clean on a second check' {
+        $root = New-Fixture
+        New-Item -ItemType Directory -Path (Join-Path $root 'doc') -Force | Out-Null
+        Set-Content -LiteralPath (Join-Path $root 'doc\M.html') -Value '<title>BCUninstaller</title><a href="http://klocmansoftware.weebly.com/donate.html">BCUninstaller site</a>' -Encoding UTF8
+        $textRules = @{ Literal = $rules.Literal + @(@{ File = 'doc/M.html'; Find = 'http://klocmansoftware.weebly.com/donate.html'; Replace = 'https://github.com/ErickuchoSan/Neverwas' }); ResxValue = $rules.ResxValue; TextFiles = @('doc/M.html') }
+        @(Invoke-Rebrand -Root $root -Rules $textRules -Check) -contains 'doc/M.html' | Should Be $true
+        Invoke-Rebrand -Root $root -Rules $textRules | Out-Null
+        (Get-Content -LiteralPath (Join-Path $root 'doc\M.html') -Raw) |
+            Should Match '^<title>Neverwas</title><a href="https://github.com/ErickuchoSan/Neverwas">Neverwas site</a>'
+        @(Invoke-Rebrand -Root $root -Rules $textRules -Check).Count | Should Be 0
+    }
+    It 'throws when a listed text file is missing' {
+        $root = New-Fixture
+        $bad = @{ Literal = @(); ResxValue = @(); TextFiles = @('doc/Missing.html') }
+        { Invoke-Rebrand -Root $root -Rules $bad -Check } | Should Throw 'missing file: doc/Missing.html'
+    }
 }
 
 Describe 'Find-BrandResidual' {
@@ -215,6 +247,17 @@ Describe 'Find-BrandResidual' {
         [IO.File]::WriteAllBytes((Join-Path $root 'source\App\W.cs'), [byte[]](0xFF,0xFE,0x22,0x00,0x42,0x00,0x43,0x00,0x55,0x00,0x22,0x00))
         $hits = @(Find-BrandResidual -Root $root -Rules $noRules)
         ($hits | ForEach-Object { $_.File } | Sort-Object) -join ';' | Should Be 'source/App/L.cs;source/App/W.cs'
+    }
+    It 'scans listed text files whole, outside data URIs, after their rules' {
+        $root = New-Tree
+        New-Item -ItemType Directory -Path (Join-Path $root 'doc') -Force | Out-Null
+        Set-File $root 'doc\M.html' @('<p>BCU manual</p>', '<img src="data:image/png;base64,AA/BCU+A=="/><p class="P51">Bulk Crap</p>', '<a href="#a_9_2_BCU-console_exe">my_list.bcul</a>')
+        $textRules = @{ Literal = @(); ResxValue = @(@{ Find = '(?<![A-Za-z0-9_])BCU(?![A-Za-z0-9_])'; Replace = 'Neverwas'; Regex = $true }); TextFiles = @('doc/M.html'); ResidualAllowlist = @('BCU-console') }
+        $hits = @(Find-BrandResidual -Root $root -Rules $textRules)
+        $hits.Count | Should Be 1
+        $hits[0].File | Should Be 'doc/M.html'
+        $hits[0].Line | Should Be 2
+        $hits[0].Text | Should Match 'Bulk Crap'
     }
     It 'skips the upstream test project and build output' {
         $root = New-Tree
