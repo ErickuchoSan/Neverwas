@@ -1,0 +1,425 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Manual de marca Neverwas</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap">
+<style>
+/* Layout: a single reading column with the specimen blocks breaking out wider; brand tokens drive every colour. */
+:root {
+  --primary: #6656F0;
+  --primary-strong: #4C3CCF;
+  --primary-subtle: #EEECFE;
+  --ink: #17151F;
+  --graphite: #3A3746;
+  --slate: #5F5C6D;
+  --mist: #C9C7D3;
+  --fog: #ECEBF1;
+  --paper: #FAFAFC;
+  --white: #FFFFFF;
+
+  --bg: var(--paper);
+  --surface: var(--white);
+  --fg: var(--ink);
+  --muted: var(--slate);
+  --line: var(--mist);
+  --accent: var(--primary-strong);
+  --chip: var(--fog);
+  --ok: #17784C;
+  --todo: #8A5800;
+
+  --font-brand: "Manrope", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "Cascadia Mono", "Cascadia Code", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #17151F; --surface: #24212E; --fg: #ECEBF1; --muted: #A7A4B5; --line: #3A3746;
+    --accent: #A298FF; --chip: #24212E; --ok: #5CC995; --todo: #F4B740; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #17151F; --surface: #24212E; --fg: #ECEBF1; --muted: #A7A4B5; --line: #3A3746;
+  --accent: #A298FF; --chip: #24212E; --ok: #5CC995; --todo: #F4B740; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+img { max-width: 100%; height: auto; }
+body { background: var(--bg); color: var(--fg); font: 16px/1.55 var(--font-brand); }
+.wrap { max-width: 1040px; margin: 0 auto; padding-block: 40px 96px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header.cover { display: grid; gap: 24px; padding-block: 24px 48px; border-bottom: 1px solid var(--line); }
+header.cover img { height: 56px; width: auto; }
+.logo-dark { display: none; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .logo-light { display: none; } :root:not([data-theme="light"]) .logo-dark { display: block; } }
+:root[data-theme="dark"] .logo-light { display: none; }
+:root[data-theme="dark"] .logo-dark { display: block; }
+h1 { font-size: 39px; line-height: 1.15; font-weight: 800; letter-spacing: -0.02em; margin: 0; text-wrap: balance; max-width: 22ch; }
+h2 { font-size: 31px; line-height: 1.15; font-weight: 800; letter-spacing: -0.015em; margin: 0 0 8px; text-wrap: balance; }
+h3 { font-size: 20px; line-height: 1.3; font-weight: 700; margin: 32px 0 8px; }
+p, li { max-width: 68ch; }
+p { margin: 0 0 12px; }
+.lede { font-size: 20px; color: var(--muted); max-width: 60ch; }
+.meta { display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: 13px; color: var(--muted); letter-spacing: 0.02em; }
+.meta b { color: var(--fg); font-weight: 600; }
+nav.toc { display: flex; flex-wrap: wrap; gap: 8px; padding-block: 24px; }
+nav.toc a { font-size: 13px; font-weight: 600; color: var(--fg); text-decoration: none; padding: 6px 12px; border: 1px solid var(--line); border-radius: 999px; }
+nav.toc a:hover, nav.toc a:focus-visible { border-color: var(--accent); color: var(--accent); outline: none; }
+section { padding-block: 56px 8px; border-top: 1px solid var(--line); }
+section:first-of-type { border-top: 0; }
+.eyebrow { font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; }
+a { color: var(--accent); }
+code, .mono { font-family: var(--font-mono); font-size: 0.9em; }
+code { background: var(--chip); padding: 1px 6px; border-radius: 4px; }
+blockquote.statement { margin: 16px 0 24px; padding: 20px 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; font-size: 18px; line-height: 1.5; max-width: 70ch; }
+blockquote.statement b { color: var(--accent); }
+.cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
+.cols > * { min-width: 0; }
+.table-scroll { overflow-x: auto; margin: 12px 0 24px; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.trait { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 4px 16px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.trait .no { color: var(--muted); }
+.trait .no::before { content: "pero no "; font-weight: 600; }
+.specimens { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin: 16px 0 8px; }
+.spec { border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--surface); }
+.spec .stage { display: grid; place-items: center; min-height: 160px; padding: 24px; }
+.spec .stage img { max-height: 96px; width: auto; max-width: 100%; }
+.spec .stage.on-white { background: #FFFFFF; }
+.spec .stage.on-ink { background: #17151F; }
+.spec .stage.on-primary { background: #6656F0; }
+.spec .cap { font-size: 13px; padding: 10px 12px; border-top: 1px solid var(--line); color: var(--muted); }
+.spec .cap code { font-size: 12px; }
+.wide { grid-column: 1 / -1; }
+.construct { display: grid; grid-template-columns: minmax(0, 320px) minmax(0, 1fr); gap: 32px; align-items: start; }
+.construct svg { width: 100%; height: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; }
+.wrong { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+.wrong figure { margin: 0; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); overflow: hidden; }
+.wrong .stage { position: relative; display: grid; place-items: center; height: 120px; background: #FFFFFF; }
+.wrong .stage img { height: 64px; width: 64px; }
+.wrong figcaption { font-size: 13px; padding: 8px 10px; border-top: 1px solid var(--line); }
+.wrong figcaption::before { content: "No "; font-weight: 700; color: #C0302B; }
+.cover-notch { position: absolute; width: 10px; height: 10px; background: #6656F0; top: 28px; left: calc(50% + 9px); }
+.swatches { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin: 16px 0; }
+.sw { border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--surface); }
+.sw .chip { height: 84px; display: flex; align-items: flex-end; padding: 8px 10px; font-size: 12px; font-weight: 700; }
+.sw .info { padding: 10px 12px; font-size: 13px; display: grid; gap: 2px; }
+.sw .info b { font-size: 14px; }
+.sw .info span { color: var(--muted); font-family: var(--font-mono); font-size: 12px; }
+.ratio { display: flex; height: 28px; border-radius: 6px; overflow: hidden; border: 1px solid var(--line); margin: 8px 0 24px; max-width: 520px; }
+.ratio div { display: grid; place-items: center; font-size: 12px; font-weight: 700; }
+.pair { display: inline-flex; align-items: center; justify-content: center; min-width: 64px; padding: 4px 10px; border-radius: 4px; font-weight: 700; font-size: 13px; border: 1px solid var(--line); }
+.status { display: inline-block; font-size: 12px; font-weight: 700; padding: 2px 8px; border-radius: 999px; white-space: nowrap; }
+.status.ok { color: var(--ok); border: 1px solid currentColor; }
+.status.ok::before { content: "✓ "; }
+.status.todo { color: var(--todo); border: 1px solid currentColor; }
+.status.todo::before { content: "◷ "; }
+.type-row { display: grid; grid-template-columns: 90px minmax(0, 1fr); gap: 16px; align-items: baseline; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.type-row .lbl { font-size: 12px; color: var(--muted); font-family: var(--font-mono); }
+.say { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 12px; margin: 8px 0 16px; }
+.say div { padding: 12px 14px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); font-size: 15px; }
+.say .bad { color: var(--muted); }
+.say .bad::before { content: "Así no"; display: block; font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #C0302B; margin-bottom: 4px; }
+.say .good::before { content: "Así sí"; display: block; font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ok); margin-bottom: 4px; }
+.shots { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; align-items: start; }
+.shots figure { margin: 0; }
+.shots img { display: block; border: 1px solid var(--line); border-radius: 6px; }
+.shots figcaption { font-size: 13px; color: var(--muted); margin-top: 6px; }
+pre.tree { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 16px; overflow-x: auto; font-family: var(--font-mono); font-size: 13px; line-height: 1.6; }
+footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
+@media (max-width: 640px) {
+  h1 { font-size: 31px; } h2 { font-size: 25px; }
+  .construct, .say, .trait { grid-template-columns: minmax(0, 1fr); }
+}
+</style>
+
+<div class="wrap">
+<header class="cover">
+  <img class="logo-light" src="logo/neverwas-horizontal-color.svg" alt="Neverwas">
+  <img class="logo-dark" src="logo/neverwas-horizontal-blanco.svg" alt="Neverwas">
+  <h1>Como si el programa nunca hubiera existido.</h1>
+  <p class="lede">Manual de marca de Neverwas: qué es, para quién, cómo firma, con qué colores y letras, y cómo habla.</p>
+  <div class="meta"><span>Versión <b>1.0</b></span><span>Fecha <b>2026-10-15</b></span><span>Estado <b>pendiente de aprobación</b></span><span>Fuente de verdad del color y la tipografía: <code>docs/brand/tokens.json</code></span></div>
+</header>
+
+<nav class="toc" aria-label="Secciones">
+  <a href="#esencia">Esencia</a><a href="#nombre">Nombre</a><a href="#logo">Logo</a><a href="#color">Color</a><a href="#tipografia">Tipografía</a><a href="#voz">Tono de voz</a><a href="#aplicaciones">Aplicaciones</a><a href="#archivos">Archivos</a><a href="#estado">Estado</a>
+</nav>
+
+<section id="esencia">
+  <div class="eyebrow">Esencia</div>
+  <h2>Qué es Neverwas</h2>
+  <p>Neverwas es un desinstalador gratuito para Windows, derivado de Bulk Crap Uninstaller 6.3. Quita muchos programas de una vez y después busca lo que dejaron: carpetas, claves de registro, tareas y servicios. El nombre es la promesa: que el equipo quede como si el programa nunca hubiera estado.</p>
+  <blockquote class="statement">Para quien mantiene su propia PC con Windows y quiere quitar varios programas sin que queden restos, <b>Neverwas</b> es el desinstalador gratuito y liviano que <b>deja el equipo como si el programa nunca hubiera existido</b>, porque después de desinstalar rastrea los restos y te los muestra antes de borrarlos, sin publicidad, sin cuenta y sin enviar datos a ningún servidor.</blockquote>
+
+  <div class="cols">
+    <div>
+      <h3>A quién le habla</h3>
+      <ul>
+        <li>A quien ordena su PC de vez en cuando y quita programas de a varios, no de a uno.</li>
+        <li>A quien ya se quemó con restos: una reinstalación que trajo la configuración vieja, un servicio que siguió corriendo.</li>
+        <li>A quien desconfía de los desinstaladores "gratis" que instalan otra cosa o piden una cuenta.</li>
+      </ul>
+    </div>
+    <div>
+      <h3>A quién no</h3>
+      <ul>
+        <li>Equipos de TI que administran flotas de PCs: para eso existen Intune o SCCM.</li>
+        <li>Quien busca un "optimizador" que acelere el equipo. Neverwas quita programas; no promete velocidad.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Personalidad</h3>
+  <div class="trait"><span>Silenciosa</span><span class="no">opaca: no hace ruido, pero muestra todo lo que va a borrar</span></div>
+  <div class="trait"><span>Precisa</span><span class="no">fría: técnica en lo que hace, humana en cómo lo dice</span></div>
+  <div class="trait"><span>Liviana</span><span class="no">frágil: poca interfaz, mismo motor probado</span></div>
+  <div class="trait"><span>Seria</span><span class="no">solemne: sin chistes de "crap" ni alarmas de optimizador</span></div>
+
+  <h3>Qué la hace distinta en su categoría</h3>
+  <p>Los desinstaladores suelen hablar el idioma de la limpieza agresiva: papeleras, escobas, escudos, cifras alarmantes de "basura encontrada", verdes y azules saturados y rojos de alerta. Neverwas rompe ese patrón a propósito: su metáfora no es limpiar sino no dejar rastro. Por eso no usa papeleras ni escobas, usa un único color de acento que la categoría no ocupa, y habla en voz baja.</p>
+  <p>Panorama de la categoría: la lectura de arriba sale de los patrones conocidos del rubro, no de una lámina armada para este manual. Antes de una campaña o un sitio público conviene armar esa lámina con 8 a 10 competidores y confirmar que el índigo sigue libre.</p>
+
+  <h3>Restricciones</h3>
+  <ul>
+    <li>Fork liviano: cambios mínimos sobre los archivos de upstream. La marca entra por recursos (íconos, imágenes) y por un mecanismo en tiempo de ejecución, no editando cada formulario.</li>
+    <li>La interfaz de la app sigue siendo la de BCU (WinForms, Segoe UI). Su rediseño completo es otro subproyecto; este manual cubre marca y assets.</li>
+    <li>Licencia Apache 2.0 heredada: el crédito a Bulk Crap Uninstaller se mantiene visible en "Acerca de".</li>
+  </ul>
+</section>
+
+<section id="nombre">
+  <div class="eyebrow">Nombre</div>
+  <h2>Neverwas</h2>
+  <p>Una palabra, inglés, se pronuncia <span class="mono">/ˈnɛvərwɒz/</span>. En texto se escribe <b>Neverwas</b> (mayúscula inicial); el logotipo usa minúsculas. Los binarios son <code>Neverwas.exe</code> y <code>neverwas-cli</code>.</p>
+  <p>La sesión de base del fork verificó que no choca con proyectos de GitHub ni paquetes de winget. <b>No se hizo búsqueda de marca registrada</b> (IMPI, USPTO, EUIPO). Esa búsqueda sirve para descartar conflictos, nunca para confirmar disponibilidad. Si el proyecto va a tener inversión o venta, la revisa un especialista en propiedad industrial. Como punto de partida a verificar: clase de Niza 9 (software descargable) y, si hubiera servicio en línea, la 42.</p>
+</section>
+
+<section id="logo">
+  <div class="eyebrow">Logo</div>
+  <h2>La salida</h2>
+  <p>El símbolo es una placa, la forma de un ícono de programa, con una N calada: la letra está hecha de ausencia. El último trazo de la N atraviesa el borde superior y deja la placa abierta. El programa salió por ahí y no dejó nada atrás.</p>
+  <p>Tipo de logo: imagotipo. El símbolo y el logotipo funcionan juntos o separados; el símbolo solo es el ícono de la app.</p>
+
+  <h3>Caminos explorados</h3>
+  <div class="table-scroll"><table>
+    <thead><tr><th>Camino</th><th>Idea</th><th>Resultado</th></tr></thead>
+    <tbody>
+      <tr><td><b>A. La salida</b></td><td>N calada en una placa, con el trazo derecho abierto hacia afuera.</td><td><span class="status ok">elegido</span> Se lee como N a 16 px, funciona en un color y en negativo, y la abertura lo separa de otras marcas "N en un cuadrado".</td></tr>
+      <tr><td>B. Nulo</td><td>N con la diagonal prolongada hasta un círculo, como el signo de vacío.</td><td>Descartado: se lee como "prohibido", y a 16 px el círculo y la N se empastan.</td></tr>
+      <tr><td>C. Fantasma</td><td>N sólida con el último trazo en contorno: lo que estuvo y ya no.</td><td>Descartado: el contorno desaparece a 16 px y no sobrevive en un solo color.</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>Versiones</h3>
+  <div class="specimens">
+    <div class="spec"><div class="stage on-white"><img src="logo/neverwas-isotipo-color.svg" alt="Isotipo a color"></div><div class="cap">Isotipo color · <code>neverwas-isotipo-color.svg</code></div></div>
+    <div class="spec"><div class="stage on-white"><img src="logo/neverwas-isotipo-negro.svg" alt="Isotipo negro"></div><div class="cap">Isotipo negro · <code>neverwas-isotipo-negro.svg</code></div></div>
+    <div class="spec"><div class="stage on-ink"><img src="logo/neverwas-isotipo-blanco.svg" alt="Isotipo blanco"></div><div class="cap">Isotipo blanco · <code>neverwas-isotipo-blanco.svg</code></div></div>
+    <div class="spec wide"><div class="stage on-white"><img src="logo/neverwas-horizontal-color.svg" alt="Horizontal a color"></div><div class="cap">Horizontal color, versión principal · <code>neverwas-horizontal-color.svg</code></div></div>
+    <div class="spec wide"><div class="stage on-ink"><img src="logo/neverwas-horizontal-blanco.svg" alt="Horizontal blanco"></div><div class="cap">Horizontal blanco, sobre fondos oscuros · <code>neverwas-horizontal-blanco.svg</code></div></div>
+    <div class="spec"><div class="stage on-white"><img src="logo/neverwas-vertical-color.svg" alt="Vertical a color"></div><div class="cap">Vertical color · <code>neverwas-vertical-color.svg</code></div></div>
+    <div class="spec"><div class="stage on-primary"><img src="logo/neverwas-vertical-blanco.svg" alt="Vertical blanco sobre índigo"></div><div class="cap">Vertical blanco sobre índigo · <code>neverwas-vertical-blanco.svg</code></div></div>
+    <div class="spec"><div class="stage on-white"><img src="logo/neverwas-horizontal-negro.svg" alt="Horizontal negro"></div><div class="cap">Horizontal negro · <code>neverwas-horizontal-negro.svg</code></div></div>
+  </div>
+  <p>En las versiones negra y blanca la N es un hueco: deja ver el fondo. En la versión color la N es blanca para que el ícono se lea igual sobre la barra de tareas clara y la oscura.</p>
+
+  <h3>Construcción, resguardo y tamaño mínimo</h3>
+  <div class="construct">
+    <svg viewBox="-1 -1 18 18" role="img" aria-label="Grilla de construcción del símbolo">
+      <defs><pattern id="g" width="1" height="1" patternUnits="userSpaceOnUse"><path d="M1 0H0V1" fill="none" stroke="#C9C7D3" stroke-width="0.03"/></pattern></defs>
+      <rect x="0" y="0" width="16" height="16" fill="url(#g)"/>
+      <rect x="1" y="1" width="14" height="14" rx="3" fill="#6656F0"/>
+      <polygon points="4,3 6.33,3 10,9.47 10,1 12,1 12,13 9.67,13 6,6.53 6,13 4,13" fill="#FFFFFF"/>
+      <rect x="-0.98" y="-0.98" width="17.96" height="17.96" fill="none" stroke="#C0302B" stroke-width="0.06" stroke-dasharray="0.3 0.2"/>
+      <path d="M4 2.35H6M4 2.1V2.6M6 2.1V2.6" stroke="#FFFFFF" stroke-width="0.07"/><text x="5" y="1.95" font-size="0.6" text-anchor="middle" fill="#FFFFFF" font-family="Manrope, sans-serif" font-weight="700">x</text>
+    </svg>
+    <div>
+      <p>Grilla de 16 unidades, la del ícono de 16 px. Placa de 14 × 14 con radio 3; trazos de la N de 2 unidades (la diagonal, 2.33, para que pese lo mismo que los verticales); N de 3 a 13 en altura.</p>
+      <p><b>Unidad x</b> = el ancho de un trazo vertical de la N (1/7 del lado de la placa). <b>Área de resguardo</b>: 2x libres alrededor del símbolo y de cada versión del logo (línea roja punteada). Nada entra ahí: ni texto, ni bordes, ni otras marcas.</p>
+      <div class="table-scroll"><table>
+        <thead><tr><th>Versión</th><th>Mínimo digital</th><th>Mínimo impreso</th></tr></thead>
+        <tbody>
+          <tr><td>Isotipo</td><td class="num">16 px</td><td class="num">5 mm</td></tr>
+          <tr><td>Horizontal</td><td class="num">24 px de alto</td><td class="num">7 mm de alto</td></tr>
+          <tr><td>Vertical</td><td class="num">48 px de alto</td><td class="num">14 mm de alto</td></tr>
+        </tbody>
+      </table></div>
+      <p>Por debajo de 48 px el ícono se dibuja ajustado a píxeles enteros (lo hace <code>tools/new-brand-assets.ps1</code>); no escalar a mano el PNG de 256.</p>
+    </div>
+  </div>
+
+  <h3>Usos incorrectos</h3>
+  <div class="wrong">
+    <figure><div class="stage"><img src="logo/neverwas-isotipo-color.svg" alt="" style="transform: rotate(14deg)"></div><figcaption>rotar</figcaption></figure>
+    <figure><div class="stage"><img src="logo/neverwas-isotipo-color.svg" alt="" style="transform: scaleX(1.45)"></div><figcaption>deformar</figcaption></figure>
+    <figure><div class="stage"><img src="logo/neverwas-isotipo-color.svg" alt="" style="filter: hue-rotate(150deg)"></div><figcaption>cambiar el color de la placa</figcaption></figure>
+    <figure><div class="stage"><img src="logo/neverwas-isotipo-color.svg" alt="" style="filter: drop-shadow(4px 6px 4px rgba(0,0,0,.45))"></div><figcaption>agregar sombras o degradados</figcaption></figure>
+    <figure><div class="stage"><img src="logo/neverwas-isotipo-color.svg" alt=""><span class="cover-notch"></span></div><figcaption>cerrar la salida de la N</figcaption></figure>
+    <figure><div class="stage" style="background:#8D80F5"><img src="logo/neverwas-isotipo-color.svg" alt=""></div><figcaption>usar sobre fondos sin contraste</figcaption></figure>
+  </div>
+</section>
+
+<section id="color">
+  <div class="eyebrow">Color</div>
+  <h2>Un índigo y muchos neutros</h2>
+  <p>La categoría usa azules, verdes y rojos saturados. El índigo no lo ocupa nadie, y aguanta el registro de "precisa pero no fría". Los neutros llevan un sesgo leve hacia el índigo para que el gris no se vea por defecto. La paleta de marca es de un color; los semánticos van aparte.</p>
+
+  <div class="swatches">
+    <div class="sw"><div class="chip" style="background:#6656F0;color:#fff">Primario</div><div class="info"><b>Índigo</b><span>#6656F0 · 102 86 240</span><span>CMYK ref. 57 64 0 6</span><span>Pantone ref. 2725 C</span></div></div>
+    <div class="sw"><div class="chip" style="background:#4C3CCF;color:#fff">Primario fuerte</div><div class="info"><b>Índigo fuerte</b><span>#4C3CCF · 76 60 207</span><span>hover, texto AAA</span></div></div>
+    <div class="sw"><div class="chip" style="background:#EEECFE;color:#4C3CCF">Primario suave</div><div class="info"><b>Índigo suave</b><span>#EEECFE · 238 236 254</span><span>selección, fondos</span></div></div>
+    <div class="sw"><div class="chip" style="background:#A298FF;color:#17151F">Sobre oscuro</div><div class="info"><b>Índigo claro</b><span>#A298FF · 162 152 255</span><span>texto e íconos sobre tinta</span></div></div>
+    <div class="sw"><div class="chip" style="background:#17151F;color:#fff">Tinta</div><div class="info"><b>Tinta</b><span>#17151F · 23 21 31</span></div></div>
+    <div class="sw"><div class="chip" style="background:#3A3746;color:#fff">Grafito</div><div class="info"><b>Grafito</b><span>#3A3746 · 58 55 70</span></div></div>
+    <div class="sw"><div class="chip" style="background:#5F5C6D;color:#fff">Pizarra</div><div class="info"><b>Pizarra</b><span>#5F5C6D · 95 92 109</span></div></div>
+    <div class="sw"><div class="chip" style="background:#C9C7D3;color:#17151F">Niebla</div><div class="info"><b>Niebla</b><span>#C9C7D3 · solo divisores</span></div></div>
+    <div class="sw"><div class="chip" style="background:#ECEBF1;color:#17151F">Bruma</div><div class="info"><b>Bruma</b><span>#ECEBF1 · 236 235 241</span></div></div>
+    <div class="sw"><div class="chip" style="background:#FAFAFC;color:#17151F">Papel</div><div class="info"><b>Papel</b><span>#FAFAFC · 250 250 252</span></div></div>
+  </div>
+
+  <h3>Proporción de uso</h3>
+  <div class="ratio" aria-label="60 por ciento papel, 30 por ciento tinta y grafito, 10 por ciento índigo">
+    <div style="flex:60;background:#FAFAFC;color:#17151F">60 papel</div>
+    <div style="flex:30;background:#17151F;color:#fff">30 tinta</div>
+    <div style="flex:10;background:#6656F0;color:#fff">10</div>
+  </div>
+  <p>El índigo es acento: el ícono, un botón principal, un enlace. Si una pieza se vuelve índigo de punta a punta (como la imagen de "Acerca de"), el resto de la pieza es blanco.</p>
+
+  <h3>Pares aprobados (WCAG 2.2)</h3>
+  <p>Calculados con la fórmula de luminancia relativa de WCAG. Texto normal exige 4.5:1; texto grande, íconos y bordes de controles, 3:1.</p>
+  <div class="table-scroll"><table>
+    <thead><tr><th>Par</th><th>Contraste</th><th>Uso aprobado</th></tr></thead>
+    <tbody>
+      <tr><td><span class="pair" style="background:#FAFAFC;color:#17151F">Aa</span> tinta sobre papel</td><td class="num">17.31:1</td><td>Todo texto</td></tr>
+      <tr><td><span class="pair" style="background:#FAFAFC;color:#5F5C6D">Aa</span> pizarra sobre papel</td><td class="num">6.22:1</td><td>Texto secundario</td></tr>
+      <tr><td><span class="pair" style="background:#ECEBF1;color:#5F5C6D">Aa</span> pizarra sobre bruma</td><td class="num">5.47:1</td><td>Texto secundario en fondos sutiles</td></tr>
+      <tr><td><span class="pair" style="background:#FFFFFF;color:#6656F0">Aa</span> índigo sobre blanco</td><td class="num">5.05:1</td><td>Texto, enlaces, íconos</td></tr>
+      <tr><td><span class="pair" style="background:#FAFAFC;color:#6656F0">Aa</span> índigo sobre papel</td><td class="num">4.85:1</td><td>Texto, enlaces</td></tr>
+      <tr><td><span class="pair" style="background:#6656F0;color:#FFFFFF">Aa</span> blanco sobre índigo</td><td class="num">5.05:1</td><td>Texto en botones, la N del símbolo</td></tr>
+      <tr><td><span class="pair" style="background:#4C3CCF;color:#FFFFFF">Aa</span> blanco sobre índigo fuerte</td><td class="num">7.36:1</td><td>Texto en botones (AAA)</td></tr>
+      <tr><td><span class="pair" style="background:#EEECFE;color:#4C3CCF">Aa</span> índigo fuerte sobre suave</td><td class="num">6.33:1</td><td>Filas seleccionadas</td></tr>
+      <tr><td><span class="pair" style="background:#17151F;color:#ECEBF1">Aa</span> bruma sobre tinta</td><td class="num">15.23:1</td><td>Texto en tema oscuro</td></tr>
+      <tr><td><span class="pair" style="background:#17151F;color:#A298FF">Aa</span> índigo claro sobre tinta</td><td class="num">7.28:1</td><td>Enlaces en tema oscuro</td></tr>
+      <tr><td><span class="pair" style="background:#17151F;color:#6656F0">Aa</span> índigo sobre tinta</td><td class="num">3.57:1</td><td>Solo íconos y texto grande; para texto usar índigo claro</td></tr>
+      <tr><td><span class="pair" style="background:#202020;color:#6656F0">■</span> índigo sobre barra oscura de Windows</td><td class="num">3.22:1</td><td>La placa del ícono (objeto gráfico)</td></tr>
+      <tr><td><span class="pair" style="background:#F3F3F3;color:#6656F0">■</span> índigo sobre barra clara de Windows</td><td class="num">4.56:1</td><td>La placa del ícono</td></tr>
+      <tr><td><span class="pair" style="background:#FAFAFC;color:#C9C7D3">Aa</span> niebla sobre papel</td><td class="num">1.60:1</td><td>Nunca texto ni bordes de controles: solo divisores decorativos</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>Semánticos</h3>
+  <p>Separados de la marca: el rojo de error no es un color de Neverwas, y el índigo nunca indica un estado. Todo estado se comunica también con texto o ícono, nunca solo con color.</p>
+  <div class="swatches">
+    <div class="sw"><div class="chip" style="background:#17784C;color:#fff">Éxito</div><div class="info"><b>#17784C</b><span>5.49:1 sobre blanco</span></div></div>
+    <div class="sw"><div class="chip" style="background:#F4B740;color:#17151F">Advertencia</div><div class="info"><b>#F4B740 relleno</b><span>texto #8A5800 · 6.04:1</span></div></div>
+    <div class="sw"><div class="chip" style="background:#C0302B;color:#fff">Error</div><div class="info"><b>#C0302B</b><span>5.68:1 sobre blanco</span></div></div>
+    <div class="sw"><div class="chip" style="background:#1F6AAE;color:#fff">Información</div><div class="info"><b>#1F6AAE</b><span>5.63:1 sobre blanco</span></div></div>
+  </div>
+  <p>Los valores CMYK y Pantone son referencias de partida, no conversiones aprobadas: hoy Neverwas no tiene piezas impresas. Si alguna vez las tiene, se ajustan viendo una prueba de impresión.</p>
+</section>
+
+<section id="tipografia">
+  <div class="eyebrow">Tipografía</div>
+  <h2>Manrope y Cascadia</h2>
+  <div class="cols">
+    <div>
+      <h3 style="font-family:var(--font-brand)">Manrope</h3>
+      <p>Sans geométrica con aperturas amplias: precisa sin ponerse fría. Logotipo (en Bold, convertido a curvas), títulos, documentación y web.</p>
+      <p><span class="status ok">licencia verificada</span> SIL Open Font License 1.1, sin nombre reservado: cubre uso comercial, web, embebido en apps y logotipo, y permite derivar pesos estáticos. Fuente: <span class="mono">github.com/google/fonts/ofl/manrope</span>. Copia y licencia en <code>docs/brand/fonts/</code>.</p>
+    </div>
+    <div>
+      <h3 style="font-family:var(--font-mono)">Cascadia Mono</h3>
+      <p>Para <code>neverwas-cli</code>, rutas, comandos y código. Es la monoespaciada de la Terminal de Windows: el mismo mundo en el que vive el producto.</p>
+      <p><span class="status ok">licencia verificada</span> SIL OFL 1.1 con nombre reservado "Cascadia Code", en el release de <span class="mono">github.com/microsoft/cascadia-code</span>. Ojo: la copia que trae Windows en <code>C:\Windows\Fonts</code> viene con licencia de Microsoft, no OFL. Para redistribuir, usar la del release.</p>
+    </div>
+  </div>
+  <p>Dentro de la app la interfaz sigue en Segoe UI, la fuente del sistema; Neverwas no la distribuye. Las dos familias verificaron los caracteres del español: <span class="mono">á é í ó ú ü ñ Ñ ¿ ¡ « » “ ” ‘ ’</span>.</p>
+
+  <h3>Escala (base 16 px, razón 1.25)</h3>
+  <div class="type-row"><span class="lbl">display 49</span><span style="font-size:49px;font-weight:800;line-height:1.1;letter-spacing:-0.02em">Sin rastro</span></div>
+  <div class="type-row"><span class="lbl">h1 39</span><span style="font-size:39px;font-weight:800;line-height:1.15">Desinstalar en lote</span></div>
+  <div class="type-row"><span class="lbl">h2 31</span><span style="font-size:31px;font-weight:700;line-height:1.15">Restos encontrados</span></div>
+  <div class="type-row"><span class="lbl">h3 25</span><span style="font-size:25px;font-weight:700">214 elementos de 3 programas</span></div>
+  <div class="type-row"><span class="lbl">body-l 20</span><span style="font-size:20px">Revísalos antes de quitarlos.</span></div>
+  <div class="type-row"><span class="lbl">body 16</span><span style="font-size:16px">Neverwas busca carpetas, claves de registro y servicios que el programa dejó al desinstalarse.</span></div>
+  <div class="type-row"><span class="lbl">small 13</span><span style="font-size:13px;color:var(--muted)">Última búsqueda: hace 2 minutos</span></div>
+  <p style="margin-top:16px">Jerarquía con más de una variable: peso (800 títulos, 700 subtítulos, 400 texto), color (tinta y pizarra) y tamaño. Interlineado 1.5 en texto corrido, 1.15 en títulos. Texto corrido nunca por debajo de 16 px en web; nada de pesos ligeros (200-300) por debajo de 20 px.</p>
+</section>
+
+<section id="voz">
+  <div class="eyebrow">Tono de voz</div>
+  <h2>Habla bajo y dice todo</h2>
+  <p>La interfaz está en inglés (con las traducciones heredadas de BCU). En inglés, segunda persona y frases cortas. En español, <b>tú</b>: cercano sin ser informal. Las traducciones heredadas que usan "usted" se alinean cuando se rehaga la interfaz.</p>
+  <p>Explica los términos técnicos la primera vez ("claves de registro: la configuración que Windows guarda para cada programa"). Da números exactos. Nunca asusta para vender una acción.</p>
+  <div class="say"><div class="bad">Your PC is at risk! 2,348 junk items found!</div><div class="good">Found 214 leftovers from 3 programs. Review them before removing.</div></div>
+  <div class="say"><div class="bad">¡Optimiza tu PC al máximo con un solo clic!</div><div class="good">Quitamos Zoom y lo que dejó: 12 carpetas y 40 claves de registro.</div></div>
+  <h3>Cuando algo sale mal</h3>
+  <p>Qué pasó, por qué, y qué sigue. Sin códigos sueltos y sin disculpas de relleno.</p>
+  <div class="say"><div class="bad">Fatal error 0x80070005. Operation failed.</div><div class="good">Couldn't remove 2 items because Windows is using them. They'll be removed after you restart.</div></div>
+  <div class="say"><div class="bad">Lo sentimos muchísimo, ocurrió un error inesperado.</div><div class="good">No pudimos crear el punto de restauración. Puedes seguir sin él o cancelar.</div></div>
+</section>
+
+<section id="aplicaciones">
+  <div class="eyebrow">Aplicaciones</div>
+  <h2>La marca dentro de la app</h2>
+  <div class="shots">
+    <figure><img src="aplicaciones/icono-tamanos.png" alt="El ícono a 16, 20, 24, 32 y 48 px sobre barra clara y oscura, con el de 16 y 24 ampliados"><figcaption>Ícono del exe, del launcher y de la consola: 16 a 48 px sobre la barra de tareas clara y la oscura; a la derecha, 16 y 24 px ampliados.</figcaption></figure>
+    <figure><img src="aplicaciones/bienvenida.png" alt="Asistente de bienvenida con el símbolo y la palabra Neverwas"><figcaption>Bienvenida (<code>3.png</code>): el símbolo, seguido de la palabra completa. El símbolo no hace de letra.</figcaption></figure>
+    <figure><img src="aplicaciones/acerca-de.png" alt="Ventana Acerca de con la versión vertical en negativo sobre índigo"><figcaption>"Acerca de" (<code>bigImage.bmp</code>, 164 × 314): versión vertical en negativo sobre índigo.</figcaption></figure>
+    <figure><img src="aplicaciones/barra-de-titulo.png" alt="Ventana sin ícono propio mostrando el símbolo en la barra de título"><figcaption>Barra de título de una ventana que no define ícono: recibe el símbolo en tiempo de ejecución.</figcaption></figure>
+  </div>
+  <p>Capturas tomadas del build de Release sobre Windows 11 en español.</p>
+</section>
+
+<section id="archivos">
+  <div class="eyebrow">Archivos</div>
+  <h2>Dónde está cada cosa</h2>
+<pre class="tree">docs/brand/
+├── manual.html              este manual
+├── tokens.json              colores, tipografía, espaciado y radios (fuente de verdad)
+├── build-masters.py         genera los SVG maestros (requiere fontTools)
+├── logo/                    maestros vectoriales, tipografía en curvas
+│   ├── neverwas-isotipo-{color,negro,blanco}.svg
+│   ├── neverwas-horizontal-{color,negro,blanco}.svg
+│   └── neverwas-vertical-{color,negro,blanco}.svg
+├── fonts/
+│   ├── Manrope-Bold.ttf     instancia estática del variable de Google Fonts
+│   └── OFL-Manrope.txt      la licencia
+└── aplicaciones/            capturas de la app
+
+tools/new-brand-assets.ps1   dibuja los recursos de la app desde la misma geometría
+source/BulkCrapUninstaller/Resources/
+├── logo.ico                 16-256 px: exe, launcher, consola, ventanas
+├── 3.png                    256 × 256: bienvenida y splash
+└── bigImage.bmp             164 × 314: "Acerca de"</pre>
+  <h3>Cómo regenerar</h3>
+  <p>Los SVG: <code>python docs/brand/build-masters.py</code>. Los recursos de la app: <code>powershell -NoProfile -ExecutionPolicy Bypass -File tools/new-brand-assets.ps1</code>. Si cambia la geometría, se cambia en los dos scripts.</p>
+  <h3>Íconos de ventana y merges con upstream</h3>
+  <p>Las ventanas que asignan <code>Resources.Icon_Logo</code> ya muestran el símbolo porque ese recurso es <code>logo.ico</code>. Las que no asignan ícono reciben el mismo por <code>DefaultWindowIcon</code>, que al arrancar reemplaza el ícono por defecto de WinForms. Así una ventana nueva de upstream sale con la marca sin tocar su <code>.resx</code>. Un test (<code>DefaultWindowIconTests</code>) falla si una actualización de .NET mueve ese ícono.</p>
+  <p>Espaciado en múltiplos de 4 y 8 px: 4, 8, 16, 24, 32, 48, 64, 96. Radios: 4 y 8 px en interfaz; la placa del símbolo usa 3/14 de su lado.</p>
+</section>
+
+<section id="estado">
+  <div class="eyebrow">Estado</div>
+  <h2>Checkpoints de la marca</h2>
+  <div class="table-scroll"><table>
+    <thead><tr><th>ID</th><th>Checkpoint</th><th>Estado</th></tr></thead>
+    <tbody>
+      <tr><td class="mono">BRAND-001</td><td>Estrategia documentada y aprobada por escrito</td><td><span class="status todo">falta aprobación</span></td></tr>
+      <tr><td class="mono">BRAND-002/003/004/005</td><td>Posicionamiento, público por comportamiento, personalidad con opuestos, tono de voz</td><td><span class="status ok">hecho</span></td></tr>
+      <tr><td class="mono">BRAND-008</td><td>Panorama visual de la categoría</td><td><span class="status todo">sin lámina</span></td></tr>
+      <tr><td class="mono">NAME-002</td><td>Búsqueda de marca registrada</td><td><span class="status todo">no hecha</span></td></tr>
+      <tr><td class="mono">LOGO-001 a 008</td><td>16 px, un color, negativo, versiones, resguardo, vectorial en curvas, usos incorrectos, sin efectos</td><td><span class="status ok">hecho</span></td></tr>
+      <tr><td class="mono">LOGO-003</td><td>Prueba de memoria con personas</td><td><span class="status todo">pendiente</span></td></tr>
+      <tr><td class="mono">COLOR-001/002/003/005</td><td>Roles y proporción, pares WCAG, nada solo por color, semánticos aparte</td><td><span class="status ok">hecho</span></td></tr>
+      <tr><td class="mono">COLOR-004/006</td><td>CMYK y Pantone aprobados en prueba impresa</td><td><span class="status todo">no aplica hoy</span></td></tr>
+      <tr><td class="mono">TYPE-001/002/003/005/006</td><td>Familias, licencias, escala, jerarquía, caracteres del español</td><td><span class="status ok">hecho</span></td></tr>
+      <tr><td class="mono">SYS-001/002/003/004/006/007</td><td>Manual, tokens, assets, espaciado, accesibilidad, aplicaciones</td><td><span class="status ok">hecho</span></td></tr>
+      <tr><td class="mono">SYS-005</td><td>Dirección de imagen</td><td><span class="status todo">no aplica hoy</span></td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<footer>Neverwas · Manual de marca v1.0 · 2026-10-15 · Basado en Bulk Crap Uninstaller de Marcin Szeniak (Apache 2.0). El nombre y el símbolo de Neverwas no tienen registro de marca.</footer>
+</div>
