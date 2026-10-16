@@ -136,7 +136,7 @@
     <value>검색 조건과 일치하는 항목이 없습니다.</value>
   </data>
   <data name="StrExportHeader" xml:space="preserve">
-    <value>BCUninstaller 내보내기
+    <value>Neverwas 내보내기
 게시자 | 판번호 | 날짜 | 크기 | 레지스트리 | 제거 프로그램 유형 | 제거 문자열 | 조용한 제거 문자열 | 주석</value>
   </data>
   <data name="StrIsPortable" xml:space="preserve">
@@ -198,7 +198,7 @@
     <value>피드백을 제출</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Message" xml:space="preserve">
-    <value>BCU에 관한 피드백을 보내겠습니까?</value>
+    <value>Neverwas에 관한 피드백을 보내겠습니까?</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Details" xml:space="preserve">
     <value>1분도 걸리지 않지만 개발에 큰 도움이 됩니다! 버그 보고, 기능 요청, 또는 단순한 감사 인사 등 어떠한 피드백이든 환영합니다!
@@ -218,7 +218,7 @@
     <value>업데이트를 확인하는 동안 오류가 발생했습니다</value>
   </data>
   <data name="MessageBoxes_UpdateFailed_Details" xml:space="preserve">
-    <value>BCUninstaller가 방화벽에서 차단되어 있지 않은지, 인터넷에 정상적으로 연결되어 있는지 확인하십시오.
+    <value>Neverwas가 방화벽에서 차단되어 있지 않은지, 인터넷에 정상적으로 연결되어 있는지 확인하십시오.
 
 </value>
   </data>
@@ -227,12 +227,12 @@
     <comment>0 is version number</comment>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Details" xml:space="preserve">
-    <value>BCUninstaller가 자동으로 업데이트를 다운로드하고 재시작 후 적용합니다. 이 과정에서 설정이 손실될 수 있으니 참고하시기 바랍니다.
+    <value>Neverwas가 자동으로 업데이트를 다운로드하고 재시작 후 적용합니다. 이 과정에서 설정이 손실될 수 있으니 참고하시기 바랍니다.
 
 바뀐 내역:
 - {0}
 
-경고: 업데이트 중에 BCU 디렉토리 내의 "Update" 폴더와 "Update.zip" 파일이 삭제됩니다.
+경고: 업데이트 중에 Neverwas 디렉토리 내의 "Update" 폴더와 "Update.zip" 파일이 삭제됩니다.
 </value>
     <comment>0 is a list of changes separated by "- "</comment>
   </data>
@@ -307,7 +307,7 @@
     <value>오류가 지속되면 바탕 화면과 같은 다른 디렉토리에 저장을 시도해 보십시오.</value>
   </data>
   <data name="MessageBoxes_GetSystemRestoreDescription" xml:space="preserve">
-    <value>BCUninstaller가 {0}개의 응용 프로그램을 제거하는 중입니다</value>
+    <value>Neverwas가 {0}개의 응용 프로그램을 제거하는 중입니다</value>
     <comment>0 is the uninstaller count</comment>
   </data>
   <data name="MessageBoxes_Title_Rename_uninstaller" xml:space="preserve">
@@ -354,14 +354,14 @@
     <value>검색할 내용이 없습니다</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Title" xml:space="preserve">
-    <value>BCUninstaller를 제거</value>
+    <value>Neverwas를 제거</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Message" xml:space="preserve">
-    <value>BCUninstaller를 정말 제거하겠습니까?</value>
+    <value>Neverwas를 정말 제거하겠습니까?</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Details" xml:space="preserve">
     <value>떠난다니 아쉽습니다!
-1~2분 정도 여유가 있다면 제 누리집(http://klocmansoftware.weebly.com/)에 BCU를 제거한 이유를 남겨주세요. 
+1~2분 정도 여유가 있다면 제 누리집(https://github.com/ErickuchoSan/Neverwas/discussions)에 Neverwas를 제거한 이유를 남겨주세요. 
 타당한 문제점들은 최선을 다해 수정하겠습니다.</value>
   </data>
   <data name="MessageBoxes_SysRestoreBeginQuestion_Message" xml:space="preserve">
@@ -455,7 +455,7 @@
     <value>기본 설정을 복원</value>
   </data>
   <data name="MessageBoxes_ResetSettingsConfirmation_Details" xml:space="preserve">
-    <value>모든 설정이 영구적으로 손실됩니다. 이 작업을 완료하려면 BCUninstaller를 다시 시작해야 합니다.</value>
+    <value>모든 설정이 영구적으로 손실됩니다. 이 작업을 완료하려면 Neverwas를 다시 시작해야 합니다.</value>
   </data>
   <data name="MessageBoxes_Title_Open_Uninstall_List" xml:space="preserve">
     <value>제거 목록을 열기</value>
@@ -544,7 +544,7 @@
     <value>일부 설정은 응용 프로그램을 다시 시작할 때까지 적용되지 않습니다.</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Message" xml:space="preserve">
-    <value>새로운 설정을 적용하기 위해 BCU를 다시 시작하겠습니까?</value>
+    <value>새로운 설정을 적용하기 위해 Neverwas를 다시 시작하겠습니까?</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Title" xml:space="preserve">
     <value>응용 프로그램 설정들을 변경</value>
@@ -771,10 +771,10 @@ The lists are separated by a single newline.</comment>
     <value>백업을 저장할 위치를 선택하십시오. 새 디렉토리가 생성됩니다.</value>
   </data>
   <data name="NewsPopup_UpdatedTitle" xml:space="preserve">
-    <value>BCU가 v{0}로 업데이트되었습니다!</value>
+    <value>Neverwas가 v{0}로 업데이트되었습니다!</value>
   </data>
   <data name="NewsPopup_FirstStartTitle" xml:space="preserve">
-    <value>BCU 버전 {0}에 오신 것을 환영합니다!</value>
+    <value>Neverwas 버전 {0}에 오신 것을 환영합니다!</value>
   </data>
   <data name="UninstallProgressWindow_StatusPuttingToSleepInSeconds" xml:space="preserve">
     <value>{0}초 후에 PC를 절전 모드로 전환합니다. 취소하려면 절전 모드 확인란을 해제하십시오.</value>

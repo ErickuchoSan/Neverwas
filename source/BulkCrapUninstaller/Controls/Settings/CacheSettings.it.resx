@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>Il caching può ridurre notevolmente il tempo di ricerca, ma se una applicazione viene modificata BCU potrebbe non accorgersi del cambiamento (ad es. la dimensione).
-    NOTA:  per attivare queste opzioni potrebbe essere necessario riavviare BCU.</value>
+    <value>Il caching può ridurre notevolmente il tempo di ricerca, ma se una applicazione viene modificata Neverwas potrebbe non accorgersi del cambiamento (ad es. la dimensione).
+    NOTA:  per attivare queste opzioni potrebbe essere necessario riavviare Neverwas.</value>
   </data>
   <data name="checkBoxCerts.Text" xml:space="preserve">
     <value>Risultati controllo certificato della cache applicazione</value>

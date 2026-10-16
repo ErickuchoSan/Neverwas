@@ -136,7 +136,7 @@
     <value>Nejsou k dispozici žádné záznamy odpovídající hledanému řetězeci.</value>
   </data>
   <data name="StrExportHeader" xml:space="preserve">
-    <value>BCUninstaller export
+    <value>Neverwas export
 Vydavatel | Verze | Datum | Velikost | Registr | Typ odinstalátoru | Odinstalovat řetězec | Tichá odinstalace řetězece | Komentáře</value>
   </data>
   <data name="StrIsPortable" xml:space="preserve">
@@ -195,7 +195,7 @@ Soubory a adresáře budou přesunuty do koše, můžete je obnovit tam.</value>
     <value>Odeslat zpětnou vazbu</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Message" xml:space="preserve">
-    <value>Chcete poslat zpětnou vazbu týkající se BCU?</value>
+    <value>Chcete poslat zpětnou vazbu týkající se Neverwas?</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Details" xml:space="preserve">
     <value>Bude vám trvat méně než minutu, ale muže nám to pomoc při vývoji programu! Všechny názory a připomínky jsou vítány!
@@ -214,19 +214,19 @@ Ty čekají na nové funkce nebo zlepšit chybu? Dejte mi vědět, přes menu "N
     <value>Došlo k chybě při kontrole aktualizací</value>
   </data>
   <data name="MessageBoxes_UpdateFailed_Details" xml:space="preserve">
-    <value>Ujistěte se, že BCUninstaller není blokován ve vašem firewallu, a že máte funkční připojení k internetu.</value>
+    <value>Ujistěte se, že Neverwas není blokován ve vašem firewallu, a že máte funkční připojení k internetu.</value>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Message" xml:space="preserve">
     <value>Nová verze {0} je k dispozici, chcete upgradovat teď?</value>
     <comment>0 is version number</comment>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Details" xml:space="preserve">
-    <value>BCUninstaller automaticky stáhne aktualizaci a aplikuje po restartu. Vezměte prosím na vědomí, že může dojít ke ztrátě nastavení v procesu.
+    <value>Neverwas automaticky stáhne aktualizaci a aplikuje po restartu. Vezměte prosím na vědomí, že může dojít ke ztrátě nastavení v procesu.
 
 changelog:
 - {0}
 
-Upozornění: Během aktualizace bude odstraněna složka "Update" a soubor "Update.zip" uvnitř adresáře BCU.</value>
+Upozornění: Během aktualizace bude odstraněna složka "Update" a soubor "Update.zip" uvnitř adresáře Neverwas.</value>
     <comment>0 is a list of changes separated by "- "</comment>
   </data>
   <data name="MessageBoxes_UninstallMsiGuidMissing_Title" xml:space="preserve">
@@ -300,7 +300,7 @@ Upozornění: Během aktualizace bude odstraněna složka "Update" a soubor "Upd
     <value>Pokud chyba přetrvává, zkuste uložit do jiného adresáře, například na plochu.</value>
   </data>
   <data name="MessageBoxes_GetSystemRestoreDescription" xml:space="preserve">
-    <value>BCUninstaller odinstaluje aplikace {0}</value>
+    <value>Neverwas odinstaluje aplikace {0}</value>
     <comment>0 is the uninstaller count</comment>
   </data>
   <data name="MessageBoxes_Title_Rename_uninstaller" xml:space="preserve">
@@ -347,13 +347,13 @@ Upozornění: Během aktualizace bude odstraněna složka "Update" a soubor "Upd
     <value>Nic k vyhledání</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Title" xml:space="preserve">
-    <value>Odinstalovat BCUninstaller</value>
+    <value>Odinstalovat Neverwas</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Message" xml:space="preserve">
-    <value>Jste si jisti, že chcete odinstalovat BCUninstaller?</value>
+    <value>Jste si jisti, že chcete odinstalovat Neverwas?</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Details" xml:space="preserve">
-    <value>Je mi líto, že odcházíte! Pokud máte minutu nebo dvě, prosím napište slovo o tom, proč jste odinstalovali BCU na mých webových stránkách (http://klocmansoftware.weebly.com/). Budu se snažit opravit legitimní problémy.</value>
+    <value>Je mi líto, že odcházíte! Pokud máte minutu nebo dvě, prosím napište slovo o tom, proč jste odinstalovali Neverwas na mých webových stránkách (https://github.com/ErickuchoSan/Neverwas/discussions). Budu se snažit opravit legitimní problémy.</value>
   </data>
   <data name="MessageBoxes_SysRestoreBeginQuestion_Message" xml:space="preserve">
     <value>Chcete vytvořit bod obnovení před instalací?</value>
@@ -446,7 +446,7 @@ Ponechat je v úloze a použijte "hlasité" odinstalace nebo zcela odstranit z �
     <value>Obnovit výchozí nastavení</value>
   </data>
   <data name="MessageBoxes_ResetSettingsConfirmation_Details" xml:space="preserve">
-    <value>Všechna nastavení budou natrvalo ztraceny. BCUninstaller bude muset restartovat k dokončení této akce.</value>
+    <value>Všechna nastavení budou natrvalo ztraceny. Neverwas bude muset restartovat k dokončení této akce.</value>
   </data>
   <data name="MessageBoxes_Title_Open_Uninstall_List" xml:space="preserve">
     <value>Otevřít seznam odinstalovat</value>
@@ -535,7 +535,7 @@ Ponechat je v úloze a použijte "hlasité" odinstalace nebo zcela odstranit z �
     <value>Některá nastavení se projeví až po restartu aplikace.</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Message" xml:space="preserve">
-    <value>Chcete restartovat BCU pro použít nového nastavení?</value>
+    <value>Chcete restartovat Neverwas pro použít nového nastavení?</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Title" xml:space="preserve">
     <value>Změna nastavení aplikace</value>

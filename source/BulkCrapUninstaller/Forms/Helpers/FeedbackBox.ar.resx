@@ -136,7 +136,7 @@
     <value>اي مشاكل او الميزات المفقودة ؟</value>
   </data>
   <data name="p1FeedbackDesc.Text" xml:space="preserve">
-    <value>او اذا كنت ترغب في اقتراح ميزه جديده ، يرجى التحقق من هذه الروابط BCU،اذا كان لديك اي مشاكل مع:</value>
+    <value>او اذا كنت ترغب في اقتراح ميزه جديده ، يرجى التحقق من هذه الروابط Neverwas،اذا كان لديك اي مشاكل مع:</value>
   </data>
   <data name="buttonSubmitGithub.Text" xml:space="preserve">
     <value>(تحتاج الى حساب) GitHub تقدم على </value>
@@ -148,10 +148,10 @@
     <value>هل تريد المساعدة ؟</value>
   </data>
   <data name="p1HelpDesc.Text" xml:space="preserve">
-    <value>الى لغتك الاصليه. كل مساعده هو موضع تقدير كبير ، مهما كانت صغيره BCU ليس عليك ان تكون مبرمجا للمساعدة! يمكنك التبرع لتسريع التحديثات ، او ترجمه </value>
+    <value>الى لغتك الاصليه. كل مساعده هو موضع تقدير كبير ، مهما كانت صغيره Neverwas ليس عليك ان تكون مبرمجا للمساعدة! يمكنك التبرع لتسريع التحديثات ، او ترجمه </value>
   </data>
   <data name="buttonTranslate.Text" xml:space="preserve">
-    <value>BCU ترجمه  </value>
+    <value>Neverwas ترجمه  </value>
   </data>
   <data name="buttonIssues.Text" xml:space="preserve">
     <value>GitHub المسائل المتعلقة بـ </value>

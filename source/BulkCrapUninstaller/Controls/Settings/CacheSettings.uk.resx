@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>Кешування може значно скоротити час пошуку, але якщо програму змінено, BCU може не помітити ці зміни. (наприклад, розмір)
-ПРИМІТКА: Для набуття чинності цих параметрів може знадобитися перезапуск BCU.</value>
+    <value>Кешування може значно скоротити час пошуку, але якщо програму змінено, Neverwas може не помітити ці зміни. (наприклад, розмір)
+ПРИМІТКА: Для набуття чинності цих параметрів може знадобитися перезапуск Neverwas.</value>
   </data>
   <data name="checkBoxCerts.Text" xml:space="preserve">
     <value>Кешувати результати сканування сертифікатів програм</value>

@@ -127,7 +127,7 @@
     <value>デフォルト設定を復元</value>
   </data>
   <data name="MessageBoxes_ResetSettingsConfirmation_Details" xml:space="preserve">
-    <value>すべての設定は永久に失われます。BCUninstallerはこのアクションを完了するために再起動する必要があります。</value>
+    <value>すべての設定は永久に失われます。Neverwasはこのアクションを完了するために再起動する必要があります。</value>
   </data>
   <data name="MessageBoxes_Title_Open_Uninstall_List" xml:space="preserve">
     <value>アンインストールリストを開く</value>
@@ -216,7 +216,7 @@
     <value>一部の設定はアプリケーションが再起動されるまで適用されません。</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Message" xml:space="preserve">
-    <value>新しい設定を適用するためにBCUを再起動しますか？</value>
+    <value>新しい設定を適用するためにNeverwasを再起動しますか？</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Title" xml:space="preserve">
     <value>アプリケーション設定を変更</value>
@@ -420,10 +420,10 @@
     <value>バックアップを保存する場所を選択します。新しいディレクトリが作成されます。</value>
   </data>
   <data name="NewsPopup_UpdatedTitle" xml:space="preserve">
-    <value>BCUはv{0}に更新されました！</value>
+    <value>Neverwasはv{0}に更新されました！</value>
   </data>
   <data name="NewsPopup_FirstStartTitle" xml:space="preserve">
-    <value>BCUバージョン{0}へようこそ！</value>
+    <value>Neverwasバージョン{0}へようこそ！</value>
   </data>
   <data name="UninstallProgressWindow_StatusPuttingToSleepInSeconds" xml:space="preserve">
     <value>{0}秒後にPCをスリープ状態にします。スリープのチェックボックスを外すとキャンセルされます。</value>
@@ -459,7 +459,7 @@
     <value>検索条件に一致するエントリはありません。</value>
   </data>
   <data name="StrExportHeader" xml:space="preserve">
-    <value>BCUninstaller のエクスポート
+    <value>Neverwas のエクスポート
 発行者｜バージョン｜日付｜サイズ｜レジストリ｜アンインストーラの種類｜アンインストール文字列｜静かなアンインストール文字列｜コメント</value>
   </data>
   <data name="StrIsPortable" xml:space="preserve">
@@ -521,7 +521,7 @@
     <value>フィードバックの送信</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Message" xml:space="preserve">
-    <value>BCUに関するフィードバックを送信しますか？</value>
+    <value>Neverwasに関するフィードバックを送信しますか？</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Details" xml:space="preserve">
     <value>これには1分もかかりませんが、開発に大いに役立ちます！バグ報告、機能リクエスト、単なる感謝の言葉など、どんなフィードバックでも歓迎です！
@@ -541,19 +541,19 @@
     <value>更新を確認中にエラーが発生しました</value>
   </data>
   <data name="MessageBoxes_UpdateFailed_Details" xml:space="preserve">
-    <value>BCUninstallerがファイアウォールでブロックされておらず、インターネット接続が正常であることを確認してください。</value>
+    <value>Neverwasがファイアウォールでブロックされておらず、インターネット接続が正常であることを確認してください。</value>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Message" xml:space="preserve">
     <value>新しいバージョン{0}が利用可能です。今すぐアップグレードしますか？</value>
     <comment>0 is version number</comment>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Details" xml:space="preserve">
-    <value>BCUninstallerは自動的に更新をダウンロードし、再起動後に適用します。この過程で設定が失われる可能性があることに注意してください。
+    <value>Neverwasは自動的に更新をダウンロードし、再起動後に適用します。この過程で設定が失われる可能性があることに注意してください。
 
 変更履歴:
 - {0}
 
-警告:更新中にBCUディレクトリ内の「Update」フォルダと「Update.zip」ファイルが削除されます。
+警告:更新中にNeverwasディレクトリ内の「Update」フォルダと「Update.zip」ファイルが削除されます。
 </value>
     <comment>0 is a list of changes separated by "- "</comment>
   </data>
@@ -647,7 +647,7 @@
     <value>エラーが続く場合は、別のディレクトリに保存してみてください。たとえば、デスクトップに保存します。</value>
   </data>
   <data name="MessageBoxes_GetSystemRestoreDescription" xml:space="preserve">
-    <value>BCUninstallerは{0}アプリケーションをアンインストールしています</value>
+    <value>Neverwasは{0}アプリケーションをアンインストールしています</value>
     <comment>0 is the uninstaller count</comment>
   </data>
   <data name="MessageBoxes_Title_Rename_uninstaller" xml:space="preserve">
@@ -694,14 +694,14 @@
     <value>検索するものはありません</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Title" xml:space="preserve">
-    <value>BCUninstallerをアンインストール</value>
+    <value>Neverwasをアンインストール</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Message" xml:space="preserve">
-    <value>BCUninstallerをアンインストールしてもよろしいですか？</value>
+    <value>Neverwasをアンインストールしてもよろしいですか？</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Details" xml:space="preserve">
     <value>お別れは残念です！
-お時間があれば、なぜBCUをアンインストールしたのかを私のウェブサイト（http://klocmansoftware.weebly.com/）で教えていただけると幸いです。
+お時間があれば、なぜNeverwasをアンインストールしたのかを私のウェブサイト（https://github.com/ErickuchoSan/Neverwas/discussions）で教えていただけると幸いです。
 正当な問題を修正できるよう最善を尽くします。</value>
   </data>
   <data name="MessageBoxes_SysRestoreBeginQuestion_Message" xml:space="preserve">

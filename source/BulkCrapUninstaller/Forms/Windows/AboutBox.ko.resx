@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="labelName.Text" xml:space="preserve">
-    <value>BCUninstaller(대량 파일 제거 프로그램)</value>
+    <value>Neverwas(대량 파일 제거 프로그램)</value>
   </data>
   <data name="labelVersion.Text" xml:space="preserve">
     <value>판 번호: </value>
@@ -186,6 +186,6 @@
     <value>번역자들</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>BCUninstaller(대량 파일 제거 프로그램) 정보</value>
+    <value>Neverwas(대량 파일 제거 프로그램) 정보</value>
   </data>
 </root>

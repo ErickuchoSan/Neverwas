@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>Grazie per l'uso di BCUninstaller!</value>
+    <value>Grazie per l'uso di Neverwas!</value>
   </data>
   <data name="p1welcomeSubheading.Text" xml:space="preserve">
     <value>Se questo programma free ed open source ti è stato utile ti invito a spendere un minuto per aiutarci! Parlane ai tuoi amici, condividilo sui social media, scrivici le tue impressioni - ogni piccolo contributo è utile!</value>
@@ -127,13 +127,13 @@
     <value>Hai avuto problemi o mancano delle funzionalità?</value>
   </data>
   <data name="p1FeedbackDesc.Text" xml:space="preserve">
-    <value>Se hai avuto problemi con BCU o se desideri suggerire una nuova funzionalità ti invitiamo a dare uno sguardo a questi collegamenti:</value>
+    <value>Se hai avuto problemi con Neverwas o se desideri suggerire una nuova funzionalità ti invitiamo a dare uno sguardo a questi collegamenti:</value>
   </data>
   <data name="p1HelpHeading.Text" xml:space="preserve">
     <value>Vuoi aiutarci?</value>
   </data>
   <data name="p1HelpDesc.Text" xml:space="preserve">
-    <value>Per aiutarci non devi essere un programmatore! Potresti donare una piccola somma per accelerare lo sviluppo degli aggiornamenti, o tradurre BCU nella tua lingua. Qualunque aiuto, seppur piccolo, sarà molto apprezzato!</value>
+    <value>Per aiutarci non devi essere un programmatore! Potresti donare una piccola somma per accelerare lo sviluppo degli aggiornamenti, o tradurre Neverwas nella tua lingua. Qualunque aiuto, seppur piccolo, sarà molto apprezzato!</value>
   </data>
   <data name="buttonSendFeedback2.Text" xml:space="preserve">
     <value>Invia feedback</value>
@@ -151,7 +151,7 @@
     <value>Invia feedback</value>
   </data>
   <data name="buttonTranslate.Text" xml:space="preserve">
-    <value>Traduci BCU</value>
+    <value>Traduci Neverwas</value>
   </data>
   <data name="buttonIssues.Text" xml:space="preserve">
     <value>Segnalazioni su GitHub</value>

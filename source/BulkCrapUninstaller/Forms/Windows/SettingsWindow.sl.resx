@@ -159,7 +159,7 @@
   <data name="label7.Text" xml:space="preserve">
     <value>Lahko določite ukaze, ki bodo zagnani pred, ali po odstranjevanju. Ena vrstica je enaka enemu ukazu in bo izvedena kot, če bi uporabili pogovorno okno "Zaženi...". 
 
-BCU bo počakal, da se trenutno delujoč ukaz konča preden izvede naslednjega.</value>
+Neverwas bo počakal, da se trenutno delujoč ukaz konča preden izvede naslednjega.</value>
   </data>
   <data name="groupBoxExternal.Text" xml:space="preserve">
     <value>Zunanje aplikacije</value>
@@ -174,7 +174,7 @@ BCU bo počakal, da se trenutno delujoč ukaz konča preden izvede naslednjega.<
     <value>Zunanja orodja</value>
   </data>
   <data name="labelProgramFolders.Text" xml:space="preserve">
-    <value>Lahko določite mape po meri, kamor boste namestili vaše aplikacije (npr. D:\Aplikacije). Te mape bo BCU uporabil za iskanje ostankov odstranjevanja, neregistriranih aplikacij in še nekaj drugih stvari. Čeprav to ni potrebno, bo seznam teh datotek omogočil boljše delo BCU.
+    <value>Lahko določite mape po meri, kamor boste namestili vaše aplikacije (npr. D:\Aplikacije). Te mape bo Neverwas uporabil za iskanje ostankov odstranjevanja, neregistriranih aplikacij in še nekaj drugih stvari. Čeprav to ni potrebno, bo seznam teh datotek omogočil boljše delo Neverwas.
 
 Privzete se Windows mape  vedno pregledujejo. Ni jih potrebno vključiti na seznam.
 
@@ -190,7 +190,7 @@ Uporabite polne poti imenikov, eno pot na vrstico. Neveljavne poti in neobstoje�
     <value>Razno</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Nastavitve BCUninstallerja</value>
+    <value>Nastavitve Neverwasja</value>
   </data>
   <data name="checkBoxRatings.Text" xml:space="preserve">
     <value>Omogoči uporabnikove ocene aplikacij</value>

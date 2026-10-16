@@ -521,7 +521,7 @@
     <value>0</value>
   </data>
   <data name="p5finishContact.Text" xml:space="preserve">
-    <value>You can now start using BCUninstaller. If you have any questions or would like to suggest a new feature visit the link below.</value>
+    <value>You can now start using Neverwas. If you have any questions or would like to suggest a new feature visit the link below.</value>
   </data>
   <data name="&gt;&gt;p5finishContact.Name" xml:space="preserve">
     <value>p5finishContact</value>
@@ -809,7 +809,7 @@
     <value>1</value>
   </data>
   <data name="p4netDesc.Text" xml:space="preserve">
-    <value>BCUninstaller can attempt to connect to the internet for the following reasons:</value>
+    <value>Neverwas can attempt to connect to the internet for the following reasons:</value>
   </data>
   <data name="&gt;&gt;p4netDesc.Name" xml:space="preserve">
     <value>p4netDesc</value>
@@ -977,7 +977,7 @@
     <value>7</value>
   </data>
   <data name="p4netErrors.Text" xml:space="preserve">
-    <value>Every time an error occurs you will be asked if you want to send it. You can check what data is being sent in error and usage reports by inspecting their respective XML files in BCUninstaller's directory. The sent data is not shared with any third parties.</value>
+    <value>Every time an error occurs you will be asked if you want to send it. You can check what data is being sent in error and usage reports by inspecting their respective XML files in Neverwas's directory. The sent data is not shared with any third parties.</value>
   </data>
   <data name="&gt;&gt;p4netErrors.Name" xml:space="preserve">
     <value>p4netErrors</value>
@@ -1121,7 +1121,7 @@
     <value>11</value>
   </data>
   <data name="p4netUsageAdd.Text" xml:space="preserve">
-    <value>Sending these statistics will help improve BCUninstaller.</value>
+    <value>Sending these statistics will help improve Neverwas.</value>
   </data>
   <data name="&gt;&gt;p4netUsageAdd.Name" xml:space="preserve">
     <value>p4netUsageAdd</value>
@@ -1394,7 +1394,7 @@
     <value>3</value>
   </data>
   <data name="pCorViewInvalid.Text" xml:space="preserve">
-    <value>In some cases uninstallers can get corrupted, making them impossible to uninstall. BCUninstaller can remove these entries easily using the "Uninstall manually" option.</value>
+    <value>In some cases uninstallers can get corrupted, making them impossible to uninstall. Neverwas can remove these entries easily using the "Uninstall manually" option.</value>
   </data>
   <data name="&gt;&gt;pCorViewInvalid.Name" xml:space="preserve">
     <value>pCorViewInvalid</value>
@@ -1773,7 +1773,7 @@ If the original uninstaller isn't found you will have to use the "Uninstall manu
     <value>1</value>
   </data>
   <data name="p3advDesc.Text" xml:space="preserve">
-    <value>While BCUninstaller can be used as a basic uninstaller, most of its functions are aimed at power users. Proceed with caution!</value>
+    <value>While Neverwas can be used as a basic uninstaller, most of its functions are aimed at power users. Proceed with caution!</value>
   </data>
   <data name="&gt;&gt;p3advDesc.Name" xml:space="preserve">
     <value>p3advDesc</value>
@@ -2647,7 +2647,7 @@ Warning: Verification can take a long time.</value>
     <value>0</value>
   </data>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>Welcome to BCUninstaller!</value>
+    <value>Welcome to Neverwas!</value>
   </data>
   <data name="&gt;&gt;p1welcomeHeading.Name" xml:space="preserve">
     <value>p1welcomeHeading</value>
@@ -2746,7 +2746,7 @@ Warning: Verification can take a long time.</value>
     <value>3</value>
   </data>
   <data name="p1languageDesc.Text" xml:space="preserve">
-    <value>You can force BCUninstaller to use a specific localization if the default language is incorrect. A restart will be performed to apply the new language.</value>
+    <value>You can force Neverwas to use a specific localization if the default language is incorrect. A restart will be performed to apply the new language.</value>
   </data>
   <data name="&gt;&gt;p1languageDesc.Name" xml:space="preserve">
     <value>p1languageDesc</value>
@@ -2860,7 +2860,7 @@ Warning: Verification can take a long time.</value>
     <value>5</value>
   </data>
   <data name="p1languageExtradetails.Text" xml:space="preserve">
-    <value>If you are willing to help translate BCUninstaller to your language, click on the link below to contact me. All help is greatly appreciated!</value>
+    <value>If you are willing to help translate Neverwas to your language, click on the link below to contact me. All help is greatly appreciated!</value>
   </data>
   <data name="&gt;&gt;p1languageExtradetails.Name" xml:space="preserve">
     <value>p1languageExtradetails</value>
@@ -2986,8 +2986,7 @@ Warning: Verification can take a long time.</value>
     <value>7</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>ulk crap
-uninstaller</value>
+    <value>everwas</value>
   </data>
   <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -3107,7 +3106,7 @@ uninstaller</value>
     <value>CenterParent</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Welcome to BCUninstaller</value>
+    <value>Welcome to Neverwas</value>
   </data>
   <data name="&gt;&gt;timer1.Name" xml:space="preserve">
     <value>timer1</value>

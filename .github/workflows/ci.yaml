@@ -3,7 +3,7 @@ name: CI
 on: 
   push:
     branches:
-    - master
+    - main
   pull_request:
 
 permissions:
@@ -16,6 +16,20 @@ jobs:
 
     steps:
     - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+    - name: Pester tests (rebrand engine, endpoint guard)
+      shell: powershell
+      run: |
+        Import-Module Pester -RequiredVersion 3.4.0 -Force
+        Invoke-Pester -Path tools -EnableExit
+
+    - name: Brand check
+      shell: powershell
+      run: .\tools\rebrand.ps1 -Check
+
+    - name: Endpoint guard
+      shell: powershell
+      run: .\tools\check-endpoints.ps1
     
     - uses: microsoft/setup-msbuild@6fb02220983dee41ce7ae257b6f4d8f9bf5ed4ce # v2
 

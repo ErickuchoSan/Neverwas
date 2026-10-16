@@ -155,7 +155,7 @@ namespace BulkCrapUninstaller.Forms
             {
                 // https://github.com/dotnet/runtime/issues/24783
                 if (ex is FileNotFoundException or UnauthorizedAccessException)
-                    PremadeDialogs.GenericError("You do not have access to this path, choose a different path. If you use controlled folders, try turning them off or adding BCU to exclusions.");
+                    PremadeDialogs.GenericError("You do not have access to this path, choose a different path. If you use controlled folders, try turning them off or adding Neverwas to exclusions.");
 
                 throw new OperationCanceledException();
             }
@@ -291,7 +291,7 @@ namespace BulkCrapUninstaller.Forms
 
         private static string GetUniqueBackupName()
         {
-            return "BCU Backup " + DateTime.Now.ToString(BackupDateFormat, CultureInfo.InvariantCulture);
+            return "Neverwas Backup " + DateTime.Now.ToString(BackupDateFormat, CultureInfo.InvariantCulture);
         }
 
         private bool JunkListFilter(object obj)

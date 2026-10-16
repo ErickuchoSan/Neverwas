@@ -168,7 +168,7 @@
   <data name="label7.Text" xml:space="preserve">
     <value>Megadhat olyan parancsokat, amelyek az eltávolítás előtt, vagy után fognak végrehajtódni. Egy sorba egy parancs kerüljön, és az úgy kerül végrehajtásra, mintha a "Futtatás..." ablakot használná. 
 
-A BCU, a következő elindítása előtt megvárja amíg az adott parancs befejeződik.</value>
+A Neverwas, a következő elindítása előtt megvárja amíg az adott parancs befejeződik.</value>
   </data>
   <data name="groupBoxExternal.Text" xml:space="preserve">
     <value>Külső alkalmazások</value>
@@ -183,7 +183,7 @@ A BCU, a következő elindítása előtt megvárja amíg az adott parancs befeje
     <value>Külső eszközök</value>
   </data>
   <data name="labelProgramFolders.Text" xml:space="preserve">
-    <value>Az alkalmazások telepítéséhez megadhat egyéni mappákat is (pl. D:\Applications). A BCU ezeket a mappákat is használni fogja az eltávolítás utáni maradványok, nem regisztrált alkalmazások, és egyéb nyomok felkutatásához. Bár nem szükségesek, de ezeknek a mappáknak a megadásával a BCU hatékonyabban használható.
+    <value>Az alkalmazások telepítéséhez megadhat egyéni mappákat is (pl. D:\Applications). A Neverwas ezeket a mappákat is használni fogja az eltávolítás utáni maradványok, nem regisztrált alkalmazások, és egyéb nyomok felkutatásához. Bár nem szükségesek, de ezeknek a mappáknak a megadásával a Neverwas hatékonyabban használható.
 
 Az alapértelmezett Windows mappák mindig ellenőrzésre kerülnek, így azokat nem kell megadnia ebben a listában.
 
@@ -199,7 +199,7 @@ Soronként egy teljes elérési útvonalat adjon meg. Az érvénytelen útvonala
     <value>Vegyes</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>A Bulk Crap Uninstaller beállításai</value>
+    <value>A Neverwas beállításai</value>
   </data>
   <data name="checkBoxScanSteam.Text" xml:space="preserve">
     <value>Steam</value>

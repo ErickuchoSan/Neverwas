@@ -136,7 +136,7 @@
     <value>Nincs a keresési feltételnek megfelelő bejegyzés.</value>
   </data>
   <data name="StrExportHeader" xml:space="preserve">
-    <value>BCUninstaller exportálás
+    <value>Neverwas exportálás
 Kiadó | Verzió | Dátum | Méret | Beállításjegyzék | Eltávolító típusa | Eltávolítási karaktersorozat | Csendes eltávolító karaktersorozat | Megjegyzések</value>
   </data>
   <data name="StrIsPortable" xml:space="preserve">
@@ -195,7 +195,7 @@ A fájlok és mappák a Lomtárba kerülnek, ahonnan visszaállíthatja azokat.<
     <value>Visszajelzés küldése</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Message" xml:space="preserve">
-    <value>Szeretne visszajelzést küldeni a BCU-val kapcsolatban?</value>
+    <value>Szeretne visszajelzést küldeni a Neverwas-val kapcsolatban?</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Details" xml:space="preserve">
     <value>Ez kevesebb mint egy percet vesz csak igénybe, de nagyban segítheti a fejlesztéseinket! Minden visszajelzést nagyra értékelünk, legyen az hibajelzés, új igény, vagy egyszerűen csak köszönetnyilvánítás!
@@ -214,7 +214,7 @@ Szeretné a funkciók bővítését, vagy hibával találkozott? Kérjük, hogy 
     <value>Hiba történt a frissítések ellenőrzése közben</value>
   </data>
   <data name="MessageBoxes_UpdateFailed_Details" xml:space="preserve">
-    <value>Kérem ellenőrizze, hogy a BCUninstaller-t nem blokkolja-e a tűzfala, és működik-e az Internetkapcsolata.
+    <value>Kérem ellenőrizze, hogy a Neverwas-t nem blokkolja-e a tűzfala, és működik-e az Internetkapcsolata.
 
 </value>
   </data>
@@ -223,12 +223,12 @@ Szeretné a funkciók bővítését, vagy hibával találkozott? Kérjük, hogy 
     <comment>0 is version number</comment>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Details" xml:space="preserve">
-    <value>A BCUininstaller automatikusan letölti a frissítéseket, és telepíti azokat a program újraindítását követően. A folyamat során a saját beállításai elveszhetnek. 
+    <value>A Neverwas automatikusan letölti a frissítéseket, és telepíti azokat a program újraindítását követően. A folyamat során a saját beállításai elveszhetnek. 
 
 Módosítások:
 - {0}
 
-Figyelem: A frissítés közben a BCU könyvtárában levő "Update" mappa, és az "Update.zip" fájl törlésre kerül.</value>
+Figyelem: A frissítés közben a Neverwas könyvtárában levő "Update" mappa, és az "Update.zip" fájl törlésre kerül.</value>
     <comment>0 is a list of changes separated by "- "</comment>
   </data>
   <data name="MessageBoxes_UninstallMsiGuidMissing_Title" xml:space="preserve">
@@ -302,7 +302,7 @@ Figyelem: A frissítés közben a BCU könyvtárában levő "Update" mappa, és 
     <value>Ha a hiba továbbra is fennáll, próbálja meg egy másik könyvtárba, például az Asztalra elmenteni.</value>
   </data>
   <data name="MessageBoxes_GetSystemRestoreDescription" xml:space="preserve">
-    <value>A BCUninstaller eltávolított {0} alkalmazást</value>
+    <value>A Neverwas eltávolított {0} alkalmazást</value>
     <comment>0 is the uninstaller count</comment>
   </data>
   <data name="MessageBoxes_Title_Rename_uninstaller" xml:space="preserve">
@@ -349,13 +349,13 @@ Figyelem: A frissítés közben a BCU könyvtárában levő "Update" mappa, és 
     <value>Nincs megadva semmi keresendő</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Title" xml:space="preserve">
-    <value>BCUninstaller eltávolítása</value>
+    <value>Neverwas eltávolítása</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Message" xml:space="preserve">
-    <value>Biztos benne, hogy szeretné eltávolítani a BCUninstaller-t?</value>
+    <value>Biztos benne, hogy szeretné eltávolítani a Neverwas-t?</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Details" xml:space="preserve">
-    <value>Sajnáljuk, hogy nem tetszett önnek a program! Ha van egy-két perce írjon pár szót a webhelyünkön (http://klocmansoftware.weebly.com/), hogy miért távolította el a BCU-t. Mindent megteszünk, hogy kijavítsuk a valós problémákat.</value>
+    <value>Sajnáljuk, hogy nem tetszett önnek a program! Ha van egy-két perce írjon pár szót a webhelyünkön (https://github.com/ErickuchoSan/Neverwas/discussions), hogy miért távolította el a Neverwas-t. Mindent megteszünk, hogy kijavítsuk a valós problémákat.</value>
   </data>
   <data name="MessageBoxes_SysRestoreBeginQuestion_Message" xml:space="preserve">
     <value>Szeretne létrehozni egy visszaállítási pontot a folytatás előtt?</value>
@@ -448,7 +448,7 @@ Szeretne normál eltávolítást ezekhez az elemekhez, vagy inkább eltávolítj
     <value>Alapbeállítások visszaállítása</value>
   </data>
   <data name="MessageBoxes_ResetSettingsConfirmation_Details" xml:space="preserve">
-    <value>Az összes saját beállítása elfog veszni. A BCUninstaller-t újra kell indítani a művelet befejezéséhez.</value>
+    <value>Az összes saját beállítása elfog veszni. A Neverwas-t újra kell indítani a művelet befejezéséhez.</value>
   </data>
   <data name="MessageBoxes_Title_Open_Uninstall_List" xml:space="preserve">
     <value>Eltávolítási lista megnyitása</value>
@@ -537,7 +537,7 @@ Szeretne normál eltávolítást ezekhez az elemekhez, vagy inkább eltávolítj
     <value>Néhány beállítása nem lép életbe, amíg nem indítja újra a programot.</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Message" xml:space="preserve">
-    <value>Szeretné újraindítani a BCU-t, az új beállítások érvényesítéséhez?</value>
+    <value>Szeretné újraindítani a Neverwas-t, az új beállítások érvényesítéséhez?</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Title" xml:space="preserve">
     <value>Programbeállítások módosítása</value>
@@ -727,10 +727,10 @@ A beállításoknál megpróbálhatja letiltani az összeütközések észlelés
     <value>Ikonok betöltése</value>
   </data>
   <data name="NewsPopup_UpdatedTitle" xml:space="preserve">
-    <value>A BCU a(z) {0} verzióra frissült!</value>
+    <value>A Neverwas a(z) {0} verzióra frissült!</value>
   </data>
   <data name="NewsPopup_FirstStartTitle" xml:space="preserve">
-    <value>Üdvözli a BCU {0} verziója!</value>
+    <value>Üdvözli a Neverwas {0} verziója!</value>
   </data>
   <data name="UninstallProgressWindow_StatusPuttingToSleepInSeconds" xml:space="preserve">
     <value>Alvó módba lépés {0} mp múlva. Kattintson az alvó mód beállítás jelölőnégyzetébe a visszavonáshoz.</value>

@@ -139,7 +139,7 @@
     <value>完成設定</value>
   </data>
   <data name="p5finishContact.Text" xml:space="preserve">
-    <value>現在可以開始使用BCUninstaller。如果你有任何問題或想建議一個新功能，請透過下面的連結。</value>
+    <value>現在可以開始使用Neverwas。如果你有任何問題或想建議一個新功能，請透過下面的連結。</value>
   </data>
   <data name="p5LinkContact.Text" xml:space="preserve">
     <value>開啟聯絡表單</value>
@@ -157,7 +157,7 @@
     <value>訪問網路</value>
   </data>
   <data name="p4netDesc.Text" xml:space="preserve">
-    <value>BCUninstaller會嘗試連結到網路，原因如下：</value>
+    <value>Neverwas會嘗試連結到網路，原因如下：</value>
   </data>
   <data name="p4netDesc1.Text" xml:space="preserve">
     <value>● 搜尋應用程式更新。</value>
@@ -172,7 +172,7 @@
     <value>● 獲取和上傳應用程式評分</value>
   </data>
   <data name="p4netErrors.Text" xml:space="preserve">
-    <value>每次發生錯誤時，系統都會詢問你是否要傳送錯誤。通過檢查BCUninstaller目錄中相應的XML文件，可以檢查錯誤和使用情況報告中傳送的資料。傳送的資料不與任何第三方共享</value>
+    <value>每次發生錯誤時，系統都會詢問你是否要傳送錯誤。通過檢查Neverwas目錄中相應的XML文件，可以檢查錯誤和使用情況報告中傳送的資料。傳送的資料不與任何第三方共享</value>
   </data>
   <data name="checkBoxUpdateSearch.Text" xml:space="preserve">
     <value>在應用程式啟動時自動檢查更新</value>
@@ -184,7 +184,7 @@
     <value>自動傳送匿名使用情況統計資訊</value>
   </data>
   <data name="p4netUsageAdd.Text" xml:space="preserve">
-    <value>發送這些統計資訊將有助於改進BCUninstaller</value>
+    <value>發送這些統計資訊將有助於改進Neverwas</value>
   </data>
   <data name="checkBoxRatings.Text" xml:space="preserve">
     <value>啟用應用程式的使用者評分</value>
@@ -199,7 +199,7 @@
     <value>已毀損或遺失的移除程式</value>
   </data>
   <data name="pCorViewInvalid.Text" xml:space="preserve">
-    <value>在某些情況下，移除程式可能會毀損，導致無法移除。BCUninstaller可以使用"手動移除選項輕鬆刪除這些項目。</value>
+    <value>在某些情況下，移除程式可能會毀損，導致無法移除。Neverwas可以使用"手動移除選項輕鬆刪除這些項目。</value>
   </data>
   <data name="checkBoxInvalidTest.Text" xml:space="preserve">
     <value>提高顯示無效的移除程式</value>
@@ -224,7 +224,7 @@
     <value>進階使用者</value>
   </data>
   <data name="p3advDesc.Text" xml:space="preserve">
-    <value>雖然BCUninstaller可以用作基本的移除程式，但它的大部分功能都是針對進階使用者的。請小心使用！</value>
+    <value>雖然Neverwas可以用作基本的移除程式，但它的大部分功能都是針對進階使用者的。請小心使用！</value>
   </data>
   <data name="p3advSyscompTitle.Text" xml:space="preserve">
     <value>系統元件</value>
@@ -285,7 +285,7 @@
 警告：驗證可能需要很長時間。</value>
   </data>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>歡迎使用BCUninstaller！</value>
+    <value>歡迎使用Neverwas！</value>
   </data>
   <data name="p1welcomeSubheading.Text" xml:space="preserve">
     <value>此精靈將為你提供快速教學並幫助你設置應用程式。</value>
@@ -294,22 +294,22 @@
     <value>選擇語言</value>
   </data>
   <data name="p1languageDesc.Text" xml:space="preserve">
-    <value>如果預設語言不正確，可以強制BCUninstaller使用特定的本地化。將重新啟動以套用新語言。</value>
+    <value>如果預設語言不正確，可以強制Neverwas使用特定的本地化。將重新啟動以套用新語言。</value>
   </data>
   <data name="buttonLanguageApply.Text" xml:space="preserve">
     <value>套用</value>
   </data>
   <data name="p1languageExtradetails.Text" xml:space="preserve">
-    <value>如果願意幫助將BCUninstaller翻譯成你的語言，請點擊下面的連結與我聯繫。非常感謝你的幫助！</value>
+    <value>如果願意幫助將Neverwas翻譯成你的語言，請點擊下面的連結與我聯繫。非常感謝你的幫助！</value>
   </data>
   <data name="p1linkLabelContact.Text" xml:space="preserve">
     <value>開啟聯絡視窗</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>ulk crap</value>
+    <value>everwas</value>
     <comment>The missing B is in an image next to the text</comment>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>歡迎使用BCUninstaller</value>
+    <value>歡迎使用Neverwas</value>
   </data>
 </root>

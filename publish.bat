@@ -40,7 +40,7 @@ rem Since BCU is now on .NET8, realistically only Arm64 and x64 Windows systems 
 rem set platform=x86
 rem call :publish
 
-copy bin\launcher\BCU-launcher.exe "%publish%\BCUninstaller.exe"
+copy bin\launcher\BCU-launcher.exe "%publish%\Neverwas.exe"
 if errorlevel 1 (echo Failed to copy BCU-launcher.exe & pause & exit /b 1)
 copy "%target%\BCU_manual.html" "%publish%\BCU_manual.html"
 copy "%target%\Licence.txt" "%publish%\Licence.txt"

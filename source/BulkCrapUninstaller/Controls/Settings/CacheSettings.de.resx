@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>Die Benutzung des Cache kann die Suchgeschwindigkeit stark verkürzen. Wenn ein Programm aber verändert wurde, kann BCU diese Änderung nicht finden. (z.B. Größe) Bemerkung: Um diese Änderung zu aktivieren muss BCU neu gestartet werden.</value>
+    <value>Die Benutzung des Cache kann die Suchgeschwindigkeit stark verkürzen. Wenn ein Programm aber verändert wurde, kann Neverwas diese Änderung nicht finden. (z.B. Größe) Bemerkung: Um diese Änderung zu aktivieren muss Neverwas neu gestartet werden.</value>
   </data>
   <data name="checkBoxCerts.Text" xml:space="preserve">
     <value>Scan Ergebnisse der Cache Anwendung zertifizieren.</value>

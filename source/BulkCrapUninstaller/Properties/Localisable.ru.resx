@@ -136,7 +136,7 @@
     <value>Нет элементов, соответствующих критериям поиска.</value>
   </data>
   <data name="StrExportHeader" xml:space="preserve">
-    <value>BCUninstaller экспорт
+    <value>Neverwas экспорт
 Издатель | Версия | Дата | Размер | Реестр | Тип деинсталлятора | Команда удаления | Команда тихого удаления | Комментарии</value>
   </data>
   <data name="StrIsPortable" xml:space="preserve">
@@ -195,7 +195,7 @@
     <value>Отправить отзыв</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Message" xml:space="preserve">
-    <value>Хотите отправить отзыв о BCU?</value>
+    <value>Хотите отправить отзыв о Neverwas?</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Details" xml:space="preserve">
     <value>Это займёт меньше минуты, но сильно поможет развитию! Все отзывы высоко ценятся, будь то сообщение об ошибке, запрос новой фичи, или простое "спасибо"!
@@ -214,7 +214,7 @@
     <value>Ошибка при проверке наличия обновлений</value>
   </data>
   <data name="MessageBoxes_UpdateFailed_Details" xml:space="preserve">
-    <value>Убедитесь, что BCUninstaller не заблокирован в вашем файрволе и что Вы подключены к интернету.
+    <value>Убедитесь, что Neverwas не заблокирован в вашем файрволе и что Вы подключены к интернету.
 
 </value>
   </data>
@@ -223,12 +223,12 @@
     <comment>0 is version number</comment>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Details" xml:space="preserve">
-    <value>BCUninstaller загрузит обновление и применит его после перезагрузки программы. Имейте в виду, Вы можете потерять свои настройки в процессе обновления.
+    <value>Neverwas загрузит обновление и применит его после перезагрузки программы. Имейте в виду, Вы можете потерять свои настройки в процессе обновления.
 
 Изменения:
 - {0}
 
-Внимание: Во время обновления папка "Update" и файл "Update.zip" внутри BCU каталога будут удалены.</value>
+Внимание: Во время обновления папка "Update" и файл "Update.zip" внутри Neverwas каталога будут удалены.</value>
     <comment>0 is a list of changes separated by "- "</comment>
   </data>
   <data name="MessageBoxes_UninstallMsiGuidMissing_Title" xml:space="preserve">
@@ -302,7 +302,7 @@
     <value>Если ошибка повторяется, попробуйте сохранить в другой каталог, например — на рабочем столе.</value>
   </data>
   <data name="MessageBoxes_GetSystemRestoreDescription" xml:space="preserve">
-    <value>BCUninstaller удаляет {0} программ(ы).</value>
+    <value>Neverwas удаляет {0} программ(ы).</value>
     <comment>0 is the uninstaller count</comment>
   </data>
   <data name="MessageBoxes_Title_Rename_uninstaller" xml:space="preserve">
@@ -349,13 +349,13 @@
     <value>Нечего искать</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Title" xml:space="preserve">
-    <value>Удалить BCUninstaller</value>
+    <value>Удалить Neverwas</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Message" xml:space="preserve">
-    <value>Вы уверены, что хотите удалить BCUninstaller?</value>
+    <value>Вы уверены, что хотите удалить Neverwas?</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Details" xml:space="preserve">
-    <value>Мне жаль видеть, что вы уходите! Если у Вас есть минута или две, пожалуйста, напишите на моём сайте несколько слов о том, почему был удалён BCU (http://klocmansoftware.weebly.com/). Я сделаю всё возможное, чтобы исправить любые существенные проблемы.</value>
+    <value>Мне жаль видеть, что вы уходите! Если у Вас есть минута или две, пожалуйста, напишите на моём сайте несколько слов о том, почему был удалён Neverwas (https://github.com/ErickuchoSan/Neverwas/discussions). Я сделаю всё возможное, чтобы исправить любые существенные проблемы.</value>
   </data>
   <data name="MessageBoxes_SysRestoreBeginQuestion_Message" xml:space="preserve">
     <value>Вы хотите создать точку восстановления прежде, чем продолжить?</value>
@@ -448,7 +448,7 @@
     <value>Восстановление настроек по умолчанию</value>
   </data>
   <data name="MessageBoxes_ResetSettingsConfirmation_Details" xml:space="preserve">
-    <value>Все ваши настройки будут потеряны навсегда. BCUninstaller придётся перезапустить, чтобы выполнить это действие.</value>
+    <value>Все ваши настройки будут потеряны навсегда. Neverwas придётся перезапустить, чтобы выполнить это действие.</value>
   </data>
   <data name="MessageBoxes_Title_Open_Uninstall_List" xml:space="preserve">
     <value>Открыть список деинсталляции</value>
@@ -537,7 +537,7 @@
     <value>Некоторые настройки не вступят в силу, пока приложение не будет перезапущено.</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Message" xml:space="preserve">
-    <value>Вы хотите перезапустить BCU, чтобы применить новые настройки?</value>
+    <value>Вы хотите перезапустить Neverwas, чтобы применить новые настройки?</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Title" xml:space="preserve">
     <value>Изменение настроек приложения</value>
@@ -763,10 +763,10 @@ The lists are separated by a single newline.</comment>
     <value>Выберите, где сохранить резервную копию. Будет создан новый каталог.</value>
   </data>
   <data name="NewsPopup_UpdatedTitle" xml:space="preserve">
-    <value>BCU обновлён до v{0}!</value>
+    <value>Neverwas обновлён до v{0}!</value>
   </data>
   <data name="NewsPopup_FirstStartTitle" xml:space="preserve">
-    <value>Добро пожаловать в BCU версии {0}!</value>
+    <value>Добро пожаловать в Neverwas версии {0}!</value>
   </data>
   <data name="UninstallProgressWindow_StatusPuttingToSleepInSeconds" xml:space="preserve">
     <value>Перевод компьютера в спящий режим через {0}s. Уберите флажок спящего режима для отмены. </value>

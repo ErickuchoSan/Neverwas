@@ -157,7 +157,7 @@ d'une tâche silencieuse</value>
   <data name="label7.Text" xml:space="preserve">
     <value>Vous pouvez spécifier des commandes qui se lanceront avant et après la désinstallation. Une ligne égale une commande et sera exécutée comme en utilisant le dialogue "Exécuter...".
 
-BCU attendra la fin de la commande courante avant d'exécuter la suivante.</value>
+Neverwas attendra la fin de la commande courante avant d'exécuter la suivante.</value>
   </data>
   <data name="groupBoxExternal.Text" xml:space="preserve">
     <value>Applications externes</value>
@@ -175,13 +175,13 @@ BCU attendra la fin de la commande courante avant d'exécuter la suivante.</valu
     <value>Divers</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Réglages de Bulk Crap Uninstaller</value>
+    <value>Réglages de Neverwas</value>
   </data>
   <data name="tabPageFolders.Text" xml:space="preserve">
     <value>Dossiers</value>
   </data>
   <data name="labelProgramFolders.Text" xml:space="preserve">
-    <value>Vous pouvez spécifier des dossiers personnalisés dans lesquels vous installez vos applications (par ex. D:\Applications). Ces dossiers seront utilisés par BCU pour chercher des vestiges de désinstallation, des applications non enregistrées et quelques autres choses. Bien que ce ne soit pas nécessaire, une liste de ces dossiers fera mieux fonctionner BCU.
+    <value>Vous pouvez spécifier des dossiers personnalisés dans lesquels vous installez vos applications (par ex. D:\Applications). Ces dossiers seront utilisés par Neverwas pour chercher des vestiges de désinstallation, des applications non enregistrées et quelques autres choses. Bien que ce ne soit pas nécessaire, une liste de ces dossiers fera mieux fonctionner Neverwas.
 
 Les dossiers Windows par défaut sont toujours scannés, vous n'avez pas besoin de les inclure dans la liste.
 

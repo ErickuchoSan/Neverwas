@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>A gyorsítótárazással nagymértékben csökkenthető a keresési idő, de ha egy alkalmazás módosul, a BCU nem feltétlenül veszi észre a változásokat. (pl. méret)
-MEGJEGYZÉS: Ahhoz, hogy ezek a beállítások érvénybe lépjenek, a BCU újraindítása szükséges lehet.</value>
+    <value>A gyorsítótárazással nagymértékben csökkenthető a keresési idő, de ha egy alkalmazás módosul, a Neverwas nem feltétlenül veszi észre a változásokat. (pl. méret)
+MEGJEGYZÉS: Ahhoz, hogy ezek a beállítások érvénybe lépjenek, a Neverwas újraindítása szükséges lehet.</value>
   </data>
   <data name="checkBoxCerts.Text" xml:space="preserve">
     <value>Az alkalmazástanúsítvány vizsgálat eredményeinek gyorsítótárazása</value>

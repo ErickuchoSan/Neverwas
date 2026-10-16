@@ -190,7 +190,7 @@
   <data name="label7.Text" xml:space="preserve">
     <value>Bạn có thể chỉ định các lệnh sẽ chạy trước và sau khi gỡ cài đặt. Mỗi dòng tương đương với một lệnh và sẽ được thực thi tương tự như khi bạn dùng hộp thoại "Run..." của Windows.
 
-BCU sẽ đợi cho đến khi lệnh hiện tại chạy xong rồi mới thực hiện lệnh tiếp theo.</value>
+Neverwas sẽ đợi cho đến khi lệnh hiện tại chạy xong rồi mới thực hiện lệnh tiếp theo.</value>
   </data>
   <data name="groupBoxExternal.Text" xml:space="preserve">
     <value>Ứng dụng bên ngoài</value>
@@ -266,7 +266,7 @@ BCU sẽ đợi cho đến khi lệnh hiện tại chạy xong rồi mới thự
     <value>Cố gắng tự động phát hiện các thư mục cài đặt tùy chỉnh</value>
   </data>
   <data name="labelProgramFolders.Text" xml:space="preserve">
-    <value>Bạn có thể chỉ định các thư mục tùy chỉnh mà bạn thường cài đặt ứng dụng vào đó (ví dụ: D:\Applications). BCU sẽ sử dụng các thư mục này để tìm kiếm tàn dư gỡ cài đặt, các ứng dụng không đăng ký và một số thứ khác. Mặc dù không bắt buộc, danh sách các thư mục này sẽ giúp BCU hoạt động hiệu quả hơn.
+    <value>Bạn có thể chỉ định các thư mục tùy chỉnh mà bạn thường cài đặt ứng dụng vào đó (ví dụ: D:\Applications). Neverwas sẽ sử dụng các thư mục này để tìm kiếm tàn dư gỡ cài đặt, các ứng dụng không đăng ký và một số thứ khác. Mặc dù không bắt buộc, danh sách các thư mục này sẽ giúp Neverwas hoạt động hiệu quả hơn.
 
 Các thư mục mặc định của Windows luôn được tự động quét, bạn không cần thêm chúng vào danh sách này.
 
@@ -288,6 +288,6 @@ Sử dụng đường dẫn thư mục đầy đủ, mỗi dòng một đường
     <value>Lặt vặt</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Cài đặt Bulk Crap Uninstaller</value>
+    <value>Cài đặt Neverwas</value>
   </data>
 </root>

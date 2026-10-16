@@ -180,7 +180,7 @@
   <data name="label7.Text" xml:space="preserve">
     <value>Você pode especificar comandos que serão executados antes e depois da desinstalação. Uma linha é igual a um comando e será executada como se você usasse a caixa de diálogo "Executar...".
 
-O BCU aguardará até que o comando em execução seja finalizado antes de executar o próximo.</value>
+O Neverwas aguardará até que o comando em execução seja finalizado antes de executar o próximo.</value>
   </data>
   <data name="groupBoxExternal.Text" xml:space="preserve">
     <value>Aplicações externas</value>
@@ -240,7 +240,7 @@ O BCU aguardará até que o comando em execução seja finalizado antes de execu
     <value>Ferramentas externas</value>
   </data>
   <data name="labelProgramFolders.Text" xml:space="preserve">
-    <value>Você pode especificar pastas personalizadas nas quais você instalou seus aplicativos (por exemplo, D: \ Applications). Essas pastas serão usadas pelo BCU para procurar sobras de desinstalação, aplicativos não registrados e algumas outras coisas. Embora não seja necessário, uma lista dessas pastas permitirá que o BCU funcione melhor.
+    <value>Você pode especificar pastas personalizadas nas quais você instalou seus aplicativos (por exemplo, D: \ Applications). Essas pastas serão usadas pelo Neverwas para procurar sobras de desinstalação, aplicativos não registrados e algumas outras coisas. Embora não seja necessário, uma lista dessas pastas permitirá que o Neverwas funcione melhor.
 
 As pastas padrão do Windows são sempre examinadas, você não precisa incluí-las nesta lista.
 
@@ -259,7 +259,7 @@ Use caminhos de diretório completo, um caminho por linha. Caminhos inválidos e
     <value>Diversos</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Configurações do Bulk Crap Uninstaller </value>
+    <value>Configurações do Neverwas </value>
   </data>
   <data name="checkBoxOculus.Text" xml:space="preserve">
     <value>Oculus Store</value>

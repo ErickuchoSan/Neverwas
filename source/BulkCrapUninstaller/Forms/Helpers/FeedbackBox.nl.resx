@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>Bedankt dat u BCUninstaller gebruikt!</value>
+    <value>Bedankt dat u Neverwas gebruikt!</value>
   </data>
   <data name="buttonSendFeedback2.Text" xml:space="preserve">
     <value>Feedback sturen</value>
@@ -130,7 +130,7 @@
     <value>Problemen of ontbrekende mogelijkheden?</value>
   </data>
   <data name="p1FeedbackDesc.Text" xml:space="preserve">
-    <value>Heeft u problemen met BCU of suggesties voor nieuwe mogelijkheden, controleer dan deze links:</value>
+    <value>Heeft u problemen met Neverwas of suggesties voor nieuwe mogelijkheden, controleer dan deze links:</value>
   </data>
   <data name="buttonSubmitGithub.Text" xml:space="preserve">
     <value>Aanmelden op GitHub (Acccount vereist)</value>
@@ -143,11 +143,11 @@
   </data>
   <data name="p1HelpDesc.Text" xml:space="preserve">
     <value>U hoeft geen programmeur te zijn om ons te helpen!
-U kunt een donatie doen om updates sneller uit te brengen, of BCU in uw taal te vertalen.
+U kunt een donatie doen om updates sneller uit te brengen, of Neverwas in uw taal te vertalen.
 Alle hulp wordt op prijs gesteld, ongeacht de wijze waarop!</value>
   </data>
   <data name="buttonTranslate.Text" xml:space="preserve">
-    <value>Vertaal BCU</value>
+    <value>Vertaal Neverwas</value>
   </data>
   <data name="buttonIssues.Text" xml:space="preserve">
     <value>Problemen op GitHub</value>

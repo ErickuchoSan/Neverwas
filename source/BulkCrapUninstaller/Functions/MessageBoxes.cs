@@ -563,7 +563,7 @@ namespace BulkCrapUninstaller.Functions
                 new CmbBasicSettings(Localisable.MessageBoxes_Title_Search_for_updates,
                     string.Format(CultureInfo.CurrentCulture, Localisable.MessageBoxes_UpdateAskToDownload_Message, latestVersion),
             //      string.Format(CultureInfo.CurrentCulture, Localisable.MessageBoxes_UpdateAskToDownload_Details, string.Join("\n- ", changes)),
-                    string.Format(CultureInfo.CurrentCulture, "Do you want to open the download page to get the latest version of BCUninstaller?"), //todo localize
+                    string.Format(CultureInfo.CurrentCulture, "Do you want to open the download page to get the latest version of Neverwas?"), //todo localize
                     SystemIcons.Information, Buttons.ButtonYes, Buttons.ButtonNo)) == CustomMessageBox.PressedButton.Middle;
         }
 

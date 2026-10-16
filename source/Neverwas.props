@@ -1,0 +1,23 @@
+<Project>
+	<!--
+		Neverwas: version and attribution, imported at the end of upstream's Directory.Build.props.
+		Upstream releases only bump <Version> there (e.g. 6.3 -> 6.4); that line is left exactly as upstream
+		has it, so syncing never conflicts on it. The Neverwas version is the upstream version plus ".0.N".
+		Bump NeverwasRevision for Neverwas-only releases; set it back to 1 when syncing a new upstream version.
+	-->
+	<PropertyGroup>
+		<NeverwasRevision>1</NeverwasRevision>
+		<UpstreamVersion>$(Version)</UpstreamVersion>
+		<Version>$(UpstreamVersion).0.$(NeverwasRevision)</Version>
+
+		<Authors>Erick Bores (Neverwas); Marcin Szeniak (Bulk Crap Uninstaller)</Authors>
+		<Company>Erick Bores</Company>
+		<Copyright>Copyright © 2026 Erick Bores. Based on Bulk Crap Uninstaller © Marcin Szeniak. Apache-2.0</Copyright>
+	</PropertyGroup>
+
+	<!-- The ".0.N" suffix assumes a two-part upstream version; anything else would produce a malformed version. -->
+	<Target Name="NeverwasCheckUpstreamVersion" BeforeTargets="BeforeBuild">
+		<Error Condition="!$([System.Text.RegularExpressions.Regex]::IsMatch('$(UpstreamVersion)', '^[^.]+\.[^.]+$'))"
+			Text="Neverwas.props expects a two-part upstream &lt;Version&gt; in Directory.Build.props (like 6.3), but found '$(UpstreamVersion)'. Update the Version line in source/Neverwas.props." />
+	</Target>
+</Project>

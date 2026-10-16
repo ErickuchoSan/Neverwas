@@ -2,7 +2,7 @@
 	<PropertyGroup>
 		<OutputType>WinExe</OutputType>
 
-		<AssemblyTitle>Utility used by BCU in place of missing/broken uninstallers to remove applications</AssemblyTitle>
+		<AssemblyTitle>Utility used by Neverwas in place of missing/broken uninstallers to remove applications</AssemblyTitle>
 
 		<ApplicationIcon>UniversalUninstaller.ico</ApplicationIcon>
 		<StartupObject>UniversalUninstaller.Program</StartupObject>

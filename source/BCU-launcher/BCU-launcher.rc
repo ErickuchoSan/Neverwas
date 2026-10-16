@@ -77,13 +77,13 @@ BEGIN
     BEGIN
         BLOCK "080904b0"
         BEGIN
-            VALUE "CompanyName", "Marcin Szeniak"
-            VALUE "FileDescription", "BCUninstaller launcher"
+            VALUE "CompanyName", "Erick Bores"
+            VALUE "FileDescription", "Neverwas launcher"
             VALUE "FileVersion", "1.2.0.0"
-            VALUE "InternalName", "BCUninstaller.exe"
-            VALUE "LegalCopyright", "Copyright (C) 2023"
-            VALUE "OriginalFilename", "BCUninstaller.exe"
-            VALUE "ProductName", "BCUninstaller launcher"
+            VALUE "InternalName", "Neverwas.exe"
+            VALUE "LegalCopyright", "Copyright (C) 2026 Erick Bores. Based on Bulk Crap Uninstaller by Marcin Szeniak"
+            VALUE "OriginalFilename", "Neverwas.exe"
+            VALUE "ProductName", "Neverwas launcher"
             VALUE "ProductVersion", "1.2.0.0"
         END
     END

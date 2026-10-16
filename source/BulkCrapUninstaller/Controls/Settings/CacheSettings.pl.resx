@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>Buforowanie może znacznie skrócić czas wyszukiwania, ale w przypadku modyfikacji aplikacji BCU może nie zauważyć zmian (np. zmiany rozmiaru).
-UWAGA: Aby zastosować te ustawienia może być konieczne ponowne uruchomienie BCU.</value>
+    <value>Buforowanie może znacznie skrócić czas wyszukiwania, ale w przypadku modyfikacji aplikacji Neverwas może nie zauważyć zmian (np. zmiany rozmiaru).
+UWAGA: Aby zastosować te ustawienia może być konieczne ponowne uruchomienie Neverwas.</value>
   </data>
   <data name="checkBoxCerts.Text" xml:space="preserve">
     <value>Buforuj zebrane informacje o certyfikatach</value>

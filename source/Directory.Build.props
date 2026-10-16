@@ -64,4 +64,5 @@
 			<Visible>False</Visible>
 		</None>
 	</ItemGroup>
+	<Import Project="Neverwas.props" />
 </Project>

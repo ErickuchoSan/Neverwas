@@ -313,7 +313,7 @@ namespace BulkCrapUninstaller.Forms
             checkBox2.Name = "checkBox2";
             checkBox2.Size = new System.Drawing.Size(155, 28);
             checkBox2.TabIndex = 0;
-            checkBox2.Text = "Override BCU is installed";
+            checkBox2.Text = "Override Neverwas is installed";
             checkBox2.UseVisualStyleBackColor = true;
             checkBox2.CheckedChanged += checkBox2_CheckedChanged;
             // 

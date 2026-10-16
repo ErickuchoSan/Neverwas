@@ -136,7 +136,7 @@
     <value>Tukaj ni ujemajočih vnosov z vašim iskalnim kriterijem.</value>
   </data>
   <data name="StrExportHeader" xml:space="preserve">
-    <value>BCUninstaller izvoz
+    <value>Neverwas izvoz
 Založnik | Različica | Datum | Velikost | Register | Vrsta odstranjevalca | Odstranjevalni niz | Tiho odstrani | Komentarji</value>
   </data>
   <data name="StrIsPortable" xml:space="preserve">
@@ -195,7 +195,7 @@ Datoteke in imeniki bodo premaknjeni v Koš. Od tam jih lahko obnovite.</value>
     <value>Pošlji povratne informacije</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Message" xml:space="preserve">
-    <value>Ali želite poslati povratne informacije v zvezi z BCU?</value>
+    <value>Ali želite poslati povratne informacije v zvezi z Neverwas?</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Details" xml:space="preserve">
     <value>To bo trajalo manj kot minuto vendar bo izjemno pomagalo razvijalcem! Vse povratne informacije so zelo zaželene in cenjene bodisi, da gre za poročilo o hrošču, zahtevo nove funkcije ali za preprosto zahvalo!
@@ -214,19 +214,19 @@ Kasneje jih lahko pošljete iz glavne menijske vrstice (Pomoč-&gt;Pošlji povra
     <value>Pri preverjanju obstoja posodobitev je prišlo je do napake </value>
   </data>
   <data name="MessageBoxes_UpdateFailed_Details" xml:space="preserve">
-    <value>Zagotovite, da BCUninstaller ni blokiran z vašim požarnim zidom in, da ste povezani z internetom.</value>
+    <value>Zagotovite, da Neverwas ni blokiran z vašim požarnim zidom in, da ste povezani z internetom.</value>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Message" xml:space="preserve">
     <value>Na voljo je nova različica {0}. Ali jo želita zdaj nadgraditi?</value>
     <comment>0 is version number</comment>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Details" xml:space="preserve">
-    <value>BCUninstaller bo samodejno prenesel posodobitve in jih uporabil po ponovnem zagonu. Upoštevajte, da boste med postopkom morda izgubili vaše nastavitve.
+    <value>Neverwas bo samodejno prenesel posodobitve in jih uporabil po ponovnem zagonu. Upoštevajte, da boste med postopkom morda izgubili vaše nastavitve.
 
 Dnevnik sprememb:
 - {0}
 
-Opozorilo: Med posodabljanjem bo odstranjena mapa "Update" in datoteka "Update.zip", v imeniku BCU.</value>
+Opozorilo: Med posodabljanjem bo odstranjena mapa "Update" in datoteka "Update.zip", v imeniku Neverwas.</value>
     <comment>0 is a list of changes separated by "- "</comment>
   </data>
   <data name="MessageBoxes_UninstallMsiGuidMissing_Title" xml:space="preserve">
@@ -300,7 +300,7 @@ Opozorilo: Med posodabljanjem bo odstranjena mapa "Update" in datoteka "Update.z
     <value>Če obstaja napaka, poskusite shraniti v drugo mapo! Npr. na Namizje.</value>
   </data>
   <data name="MessageBoxes_GetSystemRestoreDescription" xml:space="preserve">
-    <value>BCUninstaller odstranjuje {0} aplikacij</value>
+    <value>Neverwas odstranjuje {0} aplikacij</value>
     <comment>0 is the uninstaller count</comment>
   </data>
   <data name="MessageBoxes_Title_Rename_uninstaller" xml:space="preserve">
@@ -347,13 +347,13 @@ Opozorilo: Med posodabljanjem bo odstranjena mapa "Update" in datoteka "Update.z
     <value>Ničr ni za iskanje</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Title" xml:space="preserve">
-    <value>Odstrani BCUninstaller</value>
+    <value>Odstrani Neverwas</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Message" xml:space="preserve">
-    <value>Ali res želite odstraniti BCUninstaller?</value>
+    <value>Ali res želite odstraniti Neverwas?</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Details" xml:space="preserve">
-    <value>Glejte. Žal mi je, da greste! Če imate vsaj minuto časa,  na moji spletni strani (http://klocmansoftware.weebly.com/) napišite kakšno besedo o tem zakaj ste odstranili BCU. Po svojih najboljših močeh se bom potrudil popraviti vse legitimne težave.</value>
+    <value>Glejte. Žal mi je, da greste! Če imate vsaj minuto časa,  na moji spletni strani (https://github.com/ErickuchoSan/Neverwas/discussions) napišite kakšno besedo o tem zakaj ste odstranili Neverwas. Po svojih najboljših močeh se bom potrudil popraviti vse legitimne težave.</value>
   </data>
   <data name="MessageBoxes_SysRestoreBeginQuestion_Message" xml:space="preserve">
     <value>Ali želite pred nadaljevanjem, ustvariti obnovitveno točko?</value>
@@ -447,7 +447,7 @@ Ali želite za te vnose uporabiti "glasne" odstranjevalce, ali morajo ti biti od
     <value>Obnovi privzete nastavitve</value>
   </data>
   <data name="MessageBoxes_ResetSettingsConfirmation_Details" xml:space="preserve">
-    <value>Vse vaše nastavitve bodo trajno izgubljene. BCUninstaller boste morali ponovno zagnati, da dokončate ta postopek.</value>
+    <value>Vse vaše nastavitve bodo trajno izgubljene. Neverwas boste morali ponovno zagnati, da dokončate ta postopek.</value>
   </data>
   <data name="MessageBoxes_Title_Open_Uninstall_List" xml:space="preserve">
     <value>Odpri seznam odstranjevanja</value>
@@ -536,7 +536,7 @@ Ali želite za te vnose uporabiti "glasne" odstranjevalce, ali morajo ti biti od
     <value>Nekatere nastavitve ne bodo uveljavljene, dokler aplikacija ne bo ponovno zagnana.</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Message" xml:space="preserve">
-    <value>Ali želite ponovno zagnati BCU, za uporabo novih nastavitev?</value>
+    <value>Ali želite ponovno zagnati Neverwas, za uporabo novih nastavitev?</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Title" xml:space="preserve">
     <value>Spremeni nastavitve aplikacije</value>
@@ -762,9 +762,9 @@ Lahko poskusite onemogočiti zaznavanje sporov v Nastavitvah, toda to ni priporo
     <value>Izberite, kje želite shraniti varnostno kopijo. Ustvarjen bo nov imenik.</value>
   </data>
   <data name="NewsPopup_UpdatedTitle" xml:space="preserve">
-    <value>BCU je bil posodobljen v  različico {0}!</value>
+    <value>Neverwas je bil posodobljen v  različico {0}!</value>
   </data>
   <data name="NewsPopup_FirstStartTitle" xml:space="preserve">
-    <value>Dobrodošli pri delu z BCU različice {0}!</value>
+    <value>Dobrodošli pri delu z Neverwas različice {0}!</value>
   </data>
 </root>

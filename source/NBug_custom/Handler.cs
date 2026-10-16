@@ -110,7 +110,7 @@ namespace NBug
                 if (dnfe.Message.Contains(@"'api-ms-win-core-com-l1-1-0.dll'"))
                 {
                     MessageBox.Show("It seems like you're running an unsupported version of Windows. Please make sure you have all of the latest Windows service packs and updates installed and try again.\n\n" +
-                                    "If updating didn't help you may need to use an older version of BCUninstaller. Check the README.md file for more information.",
+                                    "If updating didn't help you may need to use an older version of Neverwas. Check the README.md file for more information.",
                                     "Unsupported Windows Version", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     // Do not let NBug handle this, it only clogs up the error reports
                     Environment.Exit((int)ResultWin32.ERROR_DLL_NOT_FOUND);
@@ -172,11 +172,11 @@ namespace NBug
 
             void ShowMessage(string filename)
             {
-                MessageBox.Show("It seems like some of the BCUninstaller files are missing or inaccessible. " +
-                                "Please make sure you have all of the BCUninstaller files in the same directory and " +
-                                "that your antivirus or other software is not preventing BCU from running.\n\n" +
+                MessageBox.Show("It seems like some of the Neverwas files are missing or inaccessible. " +
+                                "Please make sure you have all of the Neverwas files in the same directory and " +
+                                "that your antivirus or other software is not preventing Neverwas from running.\n\n" +
                                 "Could not access file: " + filename,
-                    "Missing or inaccessible BCUninstaller files", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    "Missing or inaccessible Neverwas files", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 // Do not let NBug handle this, it only clogs up the error reports
                 Environment.Exit((int)ResultWin32.ERROR_DLL_NOT_FOUND);
             }

@@ -206,7 +206,7 @@
     <value>Programma installatie map</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Bulk Crap Uninstaller instellingen</value>
+    <value>Neverwas instellingen</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Dubbelklikken in applicatielijst</value>
@@ -220,11 +220,11 @@
   <data name="label7.Text" xml:space="preserve">
     <value>U kunt opdrachten opgeven die voor en/of na de de-installatie worden uitgevoerd. Op elke regel één opdracht en deze wordt dan uitgevoerd alsof u de dialoog "Uitvoeren..." zou gebruiken.
 
-BCU wacht tot de momenteel uitgevoerde opdracht is voltooid, voordat de volgende wordt uitgevoerd.</value>
+Neverwas wacht tot de momenteel uitgevoerde opdracht is voltooid, voordat de volgende wordt uitgevoerd.</value>
   </data>
   <data name="labelProgramFolders.Text" xml:space="preserve">
-    <value>U kunt aangepaste mappen opgeven, waarin u uw programma's heeft geïnstalleerd (bijv. D:\Programmas). Deze mappen worden door BCU gebruikt om te zoeken naar de-installatie van restanten, ongeregistreerde programma's en andere zaken.
-Ofschoon niet noodzakelijk, laat een lijst met dergelijke mappen BCU beter functioneren.
+    <value>U kunt aangepaste mappen opgeven, waarin u uw programma's heeft geïnstalleerd (bijv. D:\Programmas). Deze mappen worden door Neverwas gebruikt om te zoeken naar de-installatie van restanten, ongeregistreerde programma's en andere zaken.
+Ofschoon niet noodzakelijk, laat een lijst met dergelijke mappen Neverwas beter functioneren.
 
 De standaard Windows mappen worden altijd gescand, deze hoeven niet opgenomen te worden in genoemde lijst.
 

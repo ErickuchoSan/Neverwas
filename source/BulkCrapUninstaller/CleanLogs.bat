@@ -1,4 +1,4 @@
-title Removing BCU log files...
+title Removing Neverwas log files...
 @echo off
 cls
 
@@ -10,9 +10,9 @@ set APPDATASAFE=%LOCALAPPDATA%
 )
 
 REM Wait for BCU to exit so the logs are written
-echo Waiting for BCUninstaller to exit...
+echo Waiting for Neverwas to exit...
 :loop
-tasklist | find "BCUninstaller.exe " >nul
+tasklist | find "Neverwas.exe " >nul
 if not errorlevel 1 (
 	REM Wait for 1 second before checking again
     ping -n 2 127.0.0.1 >nul
@@ -27,7 +27,7 @@ REM \CLR_v2.0\UsageLogs \CLR_v2.0_32\UsageLogs \CLR_v4.0\UsageLogs \CLR_v4.0_32\
 cd /d "%APPDATASAFE%\Microsoft"
 
 echo Deleting Assembly Usage Logs...
-del /f /s BCUninstaller.exe.log SteamHelper.exe.log StoreAppHelper.exe.log UninstallerAutomatizer.exe.log UpdateHelper.exe.log
+del /f /s Neverwas.exe.log SteamHelper.exe.log StoreAppHelper.exe.log UninstallerAutomatizer.exe.log UpdateHelper.exe.log
 
 echo Deleting .NET generated drectories...
 REM Settings directory automatically created by .NET
@@ -38,7 +38,7 @@ exit
 )
 
 REM Remove all directories related to BCU
-for /d %%G in ("%SETTINGSDIR%\BCUninstaller*") do rd /s /q "%%~G"
+for /d %%G in ("%SETTINGSDIR%\Neverwas*") do rd /s /q "%%~G"
 
 REM Check if the settings dir is empty. If there are directories left, exit.
 for /d %%i in ("%SETTINGSDIR%\*") do exit

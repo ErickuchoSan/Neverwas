@@ -136,7 +136,7 @@
     <value>لا توجد عناصر تطابق معايير البحث الخاصة بك.</value>
   </data>
   <data name="StrExportHeader" xml:space="preserve">
-    <value>تصدير BCUninstaller
+    <value>تصدير Neverwas
 الناشر | الإصدار | التاريخ | الحجم | السجل | نوع برنامج إلغاء التثبيت | أمر إلغاء التثبيت | أمر إلغاء التثبيت الصامت | ملاحظات</value>
   </data>
   <data name="StrIsPortable" xml:space="preserve">
@@ -195,7 +195,7 @@
     <value>إرسال ملاحظات</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Message" xml:space="preserve">
-    <value>هل ترغب في إرسال ملاحظات بخصوص BCU؟</value>
+    <value>هل ترغب في إرسال ملاحظات بخصوص Neverwas؟</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Details" xml:space="preserve">
     <value>لن يستغرق هذا منك أكثر من دقيقة، لكنه سيساعد عملية التطوير كثيرًا! نُقدّر أي ملاحظة، سواء كانت تقريرًا عن خلل، أو طلب ميزة جديدة، أو حتى مجرد كلمة شكر!
@@ -214,7 +214,7 @@
     <value>حدث خطأ أثناء التحقق من وجود تحديثات</value>
   </data>
   <data name="MessageBoxes_UpdateFailed_Details" xml:space="preserve">
-    <value>تأكد من أن BCUninstaller غير محظور في جدار الحماية الخاص بك، وأن لديك اتصالاً فعالاً بالإنترنت.
+    <value>تأكد من أن Neverwas غير محظور في جدار الحماية الخاص بك، وأن لديك اتصالاً فعالاً بالإنترنت.
 
 </value>
   </data>
@@ -223,12 +223,12 @@
     <comment>0 is version number</comment>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Details" xml:space="preserve">
-    <value>سيقوم BCUninstaller تلقائيًا بتنزيل التحديث وتطبيقه بعد إعادة التشغيل. يرجى ملاحظة أنك قد تفقد إعداداتك أثناء هذه العملية. 
+    <value>سيقوم Neverwas تلقائيًا بتنزيل التحديث وتطبيقه بعد إعادة التشغيل. يرجى ملاحظة أنك قد تفقد إعداداتك أثناء هذه العملية. 
 
 سجل التغييرات:
 - {0}
 
-تحذير: أثناء التحديث، سيتم حذف المجلد "Update" والملف "Update.zip" الموجودين داخل مجلد BCU.</value>
+تحذير: أثناء التحديث، سيتم حذف المجلد "Update" والملف "Update.zip" الموجودين داخل مجلد Neverwas.</value>
     <comment>0 is a list of changes separated by "- "</comment>
   </data>
   <data name="MessageBoxes_UninstallMsiGuidMissing_Title" xml:space="preserve">
@@ -302,7 +302,7 @@
     <value>إذا استمر حدوث الخطأ، حاول الحفظ في مجلد آخر، مثل سطح المكتب.</value>
   </data>
   <data name="MessageBoxes_GetSystemRestoreDescription" xml:space="preserve">
-    <value>يقوم BCUninstaller بإلغاء تثبيت {0} تطبيق(ات)</value>
+    <value>يقوم Neverwas بإلغاء تثبيت {0} تطبيق(ات)</value>
     <comment>0 is the uninstaller count</comment>
   </data>
   <data name="MessageBoxes_Title_Rename_uninstaller" xml:space="preserve">
@@ -349,13 +349,13 @@
     <value>لا يوجد شيء للبحث عنه</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Title" xml:space="preserve">
-    <value>إلغاء تثبيت BCUninstaller</value>
+    <value>إلغاء تثبيت Neverwas</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Message" xml:space="preserve">
-    <value>هل أنت متأكد أنك تريد إلغاء تثبيت BCUninstaller؟</value>
+    <value>هل أنت متأكد أنك تريد إلغاء تثبيت Neverwas؟</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Details" xml:space="preserve">
-    <value>يؤسفني أن أراك ترحل! إذا كان لديك دقيقة أو دقيقتان، أرجو أن تترك كلمة عن سبب إلغائك تثبيت BCU على موقعي (http://klocmansoftware.weebly.com/). سأبذل قصارى جهدي لحل أي مشكلة حقيقية.</value>
+    <value>يؤسفني أن أراك ترحل! إذا كان لديك دقيقة أو دقيقتان، أرجو أن تترك كلمة عن سبب إلغائك تثبيت Neverwas على موقعي (https://github.com/ErickuchoSan/Neverwas/discussions). سأبذل قصارى جهدي لحل أي مشكلة حقيقية.</value>
   </data>
   <data name="MessageBoxes_SysRestoreBeginQuestion_Message" xml:space="preserve">
     <value>هل تريد إنشاء نقطة استعادة قبل المتابعة؟</value>
@@ -448,7 +448,7 @@
     <value>استعادة الإعدادات الافتراضية</value>
   </data>
   <data name="MessageBoxes_ResetSettingsConfirmation_Details" xml:space="preserve">
-    <value>ستفقد جميع إعداداتك بشكل نهائي. سيتعين على BCUninstaller إعادة التشغيل لإتمام هذا الإجراء.</value>
+    <value>ستفقد جميع إعداداتك بشكل نهائي. سيتعين على Neverwas إعادة التشغيل لإتمام هذا الإجراء.</value>
   </data>
   <data name="MessageBoxes_Title_Open_Uninstall_List" xml:space="preserve">
     <value>فتح قائمة إلغاء التثبيت</value>
@@ -467,7 +467,7 @@
     <comment>Shown on the status bar</comment>
   </data>
   <data name="UninstallProgressWindow_TaskDoneNextStep" xml:space="preserve">
-    <value>اكتملت المهمة. أغلق هذه النافذة للمتابعة؛ قد يطلب منك BCU البحث عن الملفات المتبقية.</value>
+    <value>اكتملت المهمة. أغلق هذه النافذة للمتابعة؛ قد يطلب منك Neverwas البحث عن الملفات المتبقية.</value>
     <comment>Shown on the status bar after uninstallers finish</comment>
   </data>
   <data name="UninstallProgressWindow_Uninstalling" xml:space="preserve">
@@ -541,7 +541,7 @@
     <value>بعض الإعدادات لن تُطبَّق إلا بعد إعادة تشغيل التطبيق.</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Message" xml:space="preserve">
-    <value>هل تريد إعادة تشغيل BCU لتطبيق الإعدادات الجديدة؟</value>
+    <value>هل تريد إعادة تشغيل Neverwas لتطبيق الإعدادات الجديدة؟</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Title" xml:space="preserve">
     <value>تغيير إعدادات التطبيق</value>
@@ -767,10 +767,10 @@ The lists are separated by a single newline.</comment>
     <value>حدد مكان حفظ النسخة الاحتياطية. سيتم إنشاء مجلد جديد.</value>
   </data>
   <data name="NewsPopup_UpdatedTitle" xml:space="preserve">
-    <value>تم تحديث BCU إلى الإصدار {0}!</value>
+    <value>تم تحديث Neverwas إلى الإصدار {0}!</value>
   </data>
   <data name="NewsPopup_FirstStartTitle" xml:space="preserve">
-    <value>مرحبًا بك في BCU الإصدار {0}!</value>
+    <value>مرحبًا بك في Neverwas الإصدار {0}!</value>
   </data>
   <data name="UninstallProgressWindow_StatusPuttingToSleepInSeconds" xml:space="preserve">
     <value>سيتم تعليق الحاسوب خلال {0} ثانية. قم بإلغاء تحديد مربع الإسبات لإلغاء ذلك.</value>

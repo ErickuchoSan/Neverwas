@@ -1,6 +1,7 @@
 ﻿/*
     Copyright (c) 2017 Marcin Szeniak (https://github.com/Klocman/)
     Apache License Version 2.0
+    Modified by Erick Bores, 2026 (Neverwas)
 */
 
 using System;
@@ -25,6 +26,15 @@ namespace BulkCrapUninstaller.Forms
         public FirstStartBox(bool canExit)
         {
             InitializeComponent();
+
+            // Neverwas: no usage statistics, online ratings or error report uploads.
+            checkBoxSendStats.Visible = false;
+            checkBoxRatings.Visible = false;
+            p4netDesc2.Visible = false;
+            p4netDesc3.Visible = false;
+            p4netDesc4.Visible = false;
+            p4netErrors.Visible = false;
+            p4netUsageAdd.Visible = false;
 
             if (DesignMode) return;
 

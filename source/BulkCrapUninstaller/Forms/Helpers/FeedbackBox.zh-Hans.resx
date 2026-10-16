@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>感谢你使用BCUninstaller!</value>
+    <value>感谢你使用Neverwas!</value>
   </data>
   <data name="p1welcomeSubheading.Text" xml:space="preserve">
     <value>如果你觉得这个免费的开源工具有用，请考虑花一分钟帮忙！告诉你的朋友，在社交媒体上分享，给予反馈——一切都很重要！</value>
@@ -136,7 +136,7 @@
     <value>有什么问题或功能缺失吗？</value>
   </data>
   <data name="p1FeedbackDesc.Text" xml:space="preserve">
-    <value>如果你对BCU有任何问题，或者你想建议新功能，请查看以下链接:</value>
+    <value>如果你对Neverwas有任何问题，或者你想建议新功能，请查看以下链接:</value>
   </data>
   <data name="buttonSubmitGithub.Text" xml:space="preserve">
     <value>在GitHub上提交（需要帐户）</value>
@@ -148,10 +148,10 @@
     <value>你想帮忙吗?</value>
   </data>
   <data name="p1HelpDesc.Text" xml:space="preserve">
-    <value>不是程序员也可以帮忙！你可以捐款来加速更新，或者把BCU翻译成你的母语。非常感谢所有的帮助，不管有多小！</value>
+    <value>不是程序员也可以帮忙！你可以捐款来加速更新，或者把Neverwas翻译成你的母语。非常感谢所有的帮助，不管有多小！</value>
   </data>
   <data name="buttonTranslate.Text" xml:space="preserve">
-    <value>翻译BCU</value>
+    <value>翻译Neverwas</value>
   </data>
   <data name="buttonIssues.Text" xml:space="preserve">
     <value>Github上的Issue</value>

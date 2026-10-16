@@ -136,7 +136,7 @@
     <value>Er zijn geen registraties, die met uw zoekbegrip overeenkomen.</value>
   </data>
   <data name="StrExportHeader" xml:space="preserve">
-    <value>BCUninstaller Export
+    <value>Neverwas Export
 Uitgever | Versie | Datum | Grootte | Registry | De-installatie type | De-installatie string | De-installatie string (stil) | Commentaar</value>
   </data>
   <data name="StrIsPortable" xml:space="preserve">
@@ -200,7 +200,7 @@ Bestanden en mappen worden verplaatst naar de prullenbak, van waaruit u deze kun
     <value>Export is mislukt</value>
   </data>
   <data name="MessageBoxes_GetSystemRestoreDescription" xml:space="preserve">
-    <value>BCUninstaller de-installeert {0} programma('s)</value>
+    <value>Neverwas de-installeert {0} programma('s)</value>
     <comment>0 is the uninstaller count</comment>
   </data>
   <data name="MessageBoxes_Title_Rename_uninstaller" xml:space="preserve">
@@ -225,10 +225,10 @@ Bestanden en mappen worden verplaatst naar de prullenbak, van waaruit u deze kun
     <value>Niets om naar te zoeken</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Title" xml:space="preserve">
-    <value>BCUninstaller de-installeren</value>
+    <value>Neverwas de-installeren</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Message" xml:space="preserve">
-    <value>Wilt u BCUninstaller daadwerkelijk de-installeren?</value>
+    <value>Wilt u Neverwas daadwerkelijk de-installeren?</value>
   </data>
   <data name="MessageBoxes_SysRestoreBeginQuestion_Message" xml:space="preserve">
     <value>Wilt u een herstelpunt maken voordat u verder gaat?</value>
@@ -288,7 +288,7 @@ Bestanden en mappen worden verplaatst naar de prullenbak, van waaruit u deze kun
     <value>Sommige instellingen worden pas na een herstart van het programma effectief.</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Message" xml:space="preserve">
-    <value>Wilt u BCU opnieuw starten, om de nieuwe instellingen over te nemen?</value>
+    <value>Wilt u Neverwas opnieuw starten, om de nieuwe instellingen over te nemen?</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Title" xml:space="preserve">
     <value>Programma instellingen wijzigen</value>
@@ -467,7 +467,7 @@ The lists are separated by a single newline.</comment>
     <value>Feedback sturen</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Message" xml:space="preserve">
-    <value>Wilt u mij feedback over BCU sturen?</value>
+    <value>Wilt u mij feedback over Neverwas sturen?</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Details" xml:space="preserve">
     <value>Dit kost u minder dan een minuut en helpt de ontwikkelinmg van het programma enorm! Elke vorm van feedback is welkom, zoals een foutbericht, verzoeken voor nieuwe functionaliteit(en) of een bedankje!
@@ -486,7 +486,7 @@ Mist u functionaliteiten of wilt u een oplossing voor een fout? Stuur mij dan uw
     <value>Er werd een fout ontdekt bij het zoeken naar updates!</value>
   </data>
   <data name="MessageBoxes_UpdateFailed_Details" xml:space="preserve">
-    <value>Controleer dat BCUninstaller niet wordt geblokkeerd door uw 'firewall' en dat u een werkende internetverbinding hebt.</value>
+    <value>Controleer dat Neverwas niet wordt geblokkeerd door uw 'firewall' en dat u een werkende internetverbinding hebt.</value>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Message" xml:space="preserve">
     <value>Een nieuwe versie {0} is beschikbaar, wilt u nu upgraden?</value>
@@ -520,12 +520,12 @@ Denk er aan, dat enkele de-installers niet kunnen worden uitgevoerd, voor dat he
 U kunt proberen de detectie van conflicten in de instellingen uit te schakelen, maar dit wordt niet aanbevolen.</value>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Details" xml:space="preserve">
-    <value>BCUninstaller zal automatisch de update downloaden en zal dit na een herstart gebruiken. Houd er rekening mee dat uw instellingen tijdens dit proces verloren kunnen gaan.
+    <value>Neverwas zal automatisch de update downloaden en zal dit na een herstart gebruiken. Houd er rekening mee dat uw instellingen tijdens dit proces verloren kunnen gaan.
 
 Wijzigingen log:
 - {0}
 
-Waarschuwing: tijdens de update worden de map "Update" en het bestand "Update.zip" in de BCU mappen verwijderd.</value>
+Waarschuwing: tijdens de update worden de map "Update" en het bestand "Update.zip" in de Neverwas mappen verwijderd.</value>
     <comment>0 is a list of changes separated by "- "</comment>
   </data>
   <data name="MessageBoxes_SysRestoreContinueAfterError_Message" xml:space="preserve">
@@ -604,7 +604,7 @@ Van tijd tot tijd zou u moeten controleren of een van de de-installers niet is g
     <value>Standaard instellingen herstellen</value>
   </data>
   <data name="MessageBoxes_ResetSettingsConfirmation_Details" xml:space="preserve">
-    <value>Alle instellingen gaan blijvend verloren. BCUninstaller moet worden herstart om deze bewerking te voltooien. </value>
+    <value>Alle instellingen gaan blijvend verloren. Neverwas moet worden herstart om deze bewerking te voltooien. </value>
   </data>
   <data name="MessageBoxes_Title_Open_Uninstall_List" xml:space="preserve">
     <value>De-installatie lijst openen</value>
@@ -623,7 +623,7 @@ Van tijd tot tijd zou u moeten controleren of een van de de-installers niet is g
     <comment>Shown on the status bar</comment>
   </data>
   <data name="UninstallProgressWindow_TaskDoneNextStep" xml:space="preserve">
-    <value>Taak voltooid. Sluit dit venster om door te gaan; BCU kan vragen om naar restanten te zoeken.</value>
+    <value>Taak voltooid. Sluit dit venster om door te gaan; Neverwas kan vragen om naar restanten te zoeken.</value>
     <comment>Shown on the status bar after uninstallers finish</comment>
   </data>
   <data name="UninstallProgressWindow_Uninstalling" xml:space="preserve">
@@ -643,7 +643,7 @@ Van tijd tot tijd zou u moeten controleren of een van de de-installers niet is g
     <value>Niets om weer te geven. Dit programmma wordt m.b.v. de Windows Installer (MsiExec) gede-installeerd.</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Details" xml:space="preserve">
-    <value>Jammer dat u ons gaat verlaten! Als u enkele minuten heeft, laat mij dan met een kort bericht op mijn website (http://klocmansoftware.weebly.com/) weten waarom u BCU de-installeerde. Ik zal mijn best doen om gemelde problemen op te lossen.</value>
+    <value>Jammer dat u ons gaat verlaten! Als u enkele minuten heeft, laat mij dan met een kort bericht op mijn website (https://github.com/ErickuchoSan/Neverwas/discussions) weten waarom u Neverwas de-installeerde. Ik zal mijn best doen om gemelde problemen op te lossen.</value>
   </data>
   <data name="MessageBoxes_SearchOnlineError_Message" xml:space="preserve">
     <value>Bij het openen van de pagina "Zoeken" trad een fout op</value>
@@ -772,10 +772,10 @@ Het kan noodzakelijk zijn om te de-installeren en het dan opnieuw te installeren
     <value>Selecteer waar de back-up opgeslagen moet worden. Er zal een nieuwe map gemaakt worden.</value>
   </data>
   <data name="NewsPopup_UpdatedTitle" xml:space="preserve">
-    <value>BCU is bijgewerkt naar v{0}!</value>
+    <value>Neverwas is bijgewerkt naar v{0}!</value>
   </data>
   <data name="NewsPopup_FirstStartTitle" xml:space="preserve">
-    <value>Welkom bij BCU versie {0}!</value>
+    <value>Welkom bij Neverwas versie {0}!</value>
   </data>
   <data name="UninstallerListDoubleClickAction_DoNothing" xml:space="preserve">
     <value>Niets</value>

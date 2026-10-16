@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>Дякуємо, що використовуєте BCUninstaller!</value>
+    <value>Дякуємо, що використовуєте Neverwas!</value>
   </data>
   <data name="p1welcomeSubheading.Text" xml:space="preserve">
     <value>Якщо ця безкоштовна програма з відкритим кодом виявилася корисною, будь ласка, приділіть хвилину, щоб допомогти! Розкажіть про неї друзям, поділіться нею в соціальних мережах, залиште відгук — важлива кожна дрібниця!</value>
@@ -136,7 +136,7 @@
     <value>Є проблеми чи бракує функцій?</value>
   </data>
   <data name="p1FeedbackDesc.Text" xml:space="preserve">
-    <value>Якщо у вас виникли проблеми з BCU або ви хочете запропонувати нову функцію, перейдіть за цими посиланнями:</value>
+    <value>Якщо у вас виникли проблеми з Neverwas або ви хочете запропонувати нову функцію, перейдіть за цими посиланнями:</value>
   </data>
   <data name="buttonSubmitGithub.Text" xml:space="preserve">
     <value>Повідомити на GitHub (потрібен обліковий запис)</value>
@@ -148,10 +148,10 @@
     <value>Хочете допомогти?</value>
   </data>
   <data name="p1HelpDesc.Text" xml:space="preserve">
-    <value>Вам не обов'язково бути програмістом, щоб допомогти! Ви можете зробити пожертву, щоб пришвидшити вихід оновлень, або перекласти BCU на вашу рідну мову. Будь-яка допомога дуже цінується, незалежно від її розміру!</value>
+    <value>Вам не обов'язково бути програмістом, щоб допомогти! Ви можете зробити пожертву, щоб пришвидшити вихід оновлень, або перекласти Neverwas на вашу рідну мову. Будь-яка допомога дуже цінується, незалежно від її розміру!</value>
   </data>
   <data name="buttonTranslate.Text" xml:space="preserve">
-    <value>Перекласти BCU</value>
+    <value>Перекласти Neverwas</value>
   </data>
   <data name="buttonIssues.Text" xml:space="preserve">
     <value>Проблеми на GitHub</value>

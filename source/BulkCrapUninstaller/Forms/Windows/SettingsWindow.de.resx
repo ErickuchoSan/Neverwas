@@ -157,7 +157,7 @@ entfernt werden sollen</value>
   <data name="label7.Text" xml:space="preserve">
     <value>Sie können Befehle angeben, die vor und nach der Deinstallation ausgeführt werden. Eine Zeile entspricht einem Befehl und wird ausgeführt, als hätten Sie das Dialogfeld "Ausführen..." verwendet. 
 
-BCU wartet mit der nächsten Ausführung, bis der aktuell ausgeführte Befehl abgeschlossen ist. </value>
+Neverwas wartet mit der nächsten Ausführung, bis der aktuell ausgeführte Befehl abgeschlossen ist. </value>
   </data>
   <data name="groupBoxExternal.Text" xml:space="preserve">
     <value>Externe Anwendungen</value>
@@ -175,15 +175,15 @@ BCU wartet mit der nächsten Ausführung, bis der aktuell ausgeführte Befehl ab
     <value>Verschiedenes</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>BCUninstaller Einstellungen</value>
+    <value>Neverwas Einstellungen</value>
   </data>
   <data name="tabPageFolders.Text" xml:space="preserve">
     <value>Ordner</value>
   </data>
   <data name="labelProgramFolders.Text" xml:space="preserve">
     <value>Sie können benutzerdefinierte Ordner angeben, in  denen Sie Ihre Anwendungen installiert haben (z.B. D:\Anwendungen).
-Diese Ordner werden von BCU durchsucht, um Deinstallations-Reste und nicht registrierte Anwendungen zu finden.
-Zwar ist es nicht notwendig, aber mit einer Liste dieser Ordner wird BCU besser funktionieren.
+Diese Ordner werden von Neverwas durchsucht, um Deinstallations-Reste und nicht registrierte Anwendungen zu finden.
+Zwar ist es nicht notwendig, aber mit einer Liste dieser Ordner wird Neverwas besser funktionieren.
 Die Standard-Ordner werden immer gescannt. Sie müssen diese nicht in die Liste aufnehmen.
 Verwenden Sie vollständige Verzeichnispfade, ein Pfad pro Zeile. Ungültige Pfade und nicht vorhandene Verzeichnisse werden ignoriert.</value>
   </data>

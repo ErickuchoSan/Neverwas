@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>BCUninstaller'ı kullandığınız için teşekkür ederiz!</value>
+    <value>Neverwas'ı kullandığınız için teşekkür ederiz!</value>
   </data>
   <data name="p1welcomeSubheading.Text" xml:space="preserve">
     <value>Bu ücretsiz açık kaynak aracını yararlı bulduysanız, lütfen yardım için bir dakikanızı ayırmayı düşünün! Arkadaşlarınıza bunu anlatın, sosyal medyada paylaşın, geri bildirim verin - her şey küçük sayılır!</value>
@@ -136,7 +136,7 @@
     <value>Herhangi bir sorun veya eksik özellik var mı?</value>
   </data>
   <data name="p1FeedbackDesc.Text" xml:space="preserve">
-    <value>BCU ile ilgili herhangi bir sorun yaşarsanız veya yeni bir özellik önermek istiyorsanız, lütfen şu bağlantıları kontrol edin:</value>
+    <value>Neverwas ile ilgili herhangi bir sorun yaşarsanız veya yeni bir özellik önermek istiyorsanız, lütfen şu bağlantıları kontrol edin:</value>
   </data>
   <data name="buttonSubmitGithub.Text" xml:space="preserve">
     <value>GitHub'da Gönder (Bir hesaba ihtiyacınız var)</value>
@@ -148,10 +148,10 @@
     <value>Yardım ister misiniz?</value>
   </data>
   <data name="p1HelpDesc.Text" xml:space="preserve">
-    <value>Yardımcı olmak için bir programcı olmanıza gerek yok! Güncellemeleri hızlandırmak veya BCU'yu kendi dilinize çevirmek için bağışta bulunabilirsiniz. Ne kadar küçük olursa olsun tüm yardımlar çok takdir edilir!</value>
+    <value>Yardımcı olmak için bir programcı olmanıza gerek yok! Güncellemeleri hızlandırmak veya Neverwas'yu kendi dilinize çevirmek için bağışta bulunabilirsiniz. Ne kadar küçük olursa olsun tüm yardımlar çok takdir edilir!</value>
   </data>
   <data name="buttonTranslate.Text" xml:space="preserve">
-    <value>BCU'yu Çevir</value>
+    <value>Neverwas'yu Çevir</value>
   </data>
   <data name="buttonIssues.Text" xml:space="preserve">
     <value>GitHub ile ilgili sorunlar</value>

@@ -190,7 +190,7 @@
   <data name="label7.Text" xml:space="preserve">
     <value>你可以在移除前後執行的指令。一行一個指令，執行時就像使用"執行..."視窗一樣。
 
-BCU將等待目前執行的指令完成後再執行下一個指令</value>
+Neverwas將等待目前執行的指令完成後再執行下一個指令</value>
   </data>
   <data name="groupBoxExternal.Text" xml:space="preserve">
     <value>外部應用程式</value>
@@ -267,7 +267,7 @@ BCU將等待目前執行的指令完成後再執行下一個指令</value>
   </data>
   <data name="labelProgramFolders.Text" xml:space="preserve">
     <value>你可以指定安裝應用程式的自訂資料夾(例如
-D:\applications)。BCU將使用這些資料夾來搜尋移除殘留問題、未註冊的應用程式和其他一些內容。雖然沒有必要，但列出這些資料夾可以讓BCU運作流暢。
+D:\applications)。Neverwas將使用這些資料夾來搜尋移除殘留問題、未註冊的應用程式和其他一些內容。雖然沒有必要，但列出這些資料夾可以讓Neverwas運作流暢。
 
 默認的Windows資料夾總是被掃瞄的，不需要將它們包含在此列表中。
 
@@ -289,6 +289,6 @@ D:\applications)。BCU將使用這些資料夾來搜尋移除殘留問題、未�
     <value>其他</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Bulk Crap Uninstaller設定</value>
+    <value>Neverwas設定</value>
   </data>
 </root>

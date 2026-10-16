@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>Cachning kan kraftigt minska söktiderna, men om en applikation ändras kanske inte BCU upptäcker förändringarna. (t.ex. storlek). OBS: För att träda i kraft kan dessa inställningar kräva att BCU startas om.</value>
+    <value>Cachning kan kraftigt minska söktiderna, men om en applikation ändras kanske inte Neverwas upptäcker förändringarna. (t.ex. storlek). OBS: För att träda i kraft kan dessa inställningar kräva att Neverwas startas om.</value>
   </data>
   <data name="checkBoxCerts.Text" xml:space="preserve">
     <value>Cacha resultat från applikationscertifikatskanning</value>

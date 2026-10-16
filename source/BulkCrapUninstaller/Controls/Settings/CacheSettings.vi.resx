@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>Việc lưu bộ nhớ đệm có thể giảm đáng kể thời gian tìm kiếm nhưng nếu một ứng dụng có sự thay đổi thì BCU có thể sẽ không nhận biết được.
-LƯU Ý: Bạn có thể cần phải khởi động lại BCU để các cài đặt này có hiệu lực.</value>
+    <value>Việc lưu bộ nhớ đệm có thể giảm đáng kể thời gian tìm kiếm nhưng nếu một ứng dụng có sự thay đổi thì Neverwas có thể sẽ không nhận biết được.
+LƯU Ý: Bạn có thể cần phải khởi động lại Neverwas để các cài đặt này có hiệu lực.</value>
   </data>
   <data name="checkBoxCerts.Text" xml:space="preserve">
     <value>Lưu bộ nhớ đệm kết quả quét chứng chỉ ứng dụng</value>

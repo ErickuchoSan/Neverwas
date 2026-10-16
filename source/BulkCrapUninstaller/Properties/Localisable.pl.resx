@@ -136,7 +136,7 @@
     <value>Żaden element nie spełnia kryteriów wyszukiwania</value>
   </data>
   <data name="StrExportHeader" xml:space="preserve">
-    <value>Eksport programu BCUninstaller | Wersja | Data | Rozmiar | Rejestr| Typ dezinstalatora | Komenda dezinstalacji | Komenda cichej dezinstalacji | Komentarze</value>
+    <value>Eksport programu Neverwas | Wersja | Data | Rozmiar | Rejestr| Typ dezinstalatora | Komenda dezinstalacji | Komenda cichej dezinstalacji | Komentarze</value>
   </data>
   <data name="StrIsPortable" xml:space="preserve">
     <value>Portable</value>
@@ -194,7 +194,7 @@ Pliki i katalogi będą przenoszone do kosza, można przywrócić je stamtąd.</
     <value>Wyślij feedback</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Message" xml:space="preserve">
-    <value>Chciałbyś wysłać opinię dotyczącą BCU?</value>
+    <value>Chciałbyś wysłać opinię dotyczącą Neverwas?</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Details" xml:space="preserve">
     <value>To zajmie Ci mniej niż minutę, ale znacznie pomoże w rozwoju programu! Wszystkie opinie i komentarze są mile widziane!
@@ -213,7 +213,7 @@ Czekasz na nowe funkcje lub poprawę błędów? Daj mi znać poprzez menu "Pomoc
     <value>Podczas wyszukiwania aktualizacji wystąpił błąd. </value>
   </data>
   <data name="MessageBoxes_UpdateFailed_Details" xml:space="preserve">
-    <value>Upewnij się że BCUninstaller nie jest blokowany przez twojego firewalla i że masz sprawne połączenie z internetem.
+    <value>Upewnij się że Neverwas nie jest blokowany przez twojego firewalla i że masz sprawne połączenie z internetem.
 
 </value>
   </data>
@@ -222,12 +222,12 @@ Czekasz na nowe funkcje lub poprawę błędów? Daj mi znać poprzez menu "Pomoc
     <comment>0 is version number</comment>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Details" xml:space="preserve">
-    <value>BCUninstaller automatycznie ściągnie aktualizację  i zainstaluje ją po restarcie programu.
+    <value>Neverwas automatycznie ściągnie aktualizację  i zainstaluje ją po restarcie programu.
 
 Lista zmian:
 - {0}
 
-Uwaga: Podczas aktualizacji folder "Update" i plik "Update.zip" w folderze BCU zostaną usunięte.</value>
+Uwaga: Podczas aktualizacji folder "Update" i plik "Update.zip" w folderze Neverwas zostaną usunięte.</value>
     <comment>0 is a list of changes separated by "- "</comment>
   </data>
   <data name="MessageBoxes_UninstallMsiGuidMissing_Title" xml:space="preserve">
@@ -301,7 +301,7 @@ Uwaga: Podczas aktualizacji folder "Update" i plik "Update.zip" w folderze BCU z
     <value>Jeśli błąd będzie się powtarzał spróbować zapisać do innego katalogu, na przykład na pulpicie.</value>
   </data>
   <data name="MessageBoxes_GetSystemRestoreDescription" xml:space="preserve">
-    <value>BCUninstaller odinstalowuje {0} aplikacji</value>
+    <value>Neverwas odinstalowuje {0} aplikacji</value>
     <comment>0 is the uninstaller count</comment>
   </data>
   <data name="MessageBoxes_Title_Rename_uninstaller" xml:space="preserve">
@@ -348,13 +348,13 @@ Uwaga: Podczas aktualizacji folder "Update" i plik "Update.zip" w folderze BCU z
     <value>Nie ma nic do wyszukania</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Title" xml:space="preserve">
-    <value>Odinstaluj BCUninstaller</value>
+    <value>Odinstaluj Neverwas</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Message" xml:space="preserve">
-    <value>Czy na pewno chcesz odinstalować BCUninstaller?</value>
+    <value>Czy na pewno chcesz odinstalować Neverwas?</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Details" xml:space="preserve">
-    <value>Jeżeli masz chwilę wstąp na stronę programu (http://klocmansoftware.weebly.com/) i napisz co skłoniło cię do odinstalowania BCU.</value>
+    <value>Jeżeli masz chwilę wstąp na stronę programu (https://github.com/ErickuchoSan/Neverwas/discussions) i napisz co skłoniło cię do odinstalowania Neverwas.</value>
   </data>
   <data name="MessageBoxes_SysRestoreBeginQuestion_Message" xml:space="preserve">
     <value>Czy utworzyć punkt przywracania przed dezinstalacją?</value>
@@ -447,7 +447,7 @@ Pozostawić je w zadaniu i użyć 'głośnych' dezinstalatorów czy całkowicie 
     <value>Przywróć ustawienia domyślne</value>
   </data>
   <data name="MessageBoxes_ResetSettingsConfirmation_Details" xml:space="preserve">
-    <value>Wszystkie ustawienia zostaną utracone na stałe. BCUninstaller będzie musiał ponownie uruchomić się do przeprowadzenia tej akcji.</value>
+    <value>Wszystkie ustawienia zostaną utracone na stałe. Neverwas będzie musiał ponownie uruchomić się do przeprowadzenia tej akcji.</value>
   </data>
   <data name="MessageBoxes_Title_Open_Uninstall_List" xml:space="preserve">
     <value>Otwórz listę dezinstalatorów</value>
@@ -536,7 +536,7 @@ Pozostawić je w zadaniu i użyć 'głośnych' dezinstalatorów czy całkowicie 
     <value>Niektóre ustawienia nie zostaną wprowadzone do momentu ponownego uruchomienia aplikacji.</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Message" xml:space="preserve">
-    <value>Czy chcesz ponownie uruchomić BCU aby zastosować nowe ustawienia?</value>
+    <value>Czy chcesz ponownie uruchomić Neverwas aby zastosować nowe ustawienia?</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Title" xml:space="preserve">
     <value>Zmień ustawienia aplikacji</value>
@@ -763,10 +763,10 @@ Można spróbować wyłączyć wykrywanie kolizji w ustawieniach, ale nie jest t
     <value>Wybierz lokalizację, w której chcesz zapisać kopię zapasową. Zostanie utworzony nowy katalog.</value>
   </data>
   <data name="NewsPopup_UpdatedTitle" xml:space="preserve">
-    <value>BCU został zaktualizowany do wersji v{0}!</value>
+    <value>Neverwas został zaktualizowany do wersji v{0}!</value>
   </data>
   <data name="NewsPopup_FirstStartTitle" xml:space="preserve">
-    <value>Witamy w wersji BCU v{0}!</value>
+    <value>Witamy w wersji Neverwas v{0}!</value>
   </data>
   <data name="UninstallProgressWindow_StatusPuttingToSleepInSeconds" xml:space="preserve">
     <value>Uśpienie komputera za {0} sekund. Jeśli chcesz przerwać tę operację, odznacz pole wyboru. </value>

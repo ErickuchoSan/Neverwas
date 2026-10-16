@@ -191,7 +191,7 @@
   <data name="label7.Text" xml:space="preserve">
     <value>アンインストールの前後に実行するコマンドを指定できます。1行が1コマンドに相当し、「実行...」ダイアログを使用したかのように実行されます。
 
-現在実行中のコマンドが完了するまでBCUは次のコマンドの実行を待ちます。</value>
+現在実行中のコマンドが完了するまでNeverwasは次のコマンドの実行を待ちます。</value>
   </data>
   <data name="groupBoxExternal.Text" xml:space="preserve">
     <value>外部アプリケーション</value>
@@ -267,7 +267,7 @@
     <value>カスタムインストールフォルダーを自動的に検出しようとします。</value>
   </data>
   <data name="labelProgramFolders.Text" xml:space="preserve">
-    <value>アプリケーションをインストールするカスタムフォルダー（例：D:\Applications）を指定できます。これらのフォルダーは、BCUがアンインストールの残骸や未登録アプリケーション、その他のいくつかの項目を検索する際に使用されます。必須ではありませんが、これらのフォルダーのリストを提供することで、BCUの機能が向上します。
+    <value>アプリケーションをインストールするカスタムフォルダー（例：D:\Applications）を指定できます。これらのフォルダーは、Neverwasがアンインストールの残骸や未登録アプリケーション、その他のいくつかの項目を検索する際に使用されます。必須ではありませんが、これらのフォルダーのリストを提供することで、Neverwasの機能が向上します。
 
 デフォルトのWindowsフォルダーは常にスキャンされるため、このリストに含める必要はありません。
 
@@ -289,6 +289,6 @@
     <value>その他</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Bulk Crap Uninstaller 設定</value>
+    <value>Neverwas 設定</value>
   </data>
 </root>

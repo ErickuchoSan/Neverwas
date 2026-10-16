@@ -139,7 +139,7 @@
     <value>Hoàn tất</value>
   </data>
   <data name="p5finishContact.Text" xml:space="preserve">
-    <value>Giờ đây bạn đã có thể bắt đầu sử dụng BCUninstaller. Nếu bạn có bất kỳ câu hỏi nào hoặc muốn đề xuất tính năng mới, hãy truy cập liên kết bên dưới.</value>
+    <value>Giờ đây bạn đã có thể bắt đầu sử dụng Neverwas. Nếu bạn có bất kỳ câu hỏi nào hoặc muốn đề xuất tính năng mới, hãy truy cập liên kết bên dưới.</value>
   </data>
   <data name="p5LinkContact.Text" xml:space="preserve">
     <value>Mở biểu mẫu liên hệ</value>
@@ -157,7 +157,7 @@
     <value>Truy cập mạng</value>
   </data>
   <data name="p4netDesc.Text" xml:space="preserve">
-    <value>BCUninstaller có thể cố gắng kết nối Internet vì các lý do sau:</value>
+    <value>Neverwas có thể cố gắng kết nối Internet vì các lý do sau:</value>
   </data>
   <data name="p4netDesc1.Text" xml:space="preserve">
     <value>● Để kiểm tra các bản cập nhật.</value>
@@ -172,7 +172,7 @@
     <value>● Để tải về và tải lên các đánh giá ứng dụng.</value>
   </data>
   <data name="p4netErrors.Text" xml:space="preserve">
-    <value>Mỗi khi có lỗi xảy ra, bạn sẽ được hỏi có muốn gửi báo cáo lỗi hay không. Bạn có thể kiểm tra dữ liệu nào đang được gửi bằng cách xem các tệp XML tương ứng trong thư mục của BCUninstaller. Dữ liệu được gửi sẽ không bị chia sẻ với bất kỳ bên thứ ba nào.</value>
+    <value>Mỗi khi có lỗi xảy ra, bạn sẽ được hỏi có muốn gửi báo cáo lỗi hay không. Bạn có thể kiểm tra dữ liệu nào đang được gửi bằng cách xem các tệp XML tương ứng trong thư mục của Neverwas. Dữ liệu được gửi sẽ không bị chia sẻ với bất kỳ bên thứ ba nào.</value>
   </data>
   <data name="checkBoxUpdateSearch.Text" xml:space="preserve">
     <value>Tự động kiểm tra các bản cập nhật khi khởi động ứng dụng</value>
@@ -184,7 +184,7 @@
     <value>Tự động gửi số liệu thống kê sử dụng ẩn danh</value>
   </data>
   <data name="p4netUsageAdd.Text" xml:space="preserve">
-    <value>Việc gửi các số liệu thống kê này sẽ giúp cải thiện BCUninstaller tốt hơn.</value>
+    <value>Việc gửi các số liệu thống kê này sẽ giúp cải thiện Neverwas tốt hơn.</value>
   </data>
   <data name="checkBoxRatings.Text" xml:space="preserve">
     <value>Bật tính năng hiển thị đánh giá ứng dụng từ người dùng</value>
@@ -199,7 +199,7 @@
     <value>Trình gỡ cài đặt bị hỏng hoặc bị mất</value>
   </data>
   <data name="pCorViewInvalid.Text" xml:space="preserve">
-    <value>Trong một số trường hợp, các trình gỡ cài đặt có thể bị hỏng, khiến chúng không thể gỡ cài đặt theo cách thông thường. BCU có thể gỡ bỏ các mục này một cách dễ dàng bằng tùy chọn "Gỡ cài đặt thủ công".</value>
+    <value>Trong một số trường hợp, các trình gỡ cài đặt có thể bị hỏng, khiến chúng không thể gỡ cài đặt theo cách thông thường. Neverwas có thể gỡ bỏ các mục này một cách dễ dàng bằng tùy chọn "Gỡ cài đặt thủ công".</value>
   </data>
   <data name="checkBoxInvalidTest.Text" xml:space="preserve">
     <value>Đánh dấu các trình gỡ cài đặt không hợp lệ</value>
@@ -224,7 +224,7 @@ Nếu không tìm thấy trình gỡ cài đặt gốc, bạn sẽ phải sử d
     <value>Dành cho người dùng nâng cao</value>
   </data>
   <data name="p3advDesc.Text" xml:space="preserve">
-    <value>Mặc dù BCUninstaller có thể được sử dụng như một trình gỡ cài đặt cơ bản, nhưng hầu hết các chức năng của nó đều hướng đến người dùng chuyên sâu. Hãy cẩn thận khi sử dụng!</value>
+    <value>Mặc dù Neverwas có thể được sử dụng như một trình gỡ cài đặt cơ bản, nhưng hầu hết các chức năng của nó đều hướng đến người dùng chuyên sâu. Hãy cẩn thận khi sử dụng!</value>
   </data>
   <data name="p3advSyscompTitle.Text" xml:space="preserve">
     <value>Thành phần hệ thống</value>
@@ -285,7 +285,7 @@ Nếu không tìm thấy trình gỡ cài đặt gốc, bạn sẽ phải sử d
 Cảnh báo: Quá trình xác minh có thể mất nhiều thời gian.</value>
   </data>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>Chào mừng bạn đến với BCUninstaller!</value>
+    <value>Chào mừng bạn đến với Neverwas!</value>
   </data>
   <data name="p1welcomeSubheading.Text" xml:space="preserve">
     <value>Trình hướng dẫn này sẽ giúp bạn xem qua tổng quan cũng như là cấu hình ứng dụng.</value>
@@ -294,23 +294,22 @@ Cảnh báo: Quá trình xác minh có thể mất nhiều thời gian.</value>
     <value>Ngôn ngữ đã chọn</value>
   </data>
   <data name="p1languageDesc.Text" xml:space="preserve">
-    <value>Bạn có thể bắt buộc BCUninstaller sử dụng một ngôn ngữ cụ thể nếu ngôn ngữ mặc định chưa chính xác. Ứng dụng sẽ cần khởi động lại để áp dụng ngôn ngữ mới.</value>
+    <value>Bạn có thể bắt buộc Neverwas sử dụng một ngôn ngữ cụ thể nếu ngôn ngữ mặc định chưa chính xác. Ứng dụng sẽ cần khởi động lại để áp dụng ngôn ngữ mới.</value>
   </data>
   <data name="buttonLanguageApply.Text" xml:space="preserve">
     <value>Chấp nhận</value>
   </data>
   <data name="p1languageExtradetails.Text" xml:space="preserve">
-    <value>Nếu bạn sẵn lòng giúp dịch thuật BCUninstaller sang ngôn ngữ mẹ đẻ của mình, hãy nhấp vào liên kết bên dưới để liên hệ với tôi. Mọi sự giúp đỡ đều rất đáng trân trọng!</value>
+    <value>Nếu bạn sẵn lòng giúp dịch thuật Neverwas sang ngôn ngữ mẹ đẻ của mình, hãy nhấp vào liên kết bên dưới để liên hệ với tôi. Mọi sự giúp đỡ đều rất đáng trân trọng!</value>
   </data>
   <data name="p1linkLabelContact.Text" xml:space="preserve">
     <value>Mở biểu mẫu liên hệ</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>ulk crap
-uninstaller</value>
+    <value>everwas</value>
     <comment>The missing B is in an image next to the text</comment>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Chào mừng đến với BCUninstaller!</value>
+    <value>Chào mừng đến với Neverwas!</value>
   </data>
 </root>

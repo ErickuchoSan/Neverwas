@@ -1,6 +1,7 @@
 ﻿/*
     Copyright (c) 2017 Marcin Szeniak (https://github.com/Klocman/)
     Apache License Version 2.0
+    Modified by Erick Bores, 2026 (Neverwas)
 */
 
 using System;
@@ -58,7 +59,8 @@ namespace BulkCrapUninstaller
         /// <summary>
         /// Don't use settings
         /// </summary>
-        public static Uri ConnectionString { get; } = Debugger.IsAttached ? new Uri(@"http://localhost:7721") : new Uri(@"http://bugsklocman.ddns.net:7721");
+        // Neverwas: no home server. Kept so upstream call sites compile; requests never leave the process.
+        public static Uri ConnectionString { get; } = new Uri(@"http://localhost.invalid/");
 
         public static string InstalledRegistryKeyName
         {
@@ -94,7 +96,7 @@ namespace BulkCrapUninstaller
         /// </summary>
         internal static void PrepareSettings()
         {
-            const string exeName = "BCUninstaller";
+            const string exeName = "Neverwas";
 
             IsAfterUpgrade = false;
             try
@@ -282,7 +284,7 @@ namespace BulkCrapUninstaller
         {
             get
             {
-                var cl = new HttpClient();
+                var cl = new HttpClient(new Functions.Tools.OfflineHttpHandler());
                 cl.BaseAddress = ConnectionString;
                 return cl;
             }

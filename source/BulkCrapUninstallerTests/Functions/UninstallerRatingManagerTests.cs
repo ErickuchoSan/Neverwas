@@ -37,6 +37,8 @@ namespace BulkCrapUninstallerTests.Functions
         [TestMethod]
         public void GetRatingTest()
         {
+            Assert.Inconclusive("Neverwas has no ratings server; this test needs the upstream one");
+
             _manager.FetchRatings();
             var rating = _manager.GetRating(TestEntryNames[0]);
 
@@ -47,6 +49,8 @@ namespace BulkCrapUninstallerTests.Functions
         [TestMethod]
         public void SetMyRatingTest()
         {
+            Assert.Inconclusive("Neverwas has no ratings server; this test needs the upstream one");
+
             _manager.FetchRatings();
 
             try
@@ -80,6 +84,8 @@ namespace BulkCrapUninstallerTests.Functions
         [TestMethod]
         public void SerializeDeserializeCasheTest()
         {
+            Assert.Inconclusive("Neverwas has no ratings server; this test needs the upstream one");
+
             _manager.FetchRatings();
             var count = _manager.RemoteRatingCount + _manager.UserRatingCount;
             if (count == 0)

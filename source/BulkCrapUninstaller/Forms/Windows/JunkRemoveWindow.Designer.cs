@@ -67,7 +67,7 @@ namespace BulkCrapUninstaller.Forms
             // exportDialog
             // 
             exportDialog.DefaultExt = "txt";
-            exportDialog.FileName = "New BCUninstaller Junk Export";
+            exportDialog.FileName = "New Neverwas Junk Export";
             resources.ApplyResources(exportDialog, "exportDialog");
             exportDialog.RestoreDirectory = true;
             exportDialog.FileOk += exportDialog_FileOk;

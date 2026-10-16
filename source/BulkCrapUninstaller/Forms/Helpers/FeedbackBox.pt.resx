@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>Obrigado por usar o BCUninstaller! </value>
+    <value>Obrigado por usar o Neverwas! </value>
   </data>
   <data name="p1welcomeSubheading.Text" xml:space="preserve">
     <value>Se achou útil esta ferramenta gratuita de código aberto, por favor pondere arranjar um minuto para ajudar! Diga aos seus amigos, compartilhe-o nas redes sociais, envie comentários – tudo conta!</value>
@@ -138,7 +138,7 @@
   <data name="p1FeedbackDesc.Text" xml:space="preserve">
     <value>
 105/5000
-Se teve um problema com o BCU, ou se quiser sugerir um novo recurso, consulte estes links:</value>
+Se teve um problema com o Neverwas, ou se quiser sugerir um novo recurso, consulte estes links:</value>
   </data>
   <data name="buttonSubmitGithub.Text" xml:space="preserve">
     <value>Envie para GitHub (Necessita de uma conta)</value>
@@ -150,10 +150,10 @@ Se teve um problema com o BCU, ou se quiser sugerir um novo recurso, consulte es
     <value>Quer ajudar?</value>
   </data>
   <data name="p1HelpDesc.Text" xml:space="preserve">
-    <value>Não tem de ser um programador para ajudar! Pode doar para acelerar as actualizações ou traduzir o BCU para o seu idioma pátrio. Toda a ajuda é bem-vinda, por mais pequena que seja! </value>
+    <value>Não tem de ser um programador para ajudar! Pode doar para acelerar as actualizações ou traduzir o Neverwas para o seu idioma pátrio. Toda a ajuda é bem-vinda, por mais pequena que seja! </value>
   </data>
   <data name="buttonTranslate.Text" xml:space="preserve">
-    <value>Traduzir o BCU</value>
+    <value>Traduzir o Neverwas</value>
   </data>
   <data name="buttonIssues.Text" xml:space="preserve">
     <value>Problemas com o GitHub</value>

@@ -290,7 +290,7 @@
     <value>0</value>
   </data>
   <data name="labelInfo2.Text" xml:space="preserve">
-    <value>The initial order depends on your uninstall settings, but it can be changed by dragging the items. Note: BCU can change the order if concurrent uninstallation is enabled.</value>
+    <value>The initial order depends on your uninstall settings, but it can be changed by dragging the items. Note: Neverwas can change the order if concurrent uninstallation is enabled.</value>
   </data>
   <data name="&gt;&gt;labelInfo2.Name" xml:space="preserve">
     <value>labelInfo2</value>

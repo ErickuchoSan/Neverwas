@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>Danke für die Benutzung von BCUninstaller!</value>
+    <value>Danke für die Benutzung von Neverwas!</value>
   </data>
   <data name="p1welcomeSubheading.Text" xml:space="preserve">
     <value>Wenn du dieses Open Source Tool nutzvoll findest, erzähle deinen Freunden davon, teile es auf den Sozialen Medien. Jedes bißchen Hilfe zählt.</value>
@@ -136,7 +136,7 @@
     <value>Probleme oder fehlende Funktionen?</value>
   </data>
   <data name="p1FeedbackDesc.Text" xml:space="preserve">
-    <value>Wenn Sie irgendwelche Probleme mit BCU hatten oder eine Verbesserung haben nutzen sie diese Links:</value>
+    <value>Wenn Sie irgendwelche Probleme mit Neverwas hatten oder eine Verbesserung haben nutzen sie diese Links:</value>
   </data>
   <data name="buttonSubmitGithub.Text" xml:space="preserve">
     <value>An GitHub senden (Account benötigt)</value>
@@ -151,7 +151,7 @@
     <value>Du brauchst kein Programmierer zu sein um zu helfen. Du kannst Spenden oder in deine Sprache übersetzen. Jede Hilfe ist sehr willkommen, egal wie wenig.</value>
   </data>
   <data name="buttonTranslate.Text" xml:space="preserve">
-    <value>BCU übersetzen</value>
+    <value>Neverwas übersetzen</value>
   </data>
   <data name="buttonIssues.Text" xml:space="preserve">
     <value>Probleme mit GitHub</value>
