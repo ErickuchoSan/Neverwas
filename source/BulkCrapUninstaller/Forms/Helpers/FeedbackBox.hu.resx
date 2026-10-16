@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>Köszönjük, hogy a BCUninstaller-t használja!</value>
+    <value>Köszönjük, hogy a Neverwas-t használja!</value>
   </data>
   <data name="p1welcomeSubheading.Text" xml:space="preserve">
     <value>Ha ezt az ingyenes nyílt forráskódú eszközt hasznosnak találta, szánjon egy percet az elterjesztésére! Ajánlja a barátainak a közösségi médiákban. A legkisebb segítség is sokat jelent nekünk!</value>
@@ -133,7 +133,7 @@
     <value>Szeretne segíteni nekünk?</value>
   </data>
   <data name="p1HelpDesc.Text" xml:space="preserve">
-    <value>Nem kell programozónak lennie, hogy segítsen! Hozzájárulhat a frissítések felgyorsításához, vagy lefordíthatja a BCU-t a saját nyelvére. Bármilyen kicsi segítséget is szívesen veszünk!</value>
+    <value>Nem kell programozónak lennie, hogy segítsen! Hozzájárulhat a frissítések felgyorsításához, vagy lefordíthatja a Neverwas-t a saját nyelvére. Bármilyen kicsi segítséget is szívesen veszünk!</value>
   </data>
   <data name="buttonSendFeedback2.Text" xml:space="preserve">
     <value>Visszajelzés</value>
@@ -151,7 +151,7 @@
     <value>Visszajelzés</value>
   </data>
   <data name="buttonTranslate.Text" xml:space="preserve">
-    <value>BCU lefordítása</value>
+    <value>Neverwas lefordítása</value>
   </data>
   <data name="buttonIssues.Text" xml:space="preserve">
     <value>GitHub kérdés</value>

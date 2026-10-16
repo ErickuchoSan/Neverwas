@@ -29,7 +29,7 @@ namespace BulkCrapUninstaller
                         return false;
                     try
                     {
-                        return x.GetFiles("BCUninstaller.resources.dll", SearchOption.TopDirectoryOnly).Any();
+                        return x.GetFiles("Neverwas.resources.dll", SearchOption.TopDirectoryOnly).Any();
                     }
                     catch (SystemException e)
                     {

@@ -27,19 +27,19 @@ namespace BCU_console
     {
         private static void ShowHelp()
         {
-            Console.WriteLine(@"BCU-console [help | /?] - Show help (this screen)
+            Console.WriteLine(@"neverwas-cli [help | /?] - Show help (this screen)
 
-BCU-console uninstall [drive:][path]filename [/Q] [/U] [/V] [/N] [/J=<Level>] - Uninstall applications.
+neverwas-cli uninstall [drive:][path]filename [/Q] [/U] [/V] [/N] [/J=<Level>] - Uninstall applications.
  [drive:][path]	– Specifies drive and directory of the uninstall list.
  filename       – Specifies filename of the .bcul uninstall list that contains information about
                   what applications to uninstall.
 
-BCU-console export [drive:][path]filename [/Q] [/U] [/V] [/F=<Format>] - Export installed application data to a file.
+neverwas-cli export [drive:][path]filename [/Q] [/U] [/V] [/F=<Format>] - Export installed application data to a file.
  [drive:][path]	– Specifies drive and directory to where the export should be saved.
  filename       – Specifies filename of the file to save the exported application information to
                   (xml by default, json when /F=json is passed).
 
-BCU-console list [/Q] [/U] [/V] [/F=<Format>] - Display a list of installed applications.
+neverwas-cli list [/Q] [/U] [/V] [/F=<Format>] - Display a list of installed applications.
 
 Switches:
  /Q             - Use quiet uninstallers wherever possible (by default only use loud).

@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<OutputType>WinExe</OutputType>
-		<AssemblyName>BCUninstaller</AssemblyName>
+		<AssemblyName>Neverwas</AssemblyName>
 		
-		<Product>Bulk Crap Uninstaller</Product>
+		<Product>Neverwas</Product>
 		<AssemblyTitle>Remove large amounts of unwanted applications quickly</AssemblyTitle>
 
 		<ApplicationIcon>Resources\logo.ico</ApplicationIcon>

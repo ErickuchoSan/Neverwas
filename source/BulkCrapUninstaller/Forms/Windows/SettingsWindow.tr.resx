@@ -187,7 +187,7 @@
   <data name="label7.Text" xml:space="preserve">
     <value>Kaldırma işleminden önce ve sonra çalışacak komutları belirtebilirsiniz. Bir satır bir komuta eşittir ve "Çalıştır ..." iletişim kutusunu kullanmış gibi yürütülür.
 
-BCU, o sırada çalışan komutun bir sonraki çalıştırılmadan önce tamamlanmasını bekleyecektir.</value>
+Neverwas, o sırada çalışan komutun bir sonraki çalıştırılmadan önce tamamlanmasını bekleyecektir.</value>
   </data>
   <data name="button2.Text" xml:space="preserve">
     <value>&amp;Kapat</value>
@@ -269,7 +269,7 @@ BCU, o sırada çalışan komutun bir sonraki çalıştırılmadan önce tamamla
     <value>Özel yükleme klasörlerini otomatik olarak algılamaya çalışın</value>
   </data>
   <data name="labelProgramFolders.Text" xml:space="preserve">
-    <value>Uygulamalarınızı yüklediğiniz özel klasörleri belirtebilirsiniz (ör. D: \ Uygulamalar). Bu klasörler BCU tarafından kaldırım artıkları, kayıt dışı uygulamalar ve birkaç başka şey aramak için kullanılacaktır. Gerekli olmasa da, bu klasörlerin bir listesi BCU'nun daha iyi çalışmasına izin verecektir.</value>
+    <value>Uygulamalarınızı yüklediğiniz özel klasörleri belirtebilirsiniz (ör. D: \ Uygulamalar). Bu klasörler Neverwas tarafından kaldırım artıkları, kayıt dışı uygulamalar ve birkaç başka şey aramak için kullanılacaktır. Gerekli olmasa da, bu klasörlerin bir listesi Neverwas'nun daha iyi çalışmasına izin verecektir.</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Toplu Düzeltme Kaldırıcı Ayarları</value>

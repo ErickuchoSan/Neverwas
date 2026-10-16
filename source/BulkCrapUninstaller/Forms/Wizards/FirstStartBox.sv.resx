@@ -139,7 +139,7 @@
     <value>Slutför</value>
   </data>
   <data name="p5finishContact.Text" xml:space="preserve">
-    <value>Nu kan du börja använda BCUninstaller. Om du har några frågor eller vill föreslå en ny funktion, besök länken nedan.</value>
+    <value>Nu kan du börja använda Neverwas. Om du har några frågor eller vill föreslå en ny funktion, besök länken nedan.</value>
   </data>
   <data name="p5LinkContact.Text" xml:space="preserve">
     <value>Öppna kontaktformuläret</value>
@@ -157,7 +157,7 @@
     <value>Nätverksåtkomst</value>
   </data>
   <data name="p4netDesc.Text" xml:space="preserve">
-    <value>BCUninstaller kan försöka ansluta till internet av följande skäl:</value>
+    <value>Neverwas kan försöka ansluta till internet av följande skäl:</value>
   </data>
   <data name="p4netDesc1.Text" xml:space="preserve">
     <value>● För att söka efter uppdateringar.</value>
@@ -172,7 +172,7 @@
     <value>● För att hämta och ladda upp appbetyg</value>
   </data>
   <data name="p4netErrors.Text" xml:space="preserve">
-    <value>Varje gång ett fel inträffar kommer du att bli ombedd att rapportera det. Du kan kontrollera vilka data som skickas i fel- och användningsrapporter genom att inspektera deras respektive XML-filer i BCUninstallers mapp. Uppladdad data delas inte med några tredje parter.</value>
+    <value>Varje gång ett fel inträffar kommer du att bli ombedd att rapportera det. Du kan kontrollera vilka data som skickas i fel- och användningsrapporter genom att inspektera deras respektive XML-filer i Neverwass mapp. Uppladdad data delas inte med några tredje parter.</value>
   </data>
   <data name="checkBoxUpdateSearch.Text" xml:space="preserve">
     <value>Sök efter uppdateringar automatiskt vid varje uppstart</value>
@@ -184,7 +184,7 @@
     <value>Skicka anonym användningsstatistik automatiskt</value>
   </data>
   <data name="p4netUsageAdd.Text" xml:space="preserve">
-    <value>Att skicka denna statistik hjälper till att förbättra BCUninstaller.</value>
+    <value>Att skicka denna statistik hjälper till att förbättra Neverwas.</value>
   </data>
   <data name="checkBoxRatings.Text" xml:space="preserve">
     <value>Aktivera användarbetyg för appar</value>
@@ -199,7 +199,7 @@
     <value>Korrupta eller saknade avinstallationsprogram</value>
   </data>
   <data name="pCorViewInvalid.Text" xml:space="preserve">
-    <value>I vissa fall kan avinstallationsprogram bli korrupta, vilket gör dem omöjliga att avinstallera. BCUninstaller kan ta bort dessa poster med hjälp av alternativet "Avinstallera manuellt".</value>
+    <value>I vissa fall kan avinstallationsprogram bli korrupta, vilket gör dem omöjliga att avinstallera. Neverwas kan ta bort dessa poster med hjälp av alternativet "Avinstallera manuellt".</value>
   </data>
   <data name="checkBoxInvalidTest.Text" xml:space="preserve">
     <value>Märk ogiltiga avinstallationsprogram</value>
@@ -224,7 +224,7 @@ Om det ursprungliga avinstallationsprogrammet inte hittas måste du använda alt
     <value>Avancerade användare</value>
   </data>
   <data name="p3advDesc.Text" xml:space="preserve">
-    <value>Även om BCUninstaller kan användas som en grundläggande avinstallerare, är de flesta av dess funktioner riktade mot avancerade användare. Använd med försiktighet!</value>
+    <value>Även om Neverwas kan användas som en grundläggande avinstallerare, är de flesta av dess funktioner riktade mot avancerade användare. Använd med försiktighet!</value>
   </data>
   <data name="p3advSyscompTitle.Text" xml:space="preserve">
     <value>Systemkomponenter</value>
@@ -285,7 +285,7 @@ Om det ursprungliga avinstallationsprogrammet inte hittas måste du använda alt
 Varning: Verifiering kan ta lång tid.</value>
   </data>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>Välkommen till BCUninstaller!</value>
+    <value>Välkommen till Neverwas!</value>
   </data>
   <data name="p1welcomeSubheading.Text" xml:space="preserve">
     <value>Den här guiden kommer att ge dig en snabb översikt och hjälpa dig att konfigurera appen.</value>
@@ -294,13 +294,13 @@ Varning: Verifiering kan ta lång tid.</value>
     <value>Språkval</value>
   </data>
   <data name="p1languageDesc.Text" xml:space="preserve">
-    <value>Du kan tvinga BCUninstaller att använda en specifik språkversion om standardspråket är felaktigt. En omstart kommer att utföras för att tillämpa det nya språket.</value>
+    <value>Du kan tvinga Neverwas att använda en specifik språkversion om standardspråket är felaktigt. En omstart kommer att utföras för att tillämpa det nya språket.</value>
   </data>
   <data name="buttonLanguageApply.Text" xml:space="preserve">
     <value>Verkställ</value>
   </data>
   <data name="p1languageExtradetails.Text" xml:space="preserve">
-    <value>Om du är villig att hjälpa till med att översätta BCUninstaller till ditt språk, klicka på länken nedan för att kontakta mig. All hjälp uppskattas mycket!</value>
+    <value>Om du är villig att hjälpa till med att översätta Neverwas till ditt språk, klicka på länken nedan för att kontakta mig. All hjälp uppskattas mycket!</value>
   </data>
   <data name="p1linkLabelContact.Text" xml:space="preserve">
     <value>Öppna kontaktformuläret</value>
@@ -311,6 +311,6 @@ uninstaller</value>
     <comment>The missing B is in an image next to the text</comment>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Välkommen till BCUninstaller</value>
+    <value>Välkommen till Neverwas</value>
   </data>
 </root>

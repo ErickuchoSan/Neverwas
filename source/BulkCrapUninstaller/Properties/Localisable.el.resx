@@ -136,7 +136,7 @@
     <value>Δεν υπάρχουν καταχωρήσεις που να ταιριάζουν με το κριτήριο αναζήτησής σας.</value>
   </data>
   <data name="StrExportHeader" xml:space="preserve">
-    <value>Εξαγωγή BCUninstaller
+    <value>Εξαγωγή Neverwas
 Εκδότης | Έκδοση | Ημερομηνία | Μέγεθος | Μητρώο | Τύπος απεγκαταστάτη | Κείμενο απεγκατάστασης | Κείμενο σιωπηρής απεγκατάστασης | Σχόλια</value>
   </data>
   <data name="SysRestoreGenericError" xml:space="preserve">
@@ -182,7 +182,7 @@
     <value>Υποβολή σχολίων</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Message" xml:space="preserve">
-    <value>Θέλετε να στείλετε σχόλια σχετικά με το BCU ?</value>
+    <value>Θέλετε να στείλετε σχόλια σχετικά με το Neverwas ?</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Details" xml:space="preserve">
     <value>Αυτό θα διαρκέσει ένα λεπτό αλλά θα βοηθήσει πολύ την ανάπτυξη ! Όλα τα σχόλια εκτιμούνται, είτε αναφορά σφάλματος, είτε αίτημα νέας δυνατότητας ή απλά ευχαριστήρια !
@@ -202,7 +202,7 @@
     <value>Προέκυψε ένα σφάλμα κατά τον έλεγχο για ενημερώσεις</value>
   </data>
   <data name="MessageBoxes_UpdateFailed_Details" xml:space="preserve">
-    <value>Σιγουρευτείτε ότι το BCUninstaller δεν είναι μπλοκαρισμένο από το τείχος προστασίας σας και ότι είστε συνδεδεμένοι στο internet.</value>
+    <value>Σιγουρευτείτε ότι το Neverwas δεν είναι μπλοκαρισμένο από το τείχος προστασίας σας και ότι είστε συνδεδεμένοι στο internet.</value>
   </data>
   <data name="MessageBoxes_UninstallMsiGuidMissing_Title" xml:space="preserve">
     <value>Απεγκατάσταση με χρήση Msi</value>
@@ -296,12 +296,12 @@
     <comment>0 is version number</comment>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Details" xml:space="preserve">
-    <value>Το BCUninstaller θα κατεβάζει αυτόματα την ενημέρωση και θα την εφαρμόζει μετά από μία επανεκκίνηση. Παρακαλώ σημειώστε ότι μπορεί να χάσετε τις ρυθμίσεις σας κατά την διαδικασία.
+    <value>Το Neverwas θα κατεβάζει αυτόματα την ενημέρωση και θα την εφαρμόζει μετά από μία επανεκκίνηση. Παρακαλώ σημειώστε ότι μπορεί να χάσετε τις ρυθμίσεις σας κατά την διαδικασία.
 
 Αναφοράαλλαγών:
 - {0}
 
-Προειδοποίηση: Κατά τη διάρξεια της ενημέρωσης ο φάκελος "Update" και το αρχείο "Update.zip" μέσα στον κατάλογο του BCU θα διαγραφεί.</value>
+Προειδοποίηση: Κατά τη διάρξεια της ενημέρωσης ο φάκελος "Update" και το αρχείο "Update.zip" μέσα στον κατάλογο του Neverwas θα διαγραφεί.</value>
     <comment>0 is a list of changes separated by "- "</comment>
   </data>
   <data name="Str64Bit" xml:space="preserve">
@@ -313,7 +313,7 @@
     <comment>keep space in front</comment>
   </data>
   <data name="MessageBoxes_GetSystemRestoreDescription" xml:space="preserve">
-    <value>Το BCUninstaller απεγκαθιστά {0) εφαρμογή/ες</value>
+    <value>Το Neverwas απεγκαθιστά {0) εφαρμογή/ες</value>
     <comment>0 is the uninstaller count</comment>
   </data>
   <data name="MessageBoxes_InvalidNewEntryName_Details" xml:space="preserve">
@@ -342,13 +342,13 @@
     <value>Τίποτα για αναζήτηση</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Title" xml:space="preserve">
-    <value>Απεγκατάσταση του BCUninstaller</value>
+    <value>Απεγκατάσταση του Neverwas</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Message" xml:space="preserve">
-    <value>Θέλετε σίγουρα να απεγκαταστήσετε το BCUninstaller ?</value>
+    <value>Θέλετε σίγουρα να απεγκαταστήσετε το Neverwas ?</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Details" xml:space="preserve">
-    <value>Λυπάμαι που φεύγετε ! Αν έχετε 1-2 λεπτά παρακαλώ γράψτε δύο λέξεις γιατί απεγκαθιστάται το BCU στο site μου (http://klocmansoftware.weebly.com/). Θα κάνω ό,τι περνάει από το χέρι μου για να διορθώσω τυχόν υπαρκτά προβλήματα.</value>
+    <value>Λυπάμαι που φεύγετε ! Αν έχετε 1-2 λεπτά παρακαλώ γράψτε δύο λέξεις γιατί απεγκαθιστάται το Neverwas στο site μου (https://github.com/ErickuchoSan/Neverwas/discussions). Θα κάνω ό,τι περνάει από το χέρι μου για να διορθώσω τυχόν υπαρκτά προβλήματα.</value>
   </data>
   <data name="MessageBoxes_SysRestoreBeginQuestion_Message" xml:space="preserve">
     <value>Θέλετε να δημιουργήσετε ένα σημείο επαναφοράς πριν συνεχίσετε ?</value>
@@ -439,7 +439,7 @@
     <value>Επαναφορά των προεπιλεγμένων ρυθμίσεων</value>
   </data>
   <data name="MessageBoxes_ResetSettingsConfirmation_Details" xml:space="preserve">
-    <value>Όλες οι ρυθμίσεις σας θα χαθούν οριστικά. Το BCUninstaller θα επανεκκινηθεί για να ολοκληρωθεί αυτή η ενέργεια.</value>
+    <value>Όλες οι ρυθμίσεις σας θα χαθούν οριστικά. Το Neverwas θα επανεκκινηθεί για να ολοκληρωθεί αυτή η ενέργεια.</value>
   </data>
   <data name="MessageBoxes_Title_Open_Uninstall_List" xml:space="preserve">
     <value>Άνοιγμα Λίστας Απεγκατάστασης</value>
@@ -528,7 +528,7 @@
     <value>Κάποιες ρυθμίσεις δεν θα εφαρμοστούν μέχρι να επανεκκινηθεί η εφαρμογή.</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Message" xml:space="preserve">
-    <value>Θέλετε να επανεκκινηθεί το BCU για να εφαρμοστούν οι νέες ρυθμίσεις ?</value>
+    <value>Θέλετε να επανεκκινηθεί το Neverwas για να εφαρμοστούν οι νέες ρυθμίσεις ?</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Title" xml:space="preserve">
     <value>Αλλαγή ρυθμίσεων εφαρμογής</value>
@@ -751,10 +751,10 @@ The lists are separated by a single newline.</comment>
     <value>Επιλέξτε που θα αποθηκευτεί το αντίγραφο ασφαλείας. Ένας νέος κατάλογος θα δημιουργηθεί.</value>
   </data>
   <data name="NewsPopup_UpdatedTitle" xml:space="preserve">
-    <value>To BCU ενημερώθηκε στην v{0} !</value>
+    <value>To Neverwas ενημερώθηκε στην v{0} !</value>
   </data>
   <data name="NewsPopup_FirstStartTitle" xml:space="preserve">
-    <value>Καλωσήρθατε στο BCU έκδοση {0} !</value>
+    <value>Καλωσήρθατε στο Neverwas έκδοση {0} !</value>
   </data>
   <data name="UninstallProgressWindow_StatusPuttingToSleepInSeconds" xml:space="preserve">
     <value>Το PC θα τεθεί σε αναστολή σε {0} δευτ. Αποεπιλέξτε το πλαίσιο επιλογής για ακύρωση.</value>

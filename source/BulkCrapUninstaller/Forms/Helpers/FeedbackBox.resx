@@ -148,7 +148,7 @@
     <value>0</value>
   </data>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>Thank you for using BCUninstaller!</value>
+    <value>Thank you for using Neverwas!</value>
   </data>
   <data name="&gt;&gt;p1welcomeHeading.Name" xml:space="preserve">
     <value>p1welcomeHeading</value>
@@ -364,7 +364,7 @@
     <value>4</value>
   </data>
   <data name="p1FeedbackDesc.Text" xml:space="preserve">
-    <value>If you had any issues with BCU, or if you want to suggest a new feature, please check these links:</value>
+    <value>If you had any issues with Neverwas, or if you want to suggest a new feature, please check these links:</value>
   </data>
   <data name="&gt;&gt;p1FeedbackDesc.Name" xml:space="preserve">
     <value>p1FeedbackDesc</value>
@@ -517,7 +517,7 @@
     <value>7</value>
   </data>
   <data name="p1HelpDesc.Text" xml:space="preserve">
-    <value>You don't have to be a programmer to help! You can donate to speed up the updates, or translate BCU to your native language. All help is greatly appreciated, no matter how small!</value>
+    <value>You don't have to be a programmer to help! You can donate to speed up the updates, or translate Neverwas to your native language. All help is greatly appreciated, no matter how small!</value>
   </data>
   <data name="&gt;&gt;p1HelpDesc.Name" xml:space="preserve">
     <value>p1HelpDesc</value>
@@ -577,7 +577,7 @@
     <value>1</value>
   </data>
   <data name="buttonTranslate.Text" xml:space="preserve">
-    <value>Translate BCU</value>
+    <value>Translate Neverwas</value>
   </data>
   <data name="&gt;&gt;buttonTranslate.Name" xml:space="preserve">
     <value>buttonTranslate</value>

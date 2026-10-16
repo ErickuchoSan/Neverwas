@@ -127,7 +127,7 @@
     <value>デフォルト設定を復元</value>
   </data>
   <data name="MessageBoxes_ResetSettingsConfirmation_Details" xml:space="preserve">
-    <value>すべての設定は永久に失われます。BCUninstallerはこのアクションを完了するために再起動する必要があります。</value>
+    <value>すべての設定は永久に失われます。Neverwasはこのアクションを完了するために再起動する必要があります。</value>
   </data>
   <data name="MessageBoxes_Title_Open_Uninstall_List" xml:space="preserve">
     <value>アンインストールリストを開く</value>
@@ -459,7 +459,7 @@
     <value>検索条件に一致するエントリはありません。</value>
   </data>
   <data name="StrExportHeader" xml:space="preserve">
-    <value>BCUninstaller のエクスポート
+    <value>Neverwas のエクスポート
 発行者｜バージョン｜日付｜サイズ｜レジストリ｜アンインストーラの種類｜アンインストール文字列｜静かなアンインストール文字列｜コメント</value>
   </data>
   <data name="StrIsPortable" xml:space="preserve">
@@ -541,14 +541,14 @@
     <value>更新を確認中にエラーが発生しました</value>
   </data>
   <data name="MessageBoxes_UpdateFailed_Details" xml:space="preserve">
-    <value>BCUninstallerがファイアウォールでブロックされておらず、インターネット接続が正常であることを確認してください。</value>
+    <value>Neverwasがファイアウォールでブロックされておらず、インターネット接続が正常であることを確認してください。</value>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Message" xml:space="preserve">
     <value>新しいバージョン{0}が利用可能です。今すぐアップグレードしますか？</value>
     <comment>0 is version number</comment>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Details" xml:space="preserve">
-    <value>BCUninstallerは自動的に更新をダウンロードし、再起動後に適用します。この過程で設定が失われる可能性があることに注意してください。
+    <value>Neverwasは自動的に更新をダウンロードし、再起動後に適用します。この過程で設定が失われる可能性があることに注意してください。
 
 変更履歴:
 - {0}
@@ -647,7 +647,7 @@
     <value>エラーが続く場合は、別のディレクトリに保存してみてください。たとえば、デスクトップに保存します。</value>
   </data>
   <data name="MessageBoxes_GetSystemRestoreDescription" xml:space="preserve">
-    <value>BCUninstallerは{0}アプリケーションをアンインストールしています</value>
+    <value>Neverwasは{0}アプリケーションをアンインストールしています</value>
     <comment>0 is the uninstaller count</comment>
   </data>
   <data name="MessageBoxes_Title_Rename_uninstaller" xml:space="preserve">
@@ -694,14 +694,14 @@
     <value>検索するものはありません</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Title" xml:space="preserve">
-    <value>BCUninstallerをアンインストール</value>
+    <value>Neverwasをアンインストール</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Message" xml:space="preserve">
-    <value>BCUninstallerをアンインストールしてもよろしいですか？</value>
+    <value>Neverwasをアンインストールしてもよろしいですか？</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Details" xml:space="preserve">
     <value>お別れは残念です！
-お時間があれば、なぜBCUをアンインストールしたのかを私のウェブサイト（http://klocmansoftware.weebly.com/）で教えていただけると幸いです。
+お時間があれば、なぜBCUをアンインストールしたのかを私のウェブサイト（https://github.com/ErickuchoSan/Neverwas/discussions）で教えていただけると幸いです。
 正当な問題を修正できるよう最善を尽くします。</value>
   </data>
   <data name="MessageBoxes_SysRestoreBeginQuestion_Message" xml:space="preserve">

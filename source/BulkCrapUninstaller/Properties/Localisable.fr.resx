@@ -136,7 +136,7 @@
     <value>Il n'y a pas d'entrée correspondant à votre critère de recherche.</value>
   </data>
   <data name="StrExportHeader" xml:space="preserve">
-    <value>Export BCUninstaller 
+    <value>Export Neverwas 
 Éditeur | Version | Date | Taille | Registre | Type de désinstalleur | Chaîne de désinstallation | Chaîne de désinstallation silencieuse | Commentaires</value>
   </data>
   <data name="StrIsPortable" xml:space="preserve">
@@ -195,7 +195,7 @@ Fichiers et dossiers seront déplacés dans la corbeille, vous pouvez les restau
     <value>Soumettre un retour</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Message" xml:space="preserve">
-    <value>Voudriez-vous envoyer un retour concernant BCU ?</value>
+    <value>Voudriez-vous envoyer un retour concernant Neverwas ?</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Details" xml:space="preserve">
     <value>Cela prendra moins d'une minute mais aidera grandement le développement  ! Tout retour est apprécié, que ce soit un rapport de bogue, une demande de fonction ou un simple merci !
@@ -214,19 +214,19 @@ Vous voulez ajouter une fonctionnalité ou corriger une bogue ? Merci de m'envoy
     <value>Erreur rencontrée en vérifiant les mises à jour</value>
   </data>
   <data name="MessageBoxes_UpdateFailed_Details" xml:space="preserve">
-    <value>Vérifiez que BCUninstaller n'est pas bloqué dans votre pare-feu et que vous avez une connection internet fonctionnelle.</value>
+    <value>Vérifiez que Neverwas n'est pas bloqué dans votre pare-feu et que vous avez une connection internet fonctionnelle.</value>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Message" xml:space="preserve">
     <value>Nouvelle version {0} disponible, voulez-vous mettre à jour maintenant ?</value>
     <comment>0 is version number</comment>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Details" xml:space="preserve">
-    <value>BCUninstaller téléchargera automatiquement la mise à jour et l'appliquera après un redémarrage. Merci de noter que vous pouvez perdre vos réglages dans l'opération. 
+    <value>Neverwas téléchargera automatiquement la mise à jour et l'appliquera après un redémarrage. Merci de noter que vous pouvez perdre vos réglages dans l'opération. 
 
 Journal de changement :
 - {0}
 
-Attention : pendant la mise à jour le dossier "Update" et le fichier "Update.zip" dans le dossier de BCU seront supprimés.</value>
+Attention : pendant la mise à jour le dossier "Update" et le fichier "Update.zip" dans le dossier de Neverwas seront supprimés.</value>
     <comment>0 is a list of changes separated by "- "</comment>
   </data>
   <data name="MessageBoxes_UninstallMsiGuidMissing_Title" xml:space="preserve">
@@ -300,7 +300,7 @@ Attention : pendant la mise à jour le dossier "Update" et le fichier "Update.zi
     <value>Si l'erreur persiste essayez de sauvegarder dans un dossier différent, par exemple sur le bureau.</value>
   </data>
   <data name="MessageBoxes_GetSystemRestoreDescription" xml:space="preserve">
-    <value>BCUninstaller désinstalle {0} application(s)</value>
+    <value>Neverwas désinstalle {0} application(s)</value>
     <comment>0 is the uninstaller count</comment>
   </data>
   <data name="MessageBoxes_Title_Rename_uninstaller" xml:space="preserve">
@@ -347,13 +347,13 @@ Attention : pendant la mise à jour le dossier "Update" et le fichier "Update.zi
     <value>Rien à rechercher</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Title" xml:space="preserve">
-    <value>Désinstaller BCUninstaller</value>
+    <value>Désinstaller Neverwas</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Message" xml:space="preserve">
-    <value>Êtes-vous sur de vouloir désinstaller BCUninstaller ?</value>
+    <value>Êtes-vous sur de vouloir désinstaller Neverwas ?</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Details" xml:space="preserve">
-    <value>Je suis désolé de vous voir partir ! Si vous avez une minute ou deux merci de laisser un mot sur mon site web (http://klocmansoftware.weebly.com/)  pour dire pourquoi vous désinstallez BCU. Je ferai de mon mieux pour réparer tout problème légitime.</value>
+    <value>Je suis désolé de vous voir partir ! Si vous avez une minute ou deux merci de laisser un mot sur mon site web (https://github.com/ErickuchoSan/Neverwas/discussions)  pour dire pourquoi vous désinstallez Neverwas. Je ferai de mon mieux pour réparer tout problème légitime.</value>
   </data>
   <data name="MessageBoxes_SysRestoreBeginQuestion_Message" xml:space="preserve">
     <value>Voulez-vous créer un point de restauration avant de continuer ?</value>
@@ -446,7 +446,7 @@ Voulez-vous utiliser les désinstalleurs "causants" pour ces éléments, ou doiv
     <value>Restaurer les réglages par défaut</value>
   </data>
   <data name="MessageBoxes_ResetSettingsConfirmation_Details" xml:space="preserve">
-    <value>Tous vos réglages seront perdus définitivement. BCUninstaller devra redémarrer pour terminer cette action.</value>
+    <value>Tous vos réglages seront perdus définitivement. Neverwas devra redémarrer pour terminer cette action.</value>
   </data>
   <data name="MessageBoxes_Title_Open_Uninstall_List" xml:space="preserve">
     <value>Ouvrir la liste de désinstallation</value>
@@ -465,7 +465,7 @@ Voulez-vous utiliser les désinstalleurs "causants" pour ces éléments, ou doiv
     <comment>Shown on the status bar</comment>
   </data>
   <data name="UninstallProgressWindow_TaskDoneNextStep" xml:space="preserve">
-    <value>Tâche terminée. Fermez cette fenêtre pour continuer ; BCU peut vous proposer de rechercher les résidus.</value>
+    <value>Tâche terminée. Fermez cette fenêtre pour continuer ; Neverwas peut vous proposer de rechercher les résidus.</value>
     <comment>Shown on the status bar after uninstallers finish</comment>
   </data>
   <data name="UninstallProgressWindow_Uninstalling" xml:space="preserve">
@@ -539,7 +539,7 @@ Voulez-vous utiliser les désinstalleurs "causants" pour ces éléments, ou doiv
     <value>Certains paramètres ne prendront pas effet jusqu'à ce que l'application soit relancée.</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Message" xml:space="preserve">
-    <value>Voulez-vous redémarrer BCU à appliquer les nouveaux réglages ?</value>
+    <value>Voulez-vous redémarrer Neverwas à appliquer les nouveaux réglages ?</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Title" xml:space="preserve">
     <value>Modifier les réglages de l'application</value>
@@ -765,10 +765,10 @@ Vous pouver tenter de désactiver la prévention de collision dans les réglages
     <value>Sélectionner où enregistrer la sauvegarde. Un nouveau dossier sera créé.</value>
   </data>
   <data name="NewsPopup_UpdatedTitle" xml:space="preserve">
-    <value>BCU a été mis à jour en v{0} !</value>
+    <value>Neverwas a été mis à jour en v{0} !</value>
   </data>
   <data name="NewsPopup_FirstStartTitle" xml:space="preserve">
-    <value>Bienvenue à BCU version {0} !</value>
+    <value>Bienvenue à Neverwas version {0} !</value>
   </data>
   <data name="UninstallProgressWindow_StatusPuttingToSleepInSeconds" xml:space="preserve">
     <value>Mise en veille du PC dans {0}s. Décocher la case veille pour annuler.</value>

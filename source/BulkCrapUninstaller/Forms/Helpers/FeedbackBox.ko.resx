@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>BCUninstaller를 써 주셔서 고맙습니다!</value>
+    <value>Neverwas를 써 주셔서 고맙습니다!</value>
   </data>
   <data name="p1welcomeSubheading.Text" xml:space="preserve">
     <value>이 무료 오픈 소스 도구가 도움 되었다면, 잠시 시간을 내어 도움을 주시면 감사하겠습니다! 친구들에게 알려주고, 소셜 미디어에 공유하고, 피드백을 남겨주세요. 작은 도움이라도 큰 힘이 됩니다!</value>

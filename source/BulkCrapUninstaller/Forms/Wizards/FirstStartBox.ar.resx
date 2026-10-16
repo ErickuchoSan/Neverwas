@@ -222,7 +222,7 @@ uninstaller</value>
     <comment>The missing B is in an image next to the text</comment>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>BCUninstaller فتحي الداودية يرحبا بكم في</value>
+    <value>Neverwas فتحي الداودية يرحبا بكم في</value>
   </data>
   <data name="checkBoxUpdateSearch.Text" xml:space="preserve">
     <value>البحث تلقائيا عن التحديثات عند بدء تشغيل التطبيق</value>
@@ -252,7 +252,7 @@ uninstaller</value>
     <value>التطبيقات غير مسجلة</value>
   </data>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>BCUninstaller فتحي الداودية يرحبا بكم في !</value>
+    <value>Neverwas فتحي الداودية يرحبا بكم في !</value>
   </data>
   <data name="p1welcomeSubheading.Text" xml:space="preserve">
     <value>سيوفر لك هذا المعالج جولة سريعة ويساعد في تكوين التطبيق.</value>

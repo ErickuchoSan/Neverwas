@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="GithubReleasesLink" xml:space="preserve">
-    <value>https://github.com/Klocman/Bulk-Crap-Uninstaller/releases</value>
+    <value>https://github.com/ErickuchoSan/Neverwas/releases</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="layer" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -161,7 +161,7 @@
     <value>..\Resources\checkmark.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TwitterLink" xml:space="preserve">
-    <value>https://twitter.com/intent/tweet?text=Check+out+this+cool+uninstaller+that+I+found!+sourceforge.net/projects/bulk-crap-uninstaller/</value>
+    <value>https://twitter.com/intent/tweet?text=Check+out+Neverwas,+a+free+uninstaller!+github.com/ErickuchoSan/Neverwas</value>
   </data>
   <data name="diagram" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\diagram.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -173,7 +173,7 @@
     <value>..\Resources\refresh.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="GithubIssuesLink" xml:space="preserve">
-    <value>https://github.com/Klocman/Bulk-Crap-Uninstaller/issues</value>
+    <value>https://github.com/ErickuchoSan/Neverwas/issues</value>
   </data>
   <data name="information_circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\information.circle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -182,7 +182,7 @@
     <value>..\Resources\layer.down.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="GithubNewIssueLink" xml:space="preserve">
-    <value>https://github.com/Klocman/Bulk-Crap-Uninstaller/issues/new</value>
+    <value>https://github.com/ErickuchoSan/Neverwas/issues/new</value>
   </data>
   <data name="information" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\information.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -200,7 +200,7 @@
     <value>..\Resources\magnify.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DonateLink" xml:space="preserve">
-    <value>http://klocmansoftware.weebly.com/donate.html</value>
+    <value>https://github.com/ErickuchoSan/Neverwas</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="properties" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -244,7 +244,7 @@
     <value>..\Resources\centerline.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SubmitFeedbackLink" xml:space="preserve">
-    <value>https://github.com/Klocman/Bulk-Crap-Uninstaller/discussions</value>
+    <value>https://github.com/ErickuchoSan/Neverwas/discussions</value>
   </data>
   <data name="stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\stop.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -295,7 +295,7 @@
     <value>..\Resources\donate_button.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ContactUrl" xml:space="preserve">
-    <value>https://github.com/Klocman/Bulk-Crap-Uninstaller/discussions</value>
+    <value>https://github.com/ErickuchoSan/Neverwas/discussions</value>
   </data>
   <data name="clean" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\clean.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -304,7 +304,7 @@
     <value>..\Resources\rating5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ReviewLink" xml:space="preserve">
-    <value>https://dappcdn.com/download/utilities/bulk-crap-uninstaller</value>
+    <value>https://github.com/ErickuchoSan/Neverwas#readme</value>
   </data>
   <data name="folderopen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\folder.open.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -316,7 +316,7 @@
     <value>https://www.bcuninstaller.com/</value>
   </data>
   <data name="GithubLink" xml:space="preserve">
-    <value>https://github.com/Klocman/Bulk-Crap-Uninstaller</value>
+    <value>https://github.com/ErickuchoSan/Neverwas</value>
   </data>
   <data name="control.fastforward" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\control.fastforward.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -331,6 +331,6 @@
     <value>..\Resources\check.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TranslateLink" xml:space="preserve">
-    <value>https://github.com/Klocman/Bulk-Crap-Uninstaller/blob/master/CONTRIBUTING.md</value>
+    <value>https://github.com/ErickuchoSan/Neverwas/blob/main/CONTRIBUTING.md</value>
   </data>
 </root>

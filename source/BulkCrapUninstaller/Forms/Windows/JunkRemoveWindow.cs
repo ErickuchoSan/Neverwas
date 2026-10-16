@@ -291,7 +291,7 @@ namespace BulkCrapUninstaller.Forms
 
         private static string GetUniqueBackupName()
         {
-            return "BCU Backup " + DateTime.Now.ToString(BackupDateFormat, CultureInfo.InvariantCulture);
+            return "Neverwas Backup " + DateTime.Now.ToString(BackupDateFormat, CultureInfo.InvariantCulture);
         }
 
         private bool JunkListFilter(object obj)

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="labelInfo2.Text" xml:space="preserve">
-    <value>Początkowa kolejność zależy od ustawień odinstalowywania, ale można ją zmienić przeciągając elementy. Uwaga: BCU może zmienić kolejność jeśli jest włączona równoczesna dezinstalacja.</value>
+    <value>Początkowa kolejność zależy od ustawień odinstalowywania, ale można ją zmienić przeciągając elementy. Uwaga: Neverwas może zmienić kolejność jeśli jest włączona równoczesna dezinstalacja.</value>
   </data>
   <data name="labelInfo.Text" xml:space="preserve">
     <value>Poniżej znajduje się lista aplikacji, które zostaną odinstalowane, w kolejności od góry do dołu. Jeśli odznaczysz pole „Odinstaluj”, aplikacja nie zostanie odinstalowana. Jeśli cicha dezinstalacja nie jest dostępna, nie można jej zaznaczyć.</value>

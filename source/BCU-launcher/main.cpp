@@ -105,35 +105,35 @@ int main()
 
 	if (IsArm64OS())
 	{
-		p = ExePath() + L"\\win-arm64\\BCUninstaller.exe";
+		p = ExePath() + L"\\win-arm64\\Neverwas.exe";
 		if (!fexists(p))
 		{
-			MessageBox(nullptr, L"This installation of BCUninstaller does not have files needed to run on ARM64 versions of Windows.\n\nDownload an ARM64 version of BCUninstaller and try again.", L"Could not start BCUninstaller.", MB_ICONERROR | MB_OK);
+			MessageBox(nullptr, L"This installation of Neverwas does not have files needed to run on ARM64 versions of Windows.\n\nDownload an ARM64 version of Neverwas and try again.", L"Could not start Neverwas.", MB_ICONERROR | MB_OK);
 			return 1;
 		}
 	}
 	else if (Is64BitOS())
 	{
-		p = ExePath() + L"\\win-x64\\BCUninstaller.exe";
+		p = ExePath() + L"\\win-x64\\Neverwas.exe";
 		if (!fexists(p))
 		{
-			MessageBox(nullptr, L"This installation of BCUninstaller does not have files needed to run on 64 bit versions of Windows.\n\nDownload a 64 bit version of BCUninstaller and try again. The installer includes both 32 and 64 bit versions.", L"Could not start BCUninstaller.", MB_ICONERROR | MB_OK);
+			MessageBox(nullptr, L"This installation of Neverwas does not have files needed to run on 64 bit versions of Windows.\n\nDownload a 64 bit version of Neverwas and try again. The installer includes both 32 and 64 bit versions.", L"Could not start Neverwas.", MB_ICONERROR | MB_OK);
 			return 1;
 		}
 	}
 	else
 	{
-		p = ExePath() + L"\\win-x86\\BCUninstaller.exe";
+		p = ExePath() + L"\\win-x86\\Neverwas.exe";
 		if (!fexists(p))
 		{
-			MessageBox(nullptr, L"This installation of BCUninstaller does not have files needed to run on 32 bit versions of Windows.\n\nDownload a 32 bit version of BCUninstaller and try again. The installer includes both 32 and 64 bit versions.", L"Could not start BCUninstaller.", MB_ICONERROR | MB_OK);
+			MessageBox(nullptr, L"This installation of Neverwas does not have files needed to run on 32 bit versions of Windows.\n\nDownload a 32 bit version of Neverwas and try again. The installer includes both 32 and 64 bit versions.", L"Could not start Neverwas.", MB_ICONERROR | MB_OK);
 			return 1;
 		}
 	}
 
 	if(!isWin7orLater())
 	{
-		MessageBox(nullptr, L"This version of BCUninstaller needs Windows 7 SP1 / Windows Server 2008 R2 SP1 or later. Either update your system, or use an old version of BCUninstaller.\n\nTo bypass this check you can run BCUninstaller.exe directly from one of the subfolders.", L"Could not start BCUninstaller.", MB_ICONERROR | MB_OK);
+		MessageBox(nullptr, L"This version of Neverwas needs Windows 7 SP1 / Windows Server 2008 R2 SP1 or later. Either update your system, or use an old version of Neverwas.\n\nTo bypass this check you can run Neverwas.exe directly from one of the subfolders.", L"Could not start Neverwas.", MB_ICONERROR | MB_OK);
 		return 2;
 	}
 
@@ -163,7 +163,7 @@ int main()
 		&pi)           // Pointer to PROCESS_INFORMATION structure
 		)
 	{
-		MessageBox(nullptr, (L"Failed to start BCUninstaller - " + GetLastErrorAsString()).c_str(), L"Could not start BCUninstaller.", MB_ICONERROR | MB_OK);
+		MessageBox(nullptr, (L"Failed to start Neverwas - " + GetLastErrorAsString()).c_str(), L"Could not start Neverwas.", MB_ICONERROR | MB_OK);
 		printf("CreateProcess failed (%d).\n", GetLastError());
 		return 3;
 	}

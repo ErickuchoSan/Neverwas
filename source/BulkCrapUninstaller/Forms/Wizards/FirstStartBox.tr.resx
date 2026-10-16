@@ -139,7 +139,7 @@
     <value>Kurulumu bitir</value>
   </data>
   <data name="p5finishContact.Text" xml:space="preserve">
-    <value>Artık BCUninstaller'ı kullanmaya başlayabilirsiniz. Herhangi bir sorunuz varsa veya yeni bir özellik önermek istiyorsanız, aşağıdaki bağlantıyı ziyaret edin.</value>
+    <value>Artık Neverwas'ı kullanmaya başlayabilirsiniz. Herhangi bir sorunuz varsa veya yeni bir özellik önermek istiyorsanız, aşağıdaki bağlantıyı ziyaret edin.</value>
   </data>
   <data name="p5LinkContact.Text" xml:space="preserve">
     <value>İletişim formunu aç</value>
@@ -157,7 +157,7 @@
     <value>Ağ Girişi</value>
   </data>
   <data name="p4netDesc.Text" xml:space="preserve">
-    <value>BCUninstaller aşağıdaki nedenlerle internete bağlanmayı deneyebilir:</value>
+    <value>Neverwas aşağıdaki nedenlerle internete bağlanmayı deneyebilir:</value>
   </data>
   <data name="p4netDesc1.Text" xml:space="preserve">
     <value>● Program güncellemelerini ara.</value>
@@ -172,7 +172,7 @@
     <value>● Uygulama puanlarını almak ve yükle.</value>
   </data>
   <data name="p4netErrors.Text" xml:space="preserve">
-    <value>Bir hata oluştuğunda, göndermek istediğiniz zaman size sorulur. BCUninstaller dizinindeki ilgili XML dosyalarını inceleyerek hata ve kullanım raporlarında hangi verilerin gönderildiğini kontrol edebilirsiniz. Gönderilen veriler üçüncü taraflarla paylaşılmaz.</value>
+    <value>Bir hata oluştuğunda, göndermek istediğiniz zaman size sorulur. Neverwas dizinindeki ilgili XML dosyalarını inceleyerek hata ve kullanım raporlarında hangi verilerin gönderildiğini kontrol edebilirsiniz. Gönderilen veriler üçüncü taraflarla paylaşılmaz.</value>
   </data>
   <data name="checkBoxUpdateSearch.Text" xml:space="preserve">
     <value>Uygulama başlangıcında güncellemeleri otomatik olarak arayın</value>
@@ -184,7 +184,7 @@
     <value>Anonim kullanım istatistiklerini otomatik olarak gönder</value>
   </data>
   <data name="p4netUsageAdd.Text" xml:space="preserve">
-    <value>Bu istatistikleri göndermek BCUninstaller'ı iyileştirmeye yardımcı olacaktır.</value>
+    <value>Bu istatistikleri göndermek Neverwas'ı iyileştirmeye yardımcı olacaktır.</value>
   </data>
   <data name="checkBoxRatings.Text" xml:space="preserve">
     <value>Uygulamaların kullanıcı derecelendirmelerini etkinleştir</value>
@@ -199,7 +199,7 @@
     <value>Bozuk veya eksik kaldırıcılar</value>
   </data>
   <data name="pCorViewInvalid.Text" xml:space="preserve">
-    <value>Bazı durumlarda, kaldırma araçları bozulabilir ve bunları kaldırmak imkansız hale getirir. BCUninstaller bu girdileri "Manuel kaldır" seçeneğini kullanarak kolayca kaldırabilir.</value>
+    <value>Bazı durumlarda, kaldırma araçları bozulabilir ve bunları kaldırmak imkansız hale getirir. Neverwas bu girdileri "Manuel kaldır" seçeneğini kullanarak kolayca kaldırabilir.</value>
   </data>
   <data name="checkBoxInvalidTest.Text" xml:space="preserve">
     <value>Geçersiz kaldırıcıları vurgula</value>
@@ -223,7 +223,7 @@
     <value>Ileri düzey kullanıcılar</value>
   </data>
   <data name="p3advDesc.Text" xml:space="preserve">
-    <value>BCUninstaller temel bir kaldırıcı olarak kullanılabilirken, işlevlerinin çoğu deneyimli kullanıcılara yöneliktir. Dikkatli ilerle!</value>
+    <value>Neverwas temel bir kaldırıcı olarak kullanılabilirken, işlevlerinin çoğu deneyimli kullanıcılara yöneliktir. Dikkatli ilerle!</value>
   </data>
   <data name="p3advSyscompTitle.Text" xml:space="preserve">
     <value>Sistem bileşenleri</value>
@@ -292,13 +292,13 @@
     <value>Seçilen dil</value>
   </data>
   <data name="p1languageDesc.Text" xml:space="preserve">
-    <value>Varsayılan dil yanlışsa BCUninstaller'ı belirli bir yerelleştirmeyi kullanmaya zorlayabilirsiniz. Yeni dili uygulamak için bir yeniden başlatma yapılacaktır.</value>
+    <value>Varsayılan dil yanlışsa Neverwas'ı belirli bir yerelleştirmeyi kullanmaya zorlayabilirsiniz. Yeni dili uygulamak için bir yeniden başlatma yapılacaktır.</value>
   </data>
   <data name="buttonLanguageApply.Text" xml:space="preserve">
     <value>Uygula</value>
   </data>
   <data name="p1languageExtradetails.Text" xml:space="preserve">
-    <value>BCUninstaller'ı kendi dilinize çevirmeye yardımcı olmak istiyorsanız, bana ulaşmak için aşağıdaki bağlantıya tıklayın. Tüm yardımlar büyük beğeni topluyor!</value>
+    <value>Neverwas'ı kendi dilinize çevirmeye yardımcı olmak istiyorsanız, bana ulaşmak için aşağıdaki bağlantıya tıklayın. Tüm yardımlar büyük beğeni topluyor!</value>
   </data>
   <data name="p1linkLabelContact.Text" xml:space="preserve">
     <value>İletişim formunu aç</value>
@@ -308,6 +308,6 @@
     <comment>The missing B is in an image next to the text</comment>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>BCUninstaller'e hoş geldiniz</value>
+    <value>Neverwas'e hoş geldiniz</value>
   </data>
 </root>

@@ -136,7 +136,7 @@
     <value>Không có mục nào trùng khớp với tiêu chí tìm kiếm của bạn.</value>
   </data>
   <data name="StrExportHeader" xml:space="preserve">
-    <value>BCUninstaller export
+    <value>Neverwas export
 Publisher | Version | Date | Size | Registry | Uninstaller type | Uninstall string | Quiet uninstall string | Comments</value>
   </data>
   <data name="StrIsPortable" xml:space="preserve">
@@ -195,7 +195,7 @@ Các tệp tin và thư mục tàn dư sẽ được chuyển vào Thùng rác (
     <value>Gửi phản hồi</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Message" xml:space="preserve">
-    <value>Bạn có muốn gửi phản hồi đóng góp ý kiến cho BCU không?</value>
+    <value>Bạn có muốn gửi phản hồi đóng góp ý kiến cho Neverwas không?</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Details" xml:space="preserve">
     <value>Sẽ mất chưa đầy một phút nhưng giúp ích rất lớn cho quá trình phát triển ứng dụng! Mọi phản hồi đều được trân trọng, cho dù đó là báo cáo lỗi, yêu cầu tính năng hay chỉ là một lời cảm ơn đơn giản!
@@ -214,18 +214,18 @@ Bạn có muốn đề xuất thêm tính năng hoặc báo cáo lỗi không? H
     <value>Đã xảy ra lỗi trong quá trình kiểm tra cập nhật</value>
   </data>
   <data name="MessageBoxes_UpdateFailed_Details" xml:space="preserve">
-    <value>Vui lòng đảm bảo rằng BCUninstaller không bị chặn bởi tường lửa (firewall) và kết nối Internet đang hoạt động ổn định.</value>
+    <value>Vui lòng đảm bảo rằng Neverwas không bị chặn bởi tường lửa (firewall) và kết nối Internet đang hoạt động ổn định.</value>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Message" xml:space="preserve">
     <value>Đã có phiên bản mới {0}, bạn có muốn nâng cấp ngay bây giờ không?</value>
     <comment>0 is version number</comment>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Details" xml:space="preserve">
-    <value>BCUninstaller sẽ tự động tải xuống bản cập nhật và áp dụng sau khi khởi động lại. Lưu ý rằng các thiết lập cài đặt của bạn có thể bị mất trong quá trình này.
+    <value>Neverwas sẽ tự động tải xuống bản cập nhật và áp dụng sau khi khởi động lại. Lưu ý rằng các thiết lập cài đặt của bạn có thể bị mất trong quá trình này.
 
 Nhật ký thay đổi (Changelog):\n- {0}
 
-Cảnh báo: Trong quá trình cập nhật, thư mục "Update" và tệp "Update.zip" bên trong thư mục gốc của BCU sẽ bị xóa bỏ.</value>
+Cảnh báo: Trong quá trình cập nhật, thư mục "Update" và tệp "Update.zip" bên trong thư mục gốc của Neverwas sẽ bị xóa bỏ.</value>
     <comment>0 is a list of changes separated by "- "</comment>
   </data>
   <data name="MessageBoxes_UninstallMsiGuidMissing_Title" xml:space="preserve">
@@ -244,7 +244,7 @@ Cảnh báo: Trong quá trình cập nhật, thư mục "Update" và tệp "Upda
     <value>Bạn có chắc chắn muốn dừng tác vụ gỡ cài đặt đang chạy không?</value>
   </data>
   <data name="MessageBoxes_TaskStopConfirmation_Details" xml:space="preserve">
-    <value>Việc dừng tác vụ đột ngột giữa chừng sẽ không đảo ngược các thay đổi đã thực hiện trước đó. Trình gỡ cài đặt hiện đang chạy sẽ không bị tắt ngay, tác vụ gỡ cài đặt của BCU sẽ đợi cho tiến trình đó chạy xong rồi mới dừng hẳn.</value>
+    <value>Việc dừng tác vụ đột ngột giữa chừng sẽ không đảo ngược các thay đổi đã thực hiện trước đó. Trình gỡ cài đặt hiện đang chạy sẽ không bị tắt ngay, tác vụ gỡ cài đặt của Neverwas sẽ đợi cho tiến trình đó chạy xong rồi mới dừng hẳn.</value>
   </data>
   <data name="MessageBoxes_Title_Create_restore_point" xml:space="preserve">
     <value>Tạo điểm khôi phục (Restore point)</value>
@@ -285,7 +285,7 @@ Cảnh báo: Trong quá trình cập nhật, thư mục "Update" và tệp "Upda
     <value>Bạn có chắc chắn muốn xóa các mục đã chọn không?</value>
   </data>
   <data name="MessageBoxes_DeleteRegKeysConfirmation_Details" xml:space="preserve">
-    <value>Các mục sau đây sẽ bị xóa hoàn toàn khỏi Registry và biến mất khỏi danh sách của BCU, nhưng bản thân phần mềm sẽ KHÔNG bị gỡ cài đặt khỏi máy tính.
+    <value>Các mục sau đây sẽ bị xóa hoàn toàn khỏi Registry và biến mất khỏi danh sách của Neverwas, nhưng bản thân phần mềm sẽ KHÔNG bị gỡ cài đặt khỏi máy tính.
 
 {0}</value>
   </data>
@@ -299,7 +299,7 @@ Cảnh báo: Trong quá trình cập nhật, thư mục "Update" và tệp "Upda
     <value>Nếu lỗi vẫn còn, hãy thử lưu vào một thư mục khác, ví dụ như "Desktop".</value>
   </data>
   <data name="MessageBoxes_GetSystemRestoreDescription" xml:space="preserve">
-    <value>BCUninstaller đang tiến hành gỡ cài đặt {0} ứng dụng</value>
+    <value>Neverwas đang tiến hành gỡ cài đặt {0} ứng dụng</value>
     <comment>0 is the uninstaller count</comment>
   </data>
   <data name="MessageBoxes_Title_Rename_uninstaller" xml:space="preserve">
@@ -346,13 +346,13 @@ Cảnh báo: Trong quá trình cập nhật, thư mục "Update" và tệp "Upda
     <value>Không có nội dung nào để tìm kiếm</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Title" xml:space="preserve">
-    <value>Gỡ cài đặt BCUninstaller</value>
+    <value>Gỡ cài đặt Neverwas</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Message" xml:space="preserve">
-    <value>Bạn có chắc là muốn gỡ cài đặt BCUninstaller không?</value>
+    <value>Bạn có chắc là muốn gỡ cài đặt Neverwas không?</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Details" xml:space="preserve">
-    <value>Rất tiếc khi thấy bạn không còn sử dụng phần mềm nữa! Nếu bạn có vài phút rảnh rỗi, vui lòng để lại vài lời góp ý về lý do tại sao bạn gỡ cài đặt BCU trên trang web của tôi (http://klocmansoftware.weebly.com/). Tôi sẽ cố gắng hết sức để khắc phục các sự cố này.</value>
+    <value>Rất tiếc khi thấy bạn không còn sử dụng phần mềm nữa! Nếu bạn có vài phút rảnh rỗi, vui lòng để lại vài lời góp ý về lý do tại sao bạn gỡ cài đặt Neverwas trên trang web của tôi (https://github.com/ErickuchoSan/Neverwas/discussions). Tôi sẽ cố gắng hết sức để khắc phục các sự cố này.</value>
   </data>
   <data name="MessageBoxes_SysRestoreBeginQuestion_Message" xml:space="preserve">
     <value>Bạn có muốn tạo một điểm khôi phục (Restore point) trước khi tiếp tục không?</value>
@@ -445,7 +445,7 @@ Bạn có muốn sử dụng trình gỡ cài đặt gốc cho những mục nà
     <value>Khôi phục các thiết đặt gốc</value>
   </data>
   <data name="MessageBoxes_ResetSettingsConfirmation_Details" xml:space="preserve">
-    <value>Tất cả các cài đặt của bạn sẽ bị mất vĩnh viễn. BCUninstaller cần phải khởi động lại để hoàn tất thao tác này.</value>
+    <value>Tất cả các cài đặt của bạn sẽ bị mất vĩnh viễn. Neverwas cần phải khởi động lại để hoàn tất thao tác này.</value>
   </data>
   <data name="MessageBoxes_Title_Open_Uninstall_List" xml:space="preserve">
     <value>Mở danh sách bộ lọc gỡ cài đặt</value>
@@ -534,7 +534,7 @@ Bạn có muốn sử dụng trình gỡ cài đặt gốc cho những mục nà
     <value>Một số cài đặt sẽ không có hiệu lực cho đến khi ứng dụng được khởi động lại hoàn toàn.</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Message" xml:space="preserve">
-    <value>Bạn có muốn khởi động lại BCU ngay để áp dụng các cài đặt mới không?</value>
+    <value>Bạn có muốn khởi động lại Neverwas ngay để áp dụng các cài đặt mới không?</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Title" xml:space="preserve">
     <value>Thay đổi cài đặt ứng dụng</value>
@@ -549,7 +549,7 @@ Bạn có muốn sử dụng trình gỡ cài đặt gốc cho những mục nà
   <data name="MessageBoxes_TaskSkip_Details" xml:space="preserve">
     <value>Nếu chọn "Chấm dứt" thì cửa sổ gỡ cài đặt đang chạy sẽ bị đóng ngay lập tức và có thể dẫn đến việc gỡ cài đặt chưa được hoàn tất. Thông thường, bạn có thể chạy lại trình gỡ cài đặt đó sau này để hoàn thành lại.
 
-Hoặc bạn có thể chọn bỏ qua việc chờ đợi tiến trình này. Việc bỏ qua sẽ cho phép trình gỡ cài đặt tiếp tục chạy ngầm trong khi tác vụ của BCU chuyển ngay sang mục tiếp theo. Hãy lưu ý rằng một số trình gỡ cài đặt tiếp theo có thể không chạy được cho đến khi tiến trình bị bỏ qua hoàn tất hoàn toàn.</value>
+Hoặc bạn có thể chọn bỏ qua việc chờ đợi tiến trình này. Việc bỏ qua sẽ cho phép trình gỡ cài đặt tiếp tục chạy ngầm trong khi tác vụ của Neverwas chuyển ngay sang mục tiếp theo. Hãy lưu ý rằng một số trình gỡ cài đặt tiếp theo có thể không chạy được cho đến khi tiến trình bị bỏ qua hoàn tất hoàn toàn.</value>
   </data>
   <data name="MessageBoxes_TaskSkip_Message" xml:space="preserve">
     <value>Bạn có muốn bỏ qua việc chờ đợi trình gỡ cài đặt hiện đang chạy không?</value>
@@ -709,10 +709,10 @@ Bạn có thể thử tắt tính năng phát hiện xung đột trong phần c�
     <value>Chọn nơi để lưu bản sao lưu. Một thư mục mới sẽ được tạo.</value>
   </data>
   <data name="NewsPopup_UpdatedTitle" xml:space="preserve">
-    <value>BCU đã được cập nhật lên v{0}!</value>
+    <value>Neverwas đã được cập nhật lên v{0}!</value>
   </data>
   <data name="NewsPopup_FirstStartTitle" xml:space="preserve">
-    <value>Chào mừng bạn đến với BCU phiên bản {0}!</value>
+    <value>Chào mừng bạn đến với Neverwas phiên bản {0}!</value>
   </data>
   <data name="UninstallProgressWindow_StatusPuttingToSleepInSeconds" xml:space="preserve">
     <value>Máy tính sẽ chuyển sang chế độ ngủ (Sleep) sau {0} giây nữa. Bỏ tích để hủy bỏ.</value>

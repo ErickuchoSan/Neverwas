@@ -136,7 +136,7 @@
     <value>Arama kriterinizle eşleşen giriş yok.</value>
   </data>
   <data name="StrExportHeader" xml:space="preserve">
-    <value>BCUninstaller dışa aktarma. Yayıncı | Sürüm | Tarih | Boyut | Kayıt defteri | Kaldırıcı türü | Dizgiyi kaldır | Sessiz kaldırma dizesi | Yorumlar</value>
+    <value>Neverwas dışa aktarma. Yayıncı | Sürüm | Tarih | Boyut | Kayıt defteri | Kaldırıcı türü | Dizgiyi kaldır | Sessiz kaldırma dizesi | Yorumlar</value>
   </data>
   <data name="StrIsPortable" xml:space="preserve">
     <value>Taşınabilir</value>
@@ -189,7 +189,7 @@
     <value>Geri bildirim gönder</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Message" xml:space="preserve">
-    <value>BCU ile ilgili geri bildirim göndermek ister misiniz?</value>
+    <value>Neverwas ile ilgili geri bildirim göndermek ister misiniz?</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Details" xml:space="preserve">
     <value>Bu sizi bir dakikadan daha az sürecek ama gelişime büyük ölçüde yardımcı olacak! Tüm geri bildirimler takdir edilir, bir hata raporu, özellik talebi veya basit bir teşekkür! Daha sonra üst menü çubuğundan gönderebilirsiniz (Yardım-&gt; Geri bildirim gönder).</value>
@@ -204,20 +204,20 @@
     <value>Encountered an error while checking for updates</value>
   </data>
   <data name="MessageBoxes_UpdateFailed_Details" xml:space="preserve">
-    <value>Güvenlik duvarınızda BCUninstaller'ın engellenmediğinden ve çalışan bir internet bağlantınızın olduğundan emin olun.</value>
+    <value>Güvenlik duvarınızda Neverwas'ın engellenmediğinden ve çalışan bir internet bağlantınızın olduğundan emin olun.</value>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Message" xml:space="preserve">
     <value>Yeni sürüm {0} kullanılabilir, şimdi yeni sürüme geçmek istiyor musunuz?</value>
     <comment>0 is version number</comment>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Details" xml:space="preserve">
-    <value>BCUninstaller güncellemeyi otomatik olarak indirecek ve yeniden başlattıktan sonra uygulayacaktır. Lütfen ayarlarınızı bu süreçte kaybedebileceğinizi unutmayın.
+    <value>Neverwas güncellemeyi otomatik olarak indirecek ve yeniden başlattıktan sonra uygulayacaktır. Lütfen ayarlarınızı bu süreçte kaybedebileceğinizi unutmayın.
 
 Değişiklikler:
 
 - {0}
 
-Uyarı: Güncelleme sırasında "Update" klasörü ve BCU dizininin içindeki "Update.zip" dosyası kaldırılacaktır.
+Uyarı: Güncelleme sırasında "Update" klasörü ve Neverwas dizininin içindeki "Update.zip" dosyası kaldırılacaktır.
 </value>
     <comment>0 is a list of changes separated by "- "</comment>
   </data>
@@ -292,7 +292,7 @@ Uyarı: Güncelleme sırasında "Update" klasörü ve BCU dizininin içindeki "U
     <value>Hata devam ederse, örneğin masaüstüne farklı bir dizine kaydetmeyi deneyin.</value>
   </data>
   <data name="MessageBoxes_GetSystemRestoreDescription" xml:space="preserve">
-    <value>BCUninstaller, {0} uygulamasını kaldırıyor</value>
+    <value>Neverwas, {0} uygulamasını kaldırıyor</value>
     <comment>0 is the uninstaller count</comment>
   </data>
   <data name="MessageBoxes_Title_Rename_uninstaller" xml:space="preserve">
@@ -339,13 +339,13 @@ Uyarı: Güncelleme sırasında "Update" klasörü ve BCU dizininin içindeki "U
     <value>Aranacak bir şey yok</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Title" xml:space="preserve">
-    <value>BCUninstaller öğesini kaldır</value>
+    <value>Neverwas öğesini kaldır</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Message" xml:space="preserve">
-    <value>BCUninstaller'ı kaldırmak istediğinizden emin misiniz?</value>
+    <value>Neverwas'ı kaldırmak istediğinizden emin misiniz?</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Details" xml:space="preserve">
-    <value>Ayrıldığın için üzgünüm! Bir iki dakikanız varsa, lütfen web sitemde BCU'yu kaldırdığınıza dair bir söz bırakın (http://klocmansoftware.weebly.com/). Herhangi bir meşru sorunu çözmek için elimden geleni yapacağım.</value>
+    <value>Ayrıldığın için üzgünüm! Bir iki dakikanız varsa, lütfen web sitemde Neverwas'yu kaldırdığınıza dair bir söz bırakın (https://github.com/ErickuchoSan/Neverwas/discussions). Herhangi bir meşru sorunu çözmek için elimden geleni yapacağım.</value>
   </data>
   <data name="MessageBoxes_SysRestoreBeginQuestion_Message" xml:space="preserve">
     <value>Devam etmeden önce bir geri yükleme noktası oluşturmak ister misiniz?</value>
@@ -437,7 +437,7 @@ Bu öğeler için "yüksek" kaldırıcıları mı kullanmak istiyorsunuz yoksa g
     <value>Ayarları varsayılan duruma getir</value>
   </data>
   <data name="MessageBoxes_ResetSettingsConfirmation_Details" xml:space="preserve">
-    <value>Tüm ayarlarınız kalıcı olarak kaybolacak. Bu eylemi tamamlamak için BCUninstaller'ın yeniden başlatılması gerekecektir.</value>
+    <value>Tüm ayarlarınız kalıcı olarak kaybolacak. Bu eylemi tamamlamak için Neverwas'ın yeniden başlatılması gerekecektir.</value>
   </data>
   <data name="MessageBoxes_Title_Open_Uninstall_List" xml:space="preserve">
     <value>Yükleme Kaldırma Listesi</value>
@@ -526,7 +526,7 @@ Bu öğeler için "yüksek" kaldırıcıları mı kullanmak istiyorsunuz yoksa g
     <value>Bazı ayarlar uygulama yeniden başlatılıncaya kadar geçerli olmaz.</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Message" xml:space="preserve">
-    <value>Yeni ayarları uygulamak için BCU'yu yeniden başlatmak istiyor musunuz?</value>
+    <value>Yeni ayarları uygulamak için Neverwas'yu yeniden başlatmak istiyor musunuz?</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Title" xml:space="preserve">
     <value>Uygulama ayarlarını değiştir</value>
@@ -752,10 +752,10 @@ Ayarlarda çarpışma algılamayı devre dışı bırakmayı deneyebilirsiniz, a
     <value>Yedeklemeyi nereye kaydedeceğinizi seçin. Yeni bir dizin oluşturulacak.</value>
   </data>
   <data name="NewsPopup_UpdatedTitle" xml:space="preserve">
-    <value>BCU, v {0} olarak güncellendi!</value>
+    <value>Neverwas, v {0} olarak güncellendi!</value>
   </data>
   <data name="NewsPopup_FirstStartTitle" xml:space="preserve">
-    <value>BCU {0} sürümüne hoş geldiniz!</value>
+    <value>Neverwas {0} sürümüne hoş geldiniz!</value>
   </data>
   <data name="UninstallProgressWindow_StatusPuttingToSleepInSeconds" xml:space="preserve">
     <value>Bilgisayarı {0} saniye içinde uyku moduna geçirir. İptal etmek için uyku onay kutusunun işaretini kaldırın.</value>

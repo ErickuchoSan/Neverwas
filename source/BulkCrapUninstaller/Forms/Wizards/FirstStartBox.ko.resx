@@ -139,7 +139,7 @@
     <value>설정을 완료</value>
   </data>
   <data name="p5finishContact.Text" xml:space="preserve">
-    <value>이제 BCUninstaller를 사용할 수 있습니다. 질문이 있거나 새로운 기능을 제안하고 싶으신 경우 아래 링크를 방문해 주십시오.</value>
+    <value>이제 Neverwas를 사용할 수 있습니다. 질문이 있거나 새로운 기능을 제안하고 싶으신 경우 아래 링크를 방문해 주십시오.</value>
   </data>
   <data name="p5LinkContact.Text" xml:space="preserve">
     <value>문의 양식을 열기</value>
@@ -157,7 +157,7 @@
     <value>네트워크 접근</value>
   </data>
   <data name="p4netDesc.Text" xml:space="preserve">
-    <value>BCUninstaller는 다음과 같은 이유로 인터넷 연결을 시도할 수 있습니다:</value>
+    <value>Neverwas는 다음과 같은 이유로 인터넷 연결을 시도할 수 있습니다:</value>
   </data>
   <data name="p4netDesc1.Text" xml:space="preserve">
     <value>● 프로그램 업데이트 검색합니다.</value>
@@ -173,7 +173,7 @@
   </data>
   <data name="p4netErrors.Text" xml:space="preserve">
     <value>오류가 발생할 때마다 전송 여부를 묻는 메시지가 표시됩니다. 
-BCUninstaller 디렉토리에 있는 각 XML 파일을 검사하여 오류 및 사용 보고서에 전송되는 데이터를 확인할 수 있습니다.
+Neverwas 디렉토리에 있는 각 XML 파일을 검사하여 오류 및 사용 보고서에 전송되는 데이터를 확인할 수 있습니다.
 
 전송된 데이터는 제3자와 공유되지 않습니다.</value>
   </data>
@@ -187,7 +187,7 @@ BCUninstaller 디렉토리에 있는 각 XML 파일을 검사하여 오류 및 �
     <value>익명 사용 통계를 자동으로 전송</value>
   </data>
   <data name="p4netUsageAdd.Text" xml:space="preserve">
-    <value>이러한 통계를 전송하면 BCUninstaller를 개선하는 데 도움이 됩니다.</value>
+    <value>이러한 통계를 전송하면 Neverwas를 개선하는 데 도움이 됩니다.</value>
   </data>
   <data name="checkBoxRatings.Text" xml:space="preserve">
     <value>사용자의 응용 프로그램 평가 기능을 사용 설정</value>
@@ -203,7 +203,7 @@ BCUninstaller 디렉토리에 있는 각 XML 파일을 검사하여 오류 및 �
   </data>
   <data name="pCorViewInvalid.Text" xml:space="preserve">
     <value>경우에 따라 제거 프로그램이 손상되어 제거가 불가능해질 수 있습니다. 
-BCUninstaller는 "수동으로 제거" 옵션을 사용하여 이러한 항목들을 쉽게 제거할 수 있습니다.</value>
+Neverwas는 "수동으로 제거" 옵션을 사용하여 이러한 항목들을 쉽게 제거할 수 있습니다.</value>
   </data>
   <data name="checkBoxInvalidTest.Text" xml:space="preserve">
     <value>유효하지 않은 제거 프로그램을 강조 표시</value>
@@ -228,7 +228,7 @@ BCUninstaller는 "수동으로 제거" 옵션을 사용하여 이러한 항목�
     <value>고급 사용자들</value>
   </data>
   <data name="p3advDesc.Text" xml:space="preserve">
-    <value>BCUninstaller를 기본 제거 프로그램으로 사용할 수도 있지만, 대부분의 기능은 파워 사용자들을 대상으로 합니다. 주의해서 진행하십시오!</value>
+    <value>Neverwas를 기본 제거 프로그램으로 사용할 수도 있지만, 대부분의 기능은 파워 사용자들을 대상으로 합니다. 주의해서 진행하십시오!</value>
   </data>
   <data name="p3advSyscompTitle.Text" xml:space="preserve">
     <value>시스템 구성 요소들</value>
@@ -292,7 +292,7 @@ BCUninstaller는 "수동으로 제거" 옵션을 사용하여 이러한 항목�
 경고: 검증에는 오랜 시간이 걸릴 수 있습니다.</value>
   </data>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>BCUninstaller에 오신 것을 환영합니다!</value>
+    <value>Neverwas에 오신 것을 환영합니다!</value>
   </data>
   <data name="p1welcomeSubheading.Text" xml:space="preserve">
     <value>이 마법사는 빠른 둘러보기 기능을 제공하고 응용 프로그램을 구성하는 데 도움을 줍니다.</value>
@@ -301,13 +301,13 @@ BCUninstaller는 "수동으로 제거" 옵션을 사용하여 이러한 항목�
     <value>선택된 언어</value>
   </data>
   <data name="p1languageDesc.Text" xml:space="preserve">
-    <value>기본 언어가 잘못된 경우 BCUninstaller가 특정 지역화를 강제로 사용하도록 설정할 수 있습니다. 새로운 언어를 적용하려면 다시 시작이 수행됩니다.</value>
+    <value>기본 언어가 잘못된 경우 Neverwas가 특정 지역화를 강제로 사용하도록 설정할 수 있습니다. 새로운 언어를 적용하려면 다시 시작이 수행됩니다.</value>
   </data>
   <data name="buttonLanguageApply.Text" xml:space="preserve">
     <value>적용</value>
   </data>
   <data name="p1languageExtradetails.Text" xml:space="preserve">
-    <value>BCUninstaller를 사용하시는 언어로 번역하는 데 도움을 주고 싶으신 경우, 아래 링크를 클릭하여 저에게 연락해 주십시오.
+    <value>Neverwas를 사용하시는 언어로 번역하는 데 도움을 주고 싶으신 경우, 아래 링크를 클릭하여 저에게 연락해 주십시오.
 어떤 도움이라도 기쁘게 받겠습니다!</value>
   </data>
   <data name="p1linkLabelContact.Text" xml:space="preserve">
@@ -319,6 +319,6 @@ uninstaller</value>
     <comment>The missing B is in an image next to the text</comment>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>BCUninstaller에 오신 것을 환영합니다</value>
+    <value>Neverwas에 오신 것을 환영합니다</value>
   </data>
 </root>

@@ -64,7 +64,7 @@ namespace BulkCrapUninstaller.Forms
         {
             InitializeComponent();
 
-            Text += " - Bulk Crap Uninstaller";
+            Text += " - Neverwas";
 
             Opacity = 0;
 

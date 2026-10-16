@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>BCUninstallerをご利用いただきありがとうございます！</value>
+    <value>Neverwasをご利用いただきありがとうございます！</value>
   </data>
   <data name="p1welcomeSubheading.Text" xml:space="preserve">
     <value>この無料のオープンソースツールが役立った場合は、ぜひ1分だけお手伝いをお願いいたします！友人に教えたり、SNSで共有したり、フィードバックを送ったり、どんな小さなことでも大歓迎です！</value>

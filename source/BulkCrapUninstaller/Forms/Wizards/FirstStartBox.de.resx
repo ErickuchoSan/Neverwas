@@ -130,7 +130,7 @@
     <value>Assistenten verlassen</value>
   </data>
   <data name="p5finishContact.Text" xml:space="preserve">
-    <value>Sie können nun den BCUninstaller starten. Wenn Sie Fragen haben oder ein neues Feature vorschlagen möchten, verwenden Sie bitte den unten stehenden Link.</value>
+    <value>Sie können nun den Neverwas starten. Wenn Sie Fragen haben oder ein neues Feature vorschlagen möchten, verwenden Sie bitte den unten stehenden Link.</value>
   </data>
   <data name="p5LinkContact.Text" xml:space="preserve">
     <value>Kontaktformular öffnen</value>
@@ -148,7 +148,7 @@
     <value>Netzwerkzugriff</value>
   </data>
   <data name="p4netDesc.Text" xml:space="preserve">
-    <value>BCUninstaller kann versuchen, aus folgenden Gründen eine Verbindung mit dem Internet herzustellen:</value>
+    <value>Neverwas kann versuchen, aus folgenden Gründen eine Verbindung mit dem Internet herzustellen:</value>
   </data>
   <data name="p4netDesc1.Text" xml:space="preserve">
     <value>● zur Suche nach Updates</value>
@@ -161,7 +161,7 @@
   </data>
   <data name="p4netErrors.Text" xml:space="preserve">
     <value>Wenn ein Fehler auftritt, werden Sie gefragt, ob Sie einen Fehlerbericht senden möchten. 
-Sie können jederzeit überprüfen, welche Daten in Fehler- und Nutzungsreports gesendet werden. Überprüfen Sie dazu die jeweiligen XML-Dateien im BCUninstaller Verzeichnis. 
+Sie können jederzeit überprüfen, welche Daten in Fehler- und Nutzungsreports gesendet werden. Überprüfen Sie dazu die jeweiligen XML-Dateien im Neverwas Verzeichnis. 
 Gesendeten Daten werden nicht an Dritte weitergegeben.</value>
   </data>
   <data name="checkBoxUpdateSearch.Text" xml:space="preserve">
@@ -174,7 +174,7 @@ Gesendeten Daten werden nicht an Dritte weitergegeben.</value>
     <value>Automatisch anonyme Nutzungsstatistiken senden</value>
   </data>
   <data name="p4netUsageAdd.Text" xml:space="preserve">
-    <value>Diese Statistiken helfen mir, BCUninstaller zu verbessern.</value>
+    <value>Diese Statistiken helfen mir, Neverwas zu verbessern.</value>
   </data>
   <data name="pCorTitle.Text" xml:space="preserve">
     <value>Beschädigte Uninstaller</value>
@@ -186,7 +186,7 @@ Gesendeten Daten werden nicht an Dritte weitergegeben.</value>
     <value>Beschädigte oder fehlende Uninstaller</value>
   </data>
   <data name="pCorViewInvalid.Text" xml:space="preserve">
-    <value>In einigen Fällen können Uninstaller beschädigt sein, so dass man nicht deinstallieren kann. BCUninstaller kann diese Einträge mit der Option "Manuell deinstallieren" entfernen.</value>
+    <value>In einigen Fällen können Uninstaller beschädigt sein, so dass man nicht deinstallieren kann. Neverwas kann diese Einträge mit der Option "Manuell deinstallieren" entfernen.</value>
   </data>
   <data name="checkBoxInvalidTest.Text" xml:space="preserve">
     <value>Beschädigte Uninstaller hervorheben</value>
@@ -212,7 +212,7 @@ Fehlt der originäre Uninstaller, können Sie die Option "Manuell deinstallieren
     <value>Erfahrene Anwender</value>
   </data>
   <data name="p3advDesc.Text" xml:space="preserve">
-    <value>Obwohl BCUninstaller als Standard-Uninstaller verwendet werden kann, richten sich die meisten Funktionen an erfahrene Anwender. Lassen Sie Vorsicht walten!</value>
+    <value>Obwohl Neverwas als Standard-Uninstaller verwendet werden kann, richten sich die meisten Funktionen an erfahrene Anwender. Lassen Sie Vorsicht walten!</value>
   </data>
   <data name="p3advSyscompTitle.Text" xml:space="preserve">
     <value>Systemkomponenten</value>
@@ -274,7 +274,7 @@ Das Kennzeichen wird häufig von umfangreicher Software verwendet, um zu verhind
 Achtung: die Überprüfung kann lange dauern.</value>
   </data>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>Willkommen beim BCUninstaller!</value>
+    <value>Willkommen beim Neverwas!</value>
   </data>
   <data name="p1welcomeSubheading.Text" xml:space="preserve">
     <value>Dieser Assistent gibt Ihnen einen kurzen Überblick und soll Ihnen helfen, die Anwendung zu konfigurieren.</value>
@@ -283,13 +283,13 @@ Achtung: die Überprüfung kann lange dauern.</value>
     <value>Sprache</value>
   </data>
   <data name="p1languageDesc.Text" xml:space="preserve">
-    <value>Wählen Sie für BCUninstaller Ihre Landessprache. Nach einem Neustart wird die neue Sprache übernommen.</value>
+    <value>Wählen Sie für Neverwas Ihre Landessprache. Nach einem Neustart wird die neue Sprache übernommen.</value>
   </data>
   <data name="buttonLanguageApply.Text" xml:space="preserve">
     <value>Anwenden</value>
   </data>
   <data name="p1languageExtradetails.Text" xml:space="preserve">
-    <value>Kontaktieren Sie mich gerne, wenn Sie helfen möchten, BCUninstaller in Ihre Sprache zu übersetzen. Klicken Sie dafür auf den Link unten. 
+    <value>Kontaktieren Sie mich gerne, wenn Sie helfen möchten, Neverwas in Ihre Sprache zu übersetzen. Klicken Sie dafür auf den Link unten. 
 Jede Hilfe ist willkommen!</value>
   </data>
   <data name="p1linkLabelContact.Text" xml:space="preserve">
@@ -301,7 +301,7 @@ uninstaller</value>
     <comment>The missing B is in an image next to the text</comment>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Willkommen beim BCUninstaller</value>
+    <value>Willkommen beim Neverwas</value>
   </data>
   <data name="buttonMore.Text" xml:space="preserve">
     <value>Weitere Einstellungen</value>

@@ -136,7 +136,7 @@
     <value>Готово</value>
   </data>
   <data name="p5finishContact.Text" xml:space="preserve">
-    <value>Теперь Вы можете начать использовать BCUninstaller. Если у Вас есть вопросы или вы хотите предложить новую функцию — посетите ссылку ниже.</value>
+    <value>Теперь Вы можете начать использовать Neverwas. Если у Вас есть вопросы или вы хотите предложить новую функцию — посетите ссылку ниже.</value>
   </data>
   <data name="p5LinkContact.Text" xml:space="preserve">
     <value>Написать разработчику</value>
@@ -154,7 +154,7 @@
     <value>Доступ к сети</value>
   </data>
   <data name="p4netDesc.Text" xml:space="preserve">
-    <value>BCUninstaller может попытаться подключиться к Интернету по следующим причинам:</value>
+    <value>Neverwas может попытаться подключиться к Интернету по следующим причинам:</value>
   </data>
   <data name="p4netDesc1.Text" xml:space="preserve">
     <value>● Для поиска обновлений программы.</value>
@@ -169,7 +169,7 @@
     <value>● Для получения и загрузки рейтинга программ</value>
   </data>
   <data name="p4netErrors.Text" xml:space="preserve">
-    <value>Каждый раз, когда возникает ошибка, Вам будет предложено отправить отчёт. Вы можете проверить, какие данные передаются в отчёте, просмотрев XML-файлы в каталоге BCUninstaller. Передаваемые данные не передаются третьим сторонам.</value>
+    <value>Каждый раз, когда возникает ошибка, Вам будет предложено отправить отчёт. Вы можете проверить, какие данные передаются в отчёте, просмотрев XML-файлы в каталоге Neverwas. Передаваемые данные не передаются третьим сторонам.</value>
   </data>
   <data name="checkBoxUpdateSearch.Text" xml:space="preserve">
     <value>Искать обновления при запуске приложения</value>
@@ -181,7 +181,7 @@
     <value>Отправлять анонимную статистику использования</value>
   </data>
   <data name="p4netUsageAdd.Text" xml:space="preserve">
-    <value>Эти статистические данные помогут улучшить BCUninstaller.</value>
+    <value>Эти статистические данные помогут улучшить Neverwas.</value>
   </data>
   <data name="checkBoxRatings.Text" xml:space="preserve">
     <value>Включить пользовательские оценки приложений</value>
@@ -196,7 +196,7 @@
     <value>Повреждённые или отсутствующие деинсталляторы</value>
   </data>
   <data name="pCorViewInvalid.Text" xml:space="preserve">
-    <value>В некоторых случаях деинсталляторы могут быть повреждены, что делает невозможным их удаление. BCUninstaller может удалить эти записи с помощью опции "Удалить вручную".</value>
+    <value>В некоторых случаях деинсталляторы могут быть повреждены, что делает невозможным их удаление. Neverwas может удалить эти записи с помощью опции "Удалить вручную".</value>
   </data>
   <data name="checkBoxInvalidTest.Text" xml:space="preserve">
     <value>Подсветка недопустимых деинсталляторов</value>
@@ -221,7 +221,7 @@
     <value>Опытные пользователи</value>
   </data>
   <data name="p3advDesc.Text" xml:space="preserve">
-    <value>BCUninstaller может использоваться как основной деинсталлятор, но многие его функции предназначены для опытных пользователей. Соблюдайте осторожность!</value>
+    <value>Neverwas может использоваться как основной деинсталлятор, но многие его функции предназначены для опытных пользователей. Соблюдайте осторожность!</value>
   </data>
   <data name="p3advSyscompTitle.Text" xml:space="preserve">
     <value>Системные компоненты</value>
@@ -283,7 +283,7 @@
 Внимание: Проверка может занимать длительное время.</value>
   </data>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>Добро пожаловать в BCUninstaller!</value>
+    <value>Добро пожаловать в Neverwas!</value>
   </data>
   <data name="p1welcomeSubheading.Text" xml:space="preserve">
     <value>Этот мастер проведёт краткий обзор и поможет настроить приложение.</value>
@@ -292,19 +292,19 @@
     <value>Выбранный язык</value>
   </data>
   <data name="p1languageDesc.Text" xml:space="preserve">
-    <value>BCUninstaller может использовать указанную локализацию. Чтобы применить новый язык, будет выполнена перезагрузка программы.</value>
+    <value>Neverwas может использовать указанную локализацию. Чтобы применить новый язык, будет выполнена перезагрузка программы.</value>
   </data>
   <data name="buttonLanguageApply.Text" xml:space="preserve">
     <value>Применить</value>
   </data>
   <data name="p1languageExtradetails.Text" xml:space="preserve">
-    <value>Если Вы готовы помочь в переводе BCUninstaller на Ваш язык, нажмите на ссылку ниже, чтобы связаться со мной. Любая помощь будет принята с благодарностью!</value>
+    <value>Если Вы готовы помочь в переводе Neverwas на Ваш язык, нажмите на ссылку ниже, чтобы связаться со мной. Любая помощь будет принята с благодарностью!</value>
   </data>
   <data name="p1linkLabelContact.Text" xml:space="preserve">
     <value>Открыть форму связи</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Добро пожаловать в BCUninstaller</value>
+    <value>Добро пожаловать в Neverwas</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>ulk crap

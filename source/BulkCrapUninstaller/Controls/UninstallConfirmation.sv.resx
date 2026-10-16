@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="labelInfo2.Text" xml:space="preserve">
-    <value>Den initiala ordningen beror på dina avinstallationsinställningar, men den kan ändras genom att dra objekten. OBS: BCU kan ändra ordningen om samtidig avinstallation är aktiverad.</value>
+    <value>Den initiala ordningen beror på dina avinstallationsinställningar, men den kan ändras genom att dra objekten. OBS: Neverwas kan ändra ordningen om samtidig avinstallation är aktiverad.</value>
   </data>
   <data name="labelInfo.Text" xml:space="preserve">
     <value>Detta är en lista över appar som kommer att avinstalleras, i ordning från topp till botten. Om du avmarkerar fältet "Avinstallera" kommer applikationen inte att avinstalleras. Om tyst avinstallation inte är tillgängligt för ett objekt, går det inte att markera.</value>

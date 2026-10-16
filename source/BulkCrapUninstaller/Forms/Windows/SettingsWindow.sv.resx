@@ -190,7 +190,7 @@
   <data name="label7.Text" xml:space="preserve">
     <value>Du kan ange kommandon som ska köras före och efter avinstallationen. En rad motsvarar ett kommando och kommer att köras som om du använde dialogrutan "Kör...".
 
-BCU kommer att vänta tills det aktuella kommandot är klart innan det kör nästa.</value>
+Neverwas kommer att vänta tills det aktuella kommandot är klart innan det kör nästa.</value>
   </data>
   <data name="groupBoxExternal.Text" xml:space="preserve">
     <value>Externa appar</value>
@@ -266,7 +266,7 @@ BCU kommer att vänta tills det aktuella kommandot är klart innan det kör näs
     <value>Försök att automatiskt upptäcka anpassade installationsmappar</value>
   </data>
   <data name="labelProgramFolders.Text" xml:space="preserve">
-    <value>Du kan ange anpassade mappar där du installerar dina appar (t.ex. D:\Program). Dessa mappar kommer att användas av BCU för att söka upp rester efter avinstallation, oregistrerade appar och några andra saker. Även om det inte är nödvändigt, kommer en lista över dessa mappar, göra att BCU fungerar bättre.
+    <value>Du kan ange anpassade mappar där du installerar dina appar (t.ex. D:\Program). Dessa mappar kommer att användas av Neverwas för att söka upp rester efter avinstallation, oregistrerade appar och några andra saker. Även om det inte är nödvändigt, kommer en lista över dessa mappar, göra att Neverwas fungerar bättre.
 
 Standard-Windows-mapparna skannas alltid, du behöver inte inkludera dem i denna lista.
 
@@ -288,6 +288,6 @@ Använd fullständiga sökvägar, en sökväg per rad. Ogiltiga sökvägar och i
     <value>Övrigt</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Bulk Crap Uninstaller Inställningar</value>
+    <value>Neverwas Inställningar</value>
   </data>
 </root>

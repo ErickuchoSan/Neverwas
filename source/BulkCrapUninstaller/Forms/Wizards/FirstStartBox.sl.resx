@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>Dobrodošli v BCUninstaller!</value>
+    <value>Dobrodošli v Neverwas!</value>
   </data>
   <data name="p3advProtect.Text" xml:space="preserve">
     <value>Zaščitene vnosi so označeni z oznako "NeOdstrani", kar pomeni, da izdajatelj ne želi, da jih odstranite. Ta oznaka se pogosto uporablja v velikih programskih paketih, da vam preprečuje odstranjevanje njihovih posameznih delov.</value>
@@ -148,10 +148,10 @@
     <value>● Za iskanje posodobitev programa.</value>
   </data>
   <data name="p1languageDesc.Text" xml:space="preserve">
-    <value>BCUninstaller lahko prisilite, da uporablja določen jezik, če je privzeti jezik napačen. Za začetek uporabe novega jezika bo opravljen ponovni zagon programa.</value>
+    <value>Neverwas lahko prisilite, da uporablja določen jezik, če je privzeti jezik napačen. Za začetek uporabe novega jezika bo opravljen ponovni zagon programa.</value>
   </data>
   <data name="p5finishContact.Text" xml:space="preserve">
-    <value>Zdaj lahko začnete uporabljati BCUninstaller. Če imate kakršna koli vprašanja ali, če želite predlagati nove funkcije, obiščite spodnjo povezavo.</value>
+    <value>Zdaj lahko začnete uporabljati Neverwas. Če imate kakršna koli vprašanja ali, če želite predlagati nove funkcije, obiščite spodnjo povezavo.</value>
   </data>
   <data name="checkBoxInvalidTest.Text" xml:space="preserve">
     <value>
@@ -162,7 +162,7 @@ Označi neveljavne odstranjevalce</value>
 Iz menijske vrstice lahko ročno poiščete posodobitve.</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Dobrodošli v BCUninstallerju</value>
+    <value>Dobrodošli v Neverwasju</value>
   </data>
   <data name="buttonFinish.Text" xml:space="preserve">
     <value>Končaj namestitev</value>
@@ -192,10 +192,10 @@ Iz menijske vrstice lahko ročno poiščete posodobitve.</value>
     <value>Lahko preberete podrobne dnevnike sprememb in preverite več mojih programov na domači spletni strani.</value>
   </data>
   <data name="p4netErrors.Text" xml:space="preserve">
-    <value>Vsakič, ko pride do napake boste vprašani, če želite poslati sporočilo o napaki. Lahko preverite kateri podatki bodo poslani v poročilu o napaki in v poročilu o uporabi, z upogledom v njune XML datoteke (v imeniku BCUninstallerja). Poslani podatki ne bodo dostopni drugim osebam.</value>
+    <value>Vsakič, ko pride do napake boste vprašani, če želite poslati sporočilo o napaki. Lahko preverite kateri podatki bodo poslani v poročilu o napaki in v poročilu o uporabi, z upogledom v njune XML datoteke (v imeniku Neverwasja). Poslani podatki ne bodo dostopni drugim osebam.</value>
   </data>
   <data name="p4netUsageAdd.Text" xml:space="preserve">
-    <value>Pošiljanje teh statistik nam bo pomagalo izboljšati BCUninstaller.</value>
+    <value>Pošiljanje teh statistik nam bo pomagalo izboljšati Neverwas.</value>
   </data>
   <data name="p1welcomeSubheading.Text" xml:space="preserve">
     <value>Ta čarovnik vam bo nudil hiter ogled in pomagal nastaviti aplikacijo.</value>
@@ -240,7 +240,7 @@ Iz menijske vrstice lahko ročno poiščete posodobitve.</value>
     <value>Sčasoma boste morda ugotovili, da bodo nekatere aplikacije zavrnile odstranjevanje, ali bodo samo izginile iz večine upraviteljev odstranjevanja.</value>
   </data>
   <data name="pCorViewInvalid.Text" xml:space="preserve">
-    <value>V nekaterih primerih lahko prejmete poškodovane odstranjevalce, zaradi česar ni možno odstranjevanje aplikacij. BCUninstaller lahko preprosto odstrani te vnose z uporabo možnosti "Odstrani ročno".</value>
+    <value>V nekaterih primerih lahko prejmete poškodovane odstranjevalce, zaradi česar ni možno odstranjevanje aplikacij. Neverwas lahko preprosto odstrani te vnose z uporabo možnosti "Odstrani ročno".</value>
   </data>
   <data name="pCorOrphansMessage.Text" xml:space="preserve">
     <value>Včasih cele aplikacije lahko ostanejo na vašem pogonu, tudi po odstranitvi. To se lahko zgodi tudi, če je odstranjen samo odstranjevalec.</value>
@@ -249,10 +249,10 @@ Iz menijske vrstice lahko ročno poiščete posodobitve.</value>
     <value>Odstranjevalci so lahko podpisani s potrdili, ki so jih izdali pomembni organi. Če potrdila opravijo potrditev, programski paket ni bil spreminjan in je pristen.</value>
   </data>
   <data name="p4netDesc.Text" xml:space="preserve">
-    <value>BCUninstaller se lahko poskuša povezati z internetom iz naslednjih razlogov:</value>
+    <value>Neverwas se lahko poskuša povezati z internetom iz naslednjih razlogov:</value>
   </data>
   <data name="p3advDesc.Text" xml:space="preserve">
-    <value>Medtem, ko se BCUninstaller lahko uporablja kot osnovni odstranjevalec, je  večina njegovih funkcij namenjenih naprednejšim uporabnikom. Nadaljujte previdno!</value>
+    <value>Medtem, ko se Neverwas lahko uporablja kot osnovni odstranjevalec, je  večina njegovih funkcij namenjenih naprednejšim uporabnikom. Nadaljujte previdno!</value>
   </data>
   <data name="checkBoxCheckboxes.Text" xml:space="preserve">
     <value>Izberi s pomočjo potrditvenih polj</value>
@@ -295,7 +295,7 @@ uninstaller</value>
     <value>Odpri obrazec za stik</value>
   </data>
   <data name="p1languageExtradetails.Text" xml:space="preserve">
-    <value>Če ste pripravljeni pomagati prevesti BCUninstaller v vaš jezik, kliknite na spodnjo povezavo, da stopite v stik z mano. Vsa pomoč je zelo cenjena!</value>
+    <value>Če ste pripravljeni pomagati prevesti Neverwas v vaš jezik, kliknite na spodnjo povezavo, da stopite v stik z mano. Vsa pomoč je zelo cenjena!</value>
   </data>
   <data name="p4netDesc2.Text" xml:space="preserve">
     <value>● Za pošiljanje poročil o napakah.</value>

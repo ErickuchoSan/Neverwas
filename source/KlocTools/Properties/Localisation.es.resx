@@ -226,7 +226,7 @@
     <value>Detalles del error:</value>
   </data>
   <data name="PremadeDialogs_GenericError_Details" xml:space="preserve">
-    <value>Si bien este error no requiere cerrar BCU, algunas funciones pueden dejar de funcionar. La mayoría de los errores relacionados con el sistema de archivos pueden ser ignorados.
+    <value>Si bien este error no requiere cerrar Neverwas, algunas funciones pueden dejar de funcionar. La mayoría de los errores relacionados con el sistema de archivos pueden ser ignorados.
 
 Mensaje del error: {0}
 

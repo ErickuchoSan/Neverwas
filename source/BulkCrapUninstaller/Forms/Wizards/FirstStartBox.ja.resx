@@ -139,7 +139,7 @@
     <value>セットアップを完了</value>
   </data>
   <data name="p5finishContact.Text" xml:space="preserve">
-    <value>これでBCUninstallerを使用開始できます。質問がある場合や新機能を提案したい場合は、以下のリンクを参照ください。</value>
+    <value>これでNeverwasを使用開始できます。質問がある場合や新機能を提案したい場合は、以下のリンクを参照ください。</value>
   </data>
   <data name="p5LinkContact.Text" xml:space="preserve">
     <value>お問い合わせフォームを開く</value>
@@ -157,7 +157,7 @@
     <value>ネットワークアクセス</value>
   </data>
   <data name="p4netDesc.Text" xml:space="preserve">
-    <value>BCUninstallerは以下の理由でインターネットに接続を試みることがあります:</value>
+    <value>Neverwasは以下の理由でインターネットに接続を試みることがあります:</value>
   </data>
   <data name="p4netDesc1.Text" xml:space="preserve">
     <value>● プログラムの更新を検索するため。</value>
@@ -173,7 +173,7 @@
   </data>
   <data name="p4netErrors.Text" xml:space="preserve">
     <value>エラーが発生するたびに送信するかどうか尋ねられます。
-BCUninstallerのディレクトリ内のそれぞれのXMLファイルを調べることで、エラーと使用報告に送信されるデータを確認できます。
+Neverwasのディレクトリ内のそれぞれのXMLファイルを調べることで、エラーと使用報告に送信されるデータを確認できます。
 
 送信されたデータは第三者と共有されることはありません。</value>
   </data>
@@ -187,7 +187,7 @@ BCUninstallerのディレクトリ内のそれぞれのXMLファイルを調べ�
     <value>匿名の使用統計を自動的に送信する</value>
   </data>
   <data name="p4netUsageAdd.Text" xml:space="preserve">
-    <value>これらの統計を送信することで、BCUninstallerの改善に役立ちます。</value>
+    <value>これらの統計を送信することで、Neverwasの改善に役立ちます。</value>
   </data>
   <data name="checkBoxRatings.Text" xml:space="preserve">
     <value>アプリケーションのユーザー評価を有効にする</value>
@@ -203,7 +203,7 @@ BCUninstallerのディレクトリ内のそれぞれのXMLファイルを調べ�
   </data>
   <data name="pCorViewInvalid.Text" xml:space="preserve">
     <value>場合によっては、アンインストーラーが壊れ、アンインストールできなくなることがあります。
-BCUninstallerは「手動でアンインストール」オプションを使用してこれらのエントリを簡単に削除できます。</value>
+Neverwasは「手動でアンインストール」オプションを使用してこれらのエントリを簡単に削除できます。</value>
   </data>
   <data name="checkBoxInvalidTest.Text" xml:space="preserve">
     <value>無効なアンインストーラーを強調表示</value>
@@ -228,7 +228,7 @@ BCUninstallerは「手動でアンインストール」オプションを使用�
     <value>上級者</value>
   </data>
   <data name="p3advDesc.Text" xml:space="preserve">
-    <value>BCUninstallerは基本的なアンインストーラーとして使用できますが、そのほとんどの機能は上級ユーザー向けです。慎重に進めてください！</value>
+    <value>Neverwasは基本的なアンインストーラーとして使用できますが、そのほとんどの機能は上級ユーザー向けです。慎重に進めてください！</value>
   </data>
   <data name="p3advSyscompTitle.Text" xml:space="preserve">
     <value>システムコンポーネント</value>
@@ -292,7 +292,7 @@ BCUninstallerは「手動でアンインストール」オプションを使用�
 警告：検証には時間がかかることがあります。</value>
   </data>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>BCUninstallerへようこそ！</value>
+    <value>Neverwasへようこそ！</value>
   </data>
   <data name="p1welcomeSubheading.Text" xml:space="preserve">
     <value>このウィザードでは、簡単なツアーを行い、アプリケーションの設定を手伝います。</value>
@@ -301,13 +301,13 @@ BCUninstallerは「手動でアンインストール」オプションを使用�
     <value>選択された言語</value>
   </data>
   <data name="p1languageDesc.Text" xml:space="preserve">
-    <value>デフォルトの言語が正しくない場合、BCUninstallerに特定のローカリゼーションを強制することができます。新しい言語を適用するために再起動が行われます。</value>
+    <value>デフォルトの言語が正しくない場合、Neverwasに特定のローカリゼーションを強制することができます。新しい言語を適用するために再起動が行われます。</value>
   </data>
   <data name="buttonLanguageApply.Text" xml:space="preserve">
     <value>適用</value>
   </data>
   <data name="p1languageExtradetails.Text" xml:space="preserve">
-    <value>BCUninstallerをあなたの言語に翻訳するのを手伝っていただける場合は、以下のリンクをクリックして私に連絡してください。
+    <value>Neverwasをあなたの言語に翻訳するのを手伝っていただける場合は、以下のリンクをクリックして私に連絡してください。
 どんな助けでも歓迎します！</value>
   </data>
   <data name="p1linkLabelContact.Text" xml:space="preserve">
@@ -318,6 +318,6 @@ BCUninstallerは「手動でアンインストール」オプションを使用�
     <comment>The missing B is in an image next to the text</comment>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>BCUninstallerへようこそ</value>
+    <value>Neverwasへようこそ</value>
   </data>
 </root>

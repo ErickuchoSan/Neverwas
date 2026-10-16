@@ -162,7 +162,7 @@
   <data name="label7.Text" xml:space="preserve">
     <value>Pode especificar comandos que serão executados antes e após a desinstalação. Uma linha é igual a um comando e este será executado como se você usasse a caixa de diálogo "Executar ...".
 
-O BCU vai esperar até que o comando actualmente em execução esteja concluído antes de executar o próximo.</value>
+O Neverwas vai esperar até que o comando actualmente em execução esteja concluído antes de executar o próximo.</value>
   </data>
   <data name="groupBoxExternal.Text" xml:space="preserve">
     <value>Aplicações externas</value>
@@ -177,7 +177,7 @@ O BCU vai esperar até que o comando actualmente em execução esteja concluído
     <value>Ferramentas externas</value>
   </data>
   <data name="labelProgramFolders.Text" xml:space="preserve">
-    <value>Pode especificar pastas personalizadas onde instalará as suas aplicações (por exemplo, D: \ Applicações). Essas pastas serão utilizadas pela BCU para procurar restos da desinstalação, aplicações não registada e algumas coisas mais. Embora não seja necessário, uma lista dessas pastas vai permitir que o BCU tenha um melhor desempenho.
+    <value>Pode especificar pastas personalizadas onde instalará as suas aplicações (por exemplo, D: \ Applicações). Essas pastas serão utilizadas pela Neverwas para procurar restos da desinstalação, aplicações não registada e algumas coisas mais. Embora não seja necessário, uma lista dessas pastas vai permitir que o Neverwas tenha um melhor desempenho.
 
 As pastas padrão Windows são sempre verificadas, não precisa de as incluir na lista.
 
@@ -194,7 +194,7 @@ Utilize caminhos de diretório completos, um caminho por linha. Caminhos inváli
     <value>Diversos</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Configurações do Bulk Crap Uninstaller </value>
+    <value>Configurações do Neverwas </value>
   </data>
   <data name="checkBoxShowAllBadJunk.Text" xml:space="preserve">
     <value>Mostra sempre que um determinado programa não é de confiança.</value>

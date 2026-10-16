@@ -139,7 +139,7 @@
     <value>Carpetas</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Configuración de Bulk Crap Uninstaller</value>
+    <value>Configuración de Neverwas</value>
   </data>
   <data name="groupBoxExternal.Text" xml:space="preserve">
     <value>Aplicaciones externas</value>
@@ -183,10 +183,10 @@
   <data name="label7.Text" xml:space="preserve">
     <value>Puede especificar los comandos que se ejecutarán antes y después de la desinstalación. Una línea es igual a un comando y se ejecutará como si utilizara el diálogo "Ejecutar...".
 
-BCU esperará hasta que el comando activado se complete antes de ejecutar el siguiente.</value>
+Neverwas esperará hasta que el comando activado se complete antes de ejecutar el siguiente.</value>
   </data>
   <data name="labelProgramFolders.Text" xml:space="preserve">
-    <value>Puede indicar carpetas en las que instale sus aplicaciones (p,ej, D:\Aplicaciones). Estas carpetas serán utilizadas por BCU para buscar restos, aplicaciones no registradas y otras cosas. Si bien no es necesario, una lista de estas carpetas permitirá BCU trabajar mejor.
+    <value>Puede indicar carpetas en las que instale sus aplicaciones (p,ej, D:\Aplicaciones). Estas carpetas serán utilizadas por Neverwas para buscar restos, aplicaciones no registradas y otras cosas. Si bien no es necesario, una lista de estas carpetas permitirá Neverwas trabajar mejor.
 
 Las carpetas de Windows predeterminadas siempre se analizan, no es necesario incluirlas en esta lista.
 

@@ -133,7 +133,7 @@
     <value>Ukončete průvodce</value>
   </data>
   <data name="p5finishContact.Text" xml:space="preserve">
-    <value>Nyní můžete začít používat BCUninstaller. Máte-li jakékoli dotazy nebo chcete-li navrhnout novou funkci navštivte odkaz níže.</value>
+    <value>Nyní můžete začít používat Neverwas. Máte-li jakékoli dotazy nebo chcete-li navrhnout novou funkci navštivte odkaz níže.</value>
   </data>
   <data name="p5LinkContact.Text" xml:space="preserve">
     <value>Otevřete kontaktní formulář</value>
@@ -151,7 +151,7 @@
     <value>Přístup k síti</value>
   </data>
   <data name="p4netDesc.Text" xml:space="preserve">
-    <value>BCUninstaller se může připojit k internetu z následujících důvodů:</value>
+    <value>Neverwas se může připojit k internetu z následujících důvodů:</value>
   </data>
   <data name="p4netDesc1.Text" xml:space="preserve">
     <value>● Chcete-li hledat aktualizací programu.</value>
@@ -163,7 +163,7 @@
     <value>● Chcete-li poslat anonymní statistiku používání.</value>
   </data>
   <data name="p4netErrors.Text" xml:space="preserve">
-    <value>Pokaždé, když dojde k chybě, budete dotázáni, zda ji chcete odeslat. Můžete zkontrolovat, jaké údaje jsou odesílány ve zprávách o chybách a používání programu, kontrolou XML soubory v adresáři BCUninstaller .Odeslaná data nejsou poskytována třetími stranám.</value>
+    <value>Pokaždé, když dojde k chybě, budete dotázáni, zda ji chcete odeslat. Můžete zkontrolovat, jaké údaje jsou odesílány ve zprávách o chybách a používání programu, kontrolou XML soubory v adresáři Neverwas .Odeslaná data nejsou poskytována třetími stranám.</value>
   </data>
   <data name="checkBoxUpdateSearch.Text" xml:space="preserve">
     <value>Automaticky hledat aktualizace při startu aplikace</value>
@@ -175,7 +175,7 @@
     <value>Automaticky posílat anonymní statistiku používání programu</value>
   </data>
   <data name="p4netUsageAdd.Text" xml:space="preserve">
-    <value>Odesláním této statistiky pomůže zlepšit BCUninstaller.</value>
+    <value>Odesláním této statistiky pomůže zlepšit Neverwas.</value>
   </data>
   <data name="pCorTitle.Text" xml:space="preserve">
     <value>Poškozený odinstalátor</value>
@@ -187,7 +187,7 @@
     <value>Poškozený nebo chybějící odinstalátor</value>
   </data>
   <data name="pCorViewInvalid.Text" xml:space="preserve">
-    <value>V některých případech odinstalátor může být poškozen, a není nemožná odinstalace. BCUninstaller umožňuje odebrat tyto položky snadno pomocí volby "Odinstalovat ručně".</value>
+    <value>V některých případech odinstalátor může být poškozen, a není nemožná odinstalace. Neverwas umožňuje odebrat tyto položky snadno pomocí volby "Odinstalovat ručně".</value>
   </data>
   <data name="checkBoxInvalidTest.Text" xml:space="preserve">
     <value>Zvýraznit neplatné odinstalátory</value>
@@ -212,7 +212,7 @@ Pokud původní odinstalátor není nalezen, budete muset použít volbu "Odinst
     <value>Zkušení uživatelé</value>
   </data>
   <data name="p3advDesc.Text" xml:space="preserve">
-    <value>Zatímco BCUninstaller může být použit jako základní odinstalátor, většina z jeho funkcí jsou zaměřeny pro zkušené uživatele. Postupujte opatrně!</value>
+    <value>Zatímco Neverwas může být použit jako základní odinstalátor, většina z jeho funkcí jsou zaměřeny pro zkušené uživatele. Postupujte opatrně!</value>
   </data>
   <data name="p3advSyscompTitle.Text" xml:space="preserve">
     <value>Systémové součásti</value>
@@ -273,7 +273,7 @@ Pokud původní odinstalátor není nalezen, budete muset použít volbu "Odinst
 Upozornění: Ověření může trvat delší dobu.</value>
   </data>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>Vítejte v BCUninstaller!</value>
+    <value>Vítejte v Neverwas!</value>
   </data>
   <data name="p1welcomeSubheading.Text" xml:space="preserve">
     <value>Tento průvodce umožní rychlou prohlídku a pomůže s konfiguraci aplikace.</value>
@@ -282,19 +282,19 @@ Upozornění: Ověření může trvat delší dobu.</value>
     <value>Výběr jazyka</value>
   </data>
   <data name="p1languageDesc.Text" xml:space="preserve">
-    <value>Můžete vynutit BCUninstaller použít konkrétní lokalizaci, pokud výchozí jazyk je nesprávný. Po restartu bude aplikován nový jazyk.</value>
+    <value>Můžete vynutit Neverwas použít konkrétní lokalizaci, pokud výchozí jazyk je nesprávný. Po restartu bude aplikován nový jazyk.</value>
   </data>
   <data name="buttonLanguageApply.Text" xml:space="preserve">
     <value>Použít</value>
   </data>
   <data name="p1languageExtradetails.Text" xml:space="preserve">
-    <value>Pokud jste ochotni pomoci s překladem BCUninstaller do Vašeho jazyka, klikněte na odkaz níže, aby jste mě kontaktovali. Veškerou pomoc velmi ocenim!</value>
+    <value>Pokud jste ochotni pomoci s překladem Neverwas do Vašeho jazyka, klikněte na odkaz níže, aby jste mě kontaktovali. Veškerou pomoc velmi ocenim!</value>
   </data>
   <data name="p1linkLabelContact.Text" xml:space="preserve">
     <value>Otevřete kontaktní formulář</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Vítejte v BCUninstaller</value>
+    <value>Vítejte v Neverwas</value>
   </data>
   <data name="p4netDesc4.Text" xml:space="preserve">
     <value>● Chcete-li načíst a nahrajte aplikační ratingy</value>

@@ -156,7 +156,7 @@
   <data name="label7.Text" xml:space="preserve">
     <value>Můžete zadat příkazy, které mají být provedeny před a po odinstalaci. Jeden řádek obsahuje jeden příkaz, který bude proveden jako okno "Spustit ...".
 
-BCU bude čekat na dokončení příkazu před zahájením dalšího.</value>
+Neverwas bude čekat na dokončení příkazu před zahájením dalšího.</value>
   </data>
   <data name="groupBoxExternal.Text" xml:space="preserve">
     <value>Externí aplikace</value>
@@ -171,7 +171,7 @@ BCU bude čekat na dokončení příkazu před zahájením dalšího.</value>
     <value>Externí nástroje</value>
   </data>
   <data name="labelProgramFolders.Text" xml:space="preserve">
-    <value>Můžete určit vlastní instalaci aplikace do složky (např D: \ Applications). Tento seznam bude používán BCU k hledání zbytků po odinstalaci, neregistrované aplikací a pár dalších věcí. I když to není nutné, seznam složek pro zlepšení operací BCU.
+    <value>Můžete určit vlastní instalaci aplikace do složky (např D: \ Applications). Tento seznam bude používán Neverwas k hledání zbytků po odinstalaci, neregistrované aplikací a pár dalších věcí. I když to není nutné, seznam složek pro zlepšení operací Neverwas.
 
 Výchozí složky systému Windows jsou vždy zahrnuty do vyhledávání, nemusíte je přidávat.
 
@@ -187,7 +187,7 @@ Použít celou cestu ke složce, jedna cesta na řádek. Neplatné cesty a neexi
     <value>Různé</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>BCUninstaller Nastavení</value>
+    <value>Neverwas Nastavení</value>
   </data>
   <data name="checkBoxAutoLoad.Text" xml:space="preserve">
     <value>Automaticky otevřený seznam "Default.bcul" na startu</value>

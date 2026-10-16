@@ -350,7 +350,7 @@
     <value>relatedUninstallerAdder1</value>
   </data>
   <data name="&gt;&gt;relatedUninstallerAdder1.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.RelatedUninstallerAdder, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>BulkCrapUninstaller.Forms.RelatedUninstallerAdder, Neverwas, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;relatedUninstallerAdder1.Parent" xml:space="preserve">
     <value>tabPage1</value>
@@ -482,7 +482,7 @@
     <value>uninstallConfirmation1</value>
   </data>
   <data name="&gt;&gt;uninstallConfirmation1.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Forms.UninstallConfirmation, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>BulkCrapUninstaller.Forms.UninstallConfirmation, Neverwas, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;uninstallConfirmation1.Parent" xml:space="preserve">
     <value>tabPage2</value>
@@ -755,7 +755,7 @@
     <value>uninstallationSettings1</value>
   </data>
   <data name="&gt;&gt;uninstallationSettings1.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Controls.UninstallationSettings, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>BulkCrapUninstaller.Controls.UninstallationSettings, Neverwas, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;uninstallationSettings1.Parent" xml:space="preserve">
     <value>tabPage4</value>
@@ -1628,7 +1628,7 @@
     <value>tabControl1</value>
   </data>
   <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Controls.TabControlWithoutHeader, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>BulkCrapUninstaller.Controls.TabControlWithoutHeader, Neverwas, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
     <value>panel1</value>

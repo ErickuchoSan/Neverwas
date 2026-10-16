@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>Bem-vindo ao BCUninstaller!</value>
+    <value>Bem-vindo ao Neverwas!</value>
   </data>
   <data name="buttonHelp.Text" xml:space="preserve">
     <value>Ver ajuda</value>
   </data>
   <data name="p1languageExtradetails.Text" xml:space="preserve">
-    <value>Se estiver disposto a ajudar a traduzir o BCUninstaller para o seu idioma, clique no link abaixo para entrar em contato comigo. Toda a ajuda é bem-vinda!</value>
+    <value>Se estiver disposto a ajudar a traduzir o Neverwas para o seu idioma, clique no link abaixo para entrar em contato comigo. Toda a ajuda é bem-vinda!</value>
   </data>
   <data name="p4netDesc4.Text" xml:space="preserve">
     <value>● Para pesquisar e baixar avaliações de aplicativos.</value>
@@ -157,7 +157,7 @@
     <value>● Para procurar actualizações do sistema</value>
   </data>
   <data name="p1languageDesc.Text" xml:space="preserve">
-    <value>Pode obrigar o BCUninstaller a usar uma localização específica se o idioma instalado por defeito for o incorreto. Será realizada uma reinicialização para aplicar o novo idioma.</value>
+    <value>Pode obrigar o Neverwas a usar uma localização específica se o idioma instalado por defeito for o incorreto. Será realizada uma reinicialização para aplicar o novo idioma.</value>
   </data>
   <data name="checkBoxInvalidTest.Text" xml:space="preserve">
     <value>Destacar Desinstaladores inválidos</value>
@@ -170,7 +170,7 @@
 Se o desinstalador original não for encontrado terá de usar a opção "Desinstalar manualmente" para os remover.</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Bem-vindo ao BCUninstaller</value>
+    <value>Bem-vindo ao Neverwas</value>
   </data>
   <data name="buttonFinish.Text" xml:space="preserve">
     <value>Terminar a configuração</value>
@@ -194,16 +194,16 @@ Se o desinstalador original não for encontrado terá de usar a opção "Desinst
     <value>Anterior</value>
   </data>
   <data name="p4netDesc.Text" xml:space="preserve">
-    <value>O BCUninstaller pode tentar ligar-se à internet, pelas seguintes razões::</value>
+    <value>O Neverwas pode tentar ligar-se à internet, pelas seguintes razões::</value>
   </data>
   <data name="p4netErrors.Text" xml:space="preserve">
-    <value>Sempre que ocorrer um erro, ser-lhe-á perguntado se deseja enviar um relatório. Poderá verificar se os dados estão a ser enviados em relatórios de erros e utilização examinando os arquivos XML no directório do BCUninstaller. Os dados enviados não são participados a terceiros.</value>
+    <value>Sempre que ocorrer um erro, ser-lhe-á perguntado se deseja enviar um relatório. Poderá verificar se os dados estão a ser enviados em relatórios de erros e utilização examinando os arquivos XML no directório do Neverwas. Os dados enviados não são participados a terceiros.</value>
   </data>
   <data name="p4netUsageAdd.Text" xml:space="preserve">
-    <value>Enviando estas estatísticas está a contribuir para melhorar o BCUninstaller.</value>
+    <value>Enviando estas estatísticas está a contribuir para melhorar o Neverwas.</value>
   </data>
   <data name="p5finishContact.Text" xml:space="preserve">
-    <value>Agora pode começar a usar o BCUninstaller. Se tiver alguma dúvida ou se quiser sugerir um novo recurso visite o link abaixo.</value>
+    <value>Agora pode começar a usar o Neverwas. Se tiver alguma dúvida ou se quiser sugerir um novo recurso visite o link abaixo.</value>
   </data>
   <data name="checkBoxGroups.Text" xml:space="preserve">
     <value>Apresentar os desinstaladores dispostos em grupos</value>
@@ -249,7 +249,7 @@ Desactiva a protecção dos desinstaladores designados como "Protegidos".</value
     <value>Mostrar na lista as aplicações não registada</value>
   </data>
   <data name="pCorViewInvalid.Text" xml:space="preserve">
-    <value>Em certos casos, alguns desinstaladores podem estar corrompidos, sendo impossível desinstalá-los. O BCUninstaller pode remover essas entradas facilmente usando a opção "Desinstalar manualmente".</value>
+    <value>Em certos casos, alguns desinstaladores podem estar corrompidos, sendo impossível desinstalá-los. O Neverwas pode remover essas entradas facilmente usando a opção "Desinstalar manualmente".</value>
   </data>
   <data name="pCorOrphansMessage.Text" xml:space="preserve">
     <value>Sometimes whole applications can be left on your drive even after being uninstalled. This can also happen if only the uninstaller is removed.</value>
@@ -259,7 +259,7 @@ Desactiva a protecção dos desinstaladores designados como "Protegidos".</value
   </data>
   <data name="p3advDesc.Text" xml:space="preserve">
     <value>
-Se bem que o BCUninstaller possa ser utilizado como um desinstalador básico, a maior parte das suas funções são destinadas aos utilizadores experientes. Proceda com precaução!
+Se bem que o Neverwas possa ser utilizado como um desinstalador básico, a maior parte das suas funções são destinadas aos utilizadores experientes. Proceda com precaução!
 </value>
   </data>
   <data name="checkBoxCheckboxes.Text" xml:space="preserve">

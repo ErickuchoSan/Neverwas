@@ -3,7 +3,7 @@
 		<OutputType>Exe</OutputType>
 		<RootNamespace>BCU_console</RootNamespace>
 
-		<Product>Command Line Interface for Bulk Crap Uninstaller</Product>
+		<Product>Command Line Interface for Neverwas</Product><AssemblyName>neverwas-cli</AssemblyName>
 		<AssemblyTitle>Command line utility that offers some of BCU's functionality for scripting</AssemblyTitle>
 		
 		<ApplicationIcon>..\BulkCrapUninstaller\Resources\logo.ico</ApplicationIcon>

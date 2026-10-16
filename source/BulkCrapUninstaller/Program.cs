@@ -94,7 +94,7 @@ namespace BulkCrapUninstaller
         /// </summary>
         internal static void PrepareSettings()
         {
-            const string exeName = "BCUninstaller";
+            const string exeName = "Neverwas";
 
             IsAfterUpgrade = false;
             try

@@ -230,7 +230,7 @@
     <value>advancedClipboardCopy1</value>
   </data>
   <data name="&gt;&gt;advancedClipboardCopy1.Type" xml:space="preserve">
-    <value>BulkCrapUninstaller.Controls.AdvancedClipboardCopy, BCUninstaller, Culture=neutral, PublicKeyToken=null</value>
+    <value>BulkCrapUninstaller.Controls.AdvancedClipboardCopy, Neverwas, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;advancedClipboardCopy1.Parent" xml:space="preserve">
     <value>$this</value>

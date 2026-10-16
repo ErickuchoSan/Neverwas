@@ -136,7 +136,7 @@
     <value>沒有與你的搜尋件相同的項目。</value>
   </data>
   <data name="StrExportHeader" xml:space="preserve">
-    <value>BCUninstaller匯出
+    <value>Neverwas匯出
 發布者 | 版本 | 日期 | 大小 | 註册表 | 移除程式類型 | 移除字串 | 最小化移除字串 | 建議</value>
   </data>
   <data name="StrIsPortable" xml:space="preserve">
@@ -215,14 +215,14 @@
     <value>檢查更新時遇到錯誤</value>
   </data>
   <data name="MessageBoxes_UpdateFailed_Details" xml:space="preserve">
-    <value>確保BCUninstaller沒有在防火牆鐘被阻擋連接，且網路連接正常。</value>
+    <value>確保Neverwas沒有在防火牆鐘被阻擋連接，且網路連接正常。</value>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Message" xml:space="preserve">
     <value>新版本{0}可用,現在更新嗎?</value>
     <comment>0 is version number</comment>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Details" xml:space="preserve">
-    <value>BCUninstaller將自動下載更新並在重新啟動後應用它。請注意，在此過程中你可能會丢失設定。
+    <value>Neverwas將自動下載更新並在重新啟動後應用它。請注意，在此過程中你可能會丢失設定。
 
 更新日誌：
 - {0}
@@ -301,7 +301,7 @@
     <value>如果錯誤仍然存在，請嘗試保存到其他目錄，例如桌面。</value>
   </data>
   <data name="MessageBoxes_GetSystemRestoreDescription" xml:space="preserve">
-    <value>BCUninstaller正在移除{0}個應用程式</value>
+    <value>Neverwas正在移除{0}個應用程式</value>
     <comment>0 is the uninstaller count</comment>
   </data>
   <data name="MessageBoxes_Title_Rename_uninstaller" xml:space="preserve">
@@ -348,13 +348,13 @@
     <value>沒有可尋找的</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Title" xml:space="preserve">
-    <value>移除BCUninstaller</value>
+    <value>移除Neverwas</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Message" xml:space="preserve">
-    <value>你確定要移除BCUninstaller嗎？</value>
+    <value>你確定要移除Neverwas嗎？</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Details" xml:space="preserve">
-    <value>很遺憾看到你離開！如果你有一兩分鐘的時間，請至我的網站上說明你為什麼移除BCU(http://klocmansoftware.weebly.com/)。我會盡力解決任何合理的問題。</value>
+    <value>很遺憾看到你離開！如果你有一兩分鐘的時間，請至我的網站上說明你為什麼移除BCU(https://github.com/ErickuchoSan/Neverwas/discussions)。我會盡力解決任何合理的問題。</value>
   </data>
   <data name="MessageBoxes_SysRestoreBeginQuestion_Message" xml:space="preserve">
     <value>要在繼續之前建立還原點嗎？</value>
@@ -557,7 +557,7 @@
     <value>還原預設設定</value>
   </data>
   <data name="MessageBoxes_ResetSettingsConfirmation_Details" xml:space="preserve">
-    <value>你的所有設定將永久遺失。BCUninstaller必須重新啟動以完成此操作。</value>
+    <value>你的所有設定將永久遺失。Neverwas必須重新啟動以完成此操作。</value>
   </data>
   <data name="MessageBoxes_Title_Open_Uninstall_List" xml:space="preserve">
     <value>開啟移除清單</value>

@@ -136,7 +136,7 @@
     <value>没有与你的搜索条件匹配的条目。</value>
   </data>
   <data name="StrExportHeader" xml:space="preserve">
-    <value>BCUninstaller导出
+    <value>Neverwas导出
 发布者 | 版本 | 日期 | 大小 | 注册表 | 卸载程序类型 | 卸载字符串 | 静默卸载字符串 | 注释</value>
   </data>
   <data name="StrIsPortable" xml:space="preserve">
@@ -218,14 +218,14 @@
     <value>检查更新时遇到错误</value>
   </data>
   <data name="MessageBoxes_UpdateFailed_Details" xml:space="preserve">
-    <value>确保BCUninstaller没有在防火墙中被阻止，并且互联网连接正常。</value>
+    <value>确保Neverwas没有在防火墙中被阻止，并且互联网连接正常。</value>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Message" xml:space="preserve">
     <value>新版本{0}可用,现在更新吗?</value>
     <comment>0 is version number</comment>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Details" xml:space="preserve">
-    <value>BCUninstaller将自动下载更新并在重新启动后应用它。请注意，在此过程中你可能会丢失设置。
+    <value>Neverwas将自动下载更新并在重新启动后应用它。请注意，在此过程中你可能会丢失设置。
 
 更新日志：
 - {0}
@@ -304,7 +304,7 @@
     <value>如果错误仍然存在，请尝试保存到其他目录，例如桌面。</value>
   </data>
   <data name="MessageBoxes_GetSystemRestoreDescription" xml:space="preserve">
-    <value>BCUninstaller正在卸载{0}个应用程序</value>
+    <value>Neverwas正在卸载{0}个应用程序</value>
     <comment>0 is the uninstaller count</comment>
   </data>
   <data name="MessageBoxes_Title_Rename_uninstaller" xml:space="preserve">
@@ -351,13 +351,13 @@
     <value>没有可搜索的</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Title" xml:space="preserve">
-    <value>卸载BCUninstaller</value>
+    <value>卸载Neverwas</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Message" xml:space="preserve">
-    <value>你确定要卸载BCUninstaller吗?</value>
+    <value>你确定要卸载Neverwas吗?</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Details" xml:space="preserve">
-    <value>很遗憾看到你离开！如果你有一两分钟的时间，请在我的网站上留言说明你为什么卸载BCU(http://klocmansoftware.weebly.com/)。我会尽力解决任何合理的问题。</value>
+    <value>很遗憾看到你离开！如果你有一两分钟的时间，请在我的网站上留言说明你为什么卸载BCU(https://github.com/ErickuchoSan/Neverwas/discussions)。我会尽力解决任何合理的问题。</value>
   </data>
   <data name="MessageBoxes_SysRestoreBeginQuestion_Message" xml:space="preserve">
     <value>要在继续之前创建还原点吗?</value>

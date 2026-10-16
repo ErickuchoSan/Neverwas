@@ -136,7 +136,7 @@
     <value>There are no entries matching your search criteria.</value>
   </data>
   <data name="StrExportHeader" xml:space="preserve">
-    <value>BCUninstaller export
+    <value>Neverwas export
 Publisher | Version | Date | Size | Registry | Uninstaller type | Uninstall string | Quiet uninstall string | Comments</value>
   </data>
   <data name="StrIsPortable" xml:space="preserve">
@@ -195,7 +195,7 @@ Files and directories will be moved to the recycle bin, you can restore them fro
     <value>Submit feedback</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Message" xml:space="preserve">
-    <value>Would you like to send feedback concerning BCU?</value>
+    <value>Would you like to send feedback concerning Neverwas?</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Details" xml:space="preserve">
     <value>This will take you less than a minute but help the development greatly! All feedback is appreciated, be it a bug report, feature request or a simple thanks!
@@ -214,7 +214,7 @@ Want some functionality added or a bug fixed? Please send me your feedback using
     <value>Encountered an error while checking for updates</value>
   </data>
   <data name="MessageBoxes_UpdateFailed_Details" xml:space="preserve">
-    <value>Make sure that BCUninstaller is not blocked in your firewall and that you have a working internet connection.
+    <value>Make sure that Neverwas is not blocked in your firewall and that you have a working internet connection.
 
 </value>
   </data>
@@ -223,12 +223,12 @@ Want some functionality added or a bug fixed? Please send me your feedback using
     <comment>0 is version number</comment>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Details" xml:space="preserve">
-    <value>BCUninstaller will automatically download the update and apply it after a restart. Please note that you might lose your settings in the process. 
+    <value>Neverwas will automatically download the update and apply it after a restart. Please note that you might lose your settings in the process. 
 
 Changelog:
 - {0}
 
-Warning: During update the folder "Update" and the file "Update.zip" inside of the BCU directory will be removed.</value>
+Warning: During update the folder "Update" and the file "Update.zip" inside of the Neverwas directory will be removed.</value>
     <comment>0 is a list of changes separated by "- "</comment>
   </data>
   <data name="MessageBoxes_UninstallMsiGuidMissing_Title" xml:space="preserve">
@@ -302,7 +302,7 @@ Warning: During update the folder "Update" and the file "Update.zip" inside of t
     <value>If the error persists try saving to a different directory, for example to the desktop.</value>
   </data>
   <data name="MessageBoxes_GetSystemRestoreDescription" xml:space="preserve">
-    <value>BCUninstaller is uninstalling {0} application(s)</value>
+    <value>Neverwas is uninstalling {0} application(s)</value>
     <comment>0 is the uninstaller count</comment>
   </data>
   <data name="MessageBoxes_Title_Rename_uninstaller" xml:space="preserve">
@@ -349,13 +349,13 @@ Warning: During update the folder "Update" and the file "Update.zip" inside of t
     <value>Nothing to search for</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Title" xml:space="preserve">
-    <value>Uninstall BCUninstaller</value>
+    <value>Uninstall Neverwas</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Message" xml:space="preserve">
-    <value>Are you sure you want to uninstall BCUninstaller?</value>
+    <value>Are you sure you want to uninstall Neverwas?</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Details" xml:space="preserve">
-    <value>I'm sorry to see you leave! If you have a minute or two please drop a word on why you uninstalled BCU on my website (http://klocmansoftware.weebly.com/). I'll do my best to fix any legitimate problems.</value>
+    <value>I'm sorry to see you leave! If you have a minute or two please drop a word on why you uninstalled Neverwas on my website (https://github.com/ErickuchoSan/Neverwas/discussions). I'll do my best to fix any legitimate problems.</value>
   </data>
   <data name="MessageBoxes_SysRestoreBeginQuestion_Message" xml:space="preserve">
     <value>Do you want to create a restore point before continuing?</value>
@@ -448,7 +448,7 @@ Do you want to use "loud" uninstallers for those items, or should they be remove
     <value>Restore default settings</value>
   </data>
   <data name="MessageBoxes_ResetSettingsConfirmation_Details" xml:space="preserve">
-    <value>All of your settings will be lost permanently. BCUninstaller will have to restart to complete this action.</value>
+    <value>All of your settings will be lost permanently. Neverwas will have to restart to complete this action.</value>
   </data>
   <data name="MessageBoxes_Title_Open_Uninstall_List" xml:space="preserve">
     <value>Open Uninstall List</value>
@@ -467,7 +467,7 @@ Do you want to use "loud" uninstallers for those items, or should they be remove
     <comment>Shown on the status bar</comment>
   </data>
   <data name="UninstallProgressWindow_TaskDoneNextStep" xml:space="preserve">
-    <value>Task finished. Close this window to continue; BCU may ask to scan for leftovers.</value>
+    <value>Task finished. Close this window to continue; Neverwas may ask to scan for leftovers.</value>
     <comment>Shown on the status bar after uninstallers finish</comment>
   </data>
   <data name="UninstallProgressWindow_Uninstalling" xml:space="preserve">
@@ -541,7 +541,7 @@ Do you want to use "loud" uninstallers for those items, or should they be remove
     <value>Some settings will not take effect until the application is restarted.</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Message" xml:space="preserve">
-    <value>Do you want to restart BCU to apply new settings?</value>
+    <value>Do you want to restart Neverwas to apply new settings?</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Title" xml:space="preserve">
     <value>Change application settings</value>
@@ -767,10 +767,10 @@ You can try disabling collision detection in the settings, but it is not recomme
     <value>Select where to save the backup. A new directory will be created.</value>
   </data>
   <data name="NewsPopup_UpdatedTitle" xml:space="preserve">
-    <value>BCU has been updated to v{0}!</value>
+    <value>Neverwas has been updated to v{0}!</value>
   </data>
   <data name="NewsPopup_FirstStartTitle" xml:space="preserve">
-    <value>Welcome to BCU version {0}!</value>
+    <value>Welcome to Neverwas version {0}!</value>
   </data>
   <data name="UninstallProgressWindow_StatusPuttingToSleepInSeconds" xml:space="preserve">
     <value>Putting PC to sleep in {0}s. Uncheck the sleep checkbox to cancel.</value>

@@ -136,7 +136,7 @@
     <value>Inga poster matchar dina sökkriterier.</value>
   </data>
   <data name="StrExportHeader" xml:space="preserve">
-    <value>BCUninstaller export
+    <value>Neverwas export
 Utgivare | Version | Datum | Storlek | Register | Avinstallations typ | Avinstallationssträng | Tyst avinstallationssträng | Kommentarer</value>
   </data>
   <data name="StrIsPortable" xml:space="preserve">
@@ -195,7 +195,7 @@ Filer och kataloger kommer att flyttas till papperskorgen, du kan återställa d
     <value>Skicka feedback</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Message" xml:space="preserve">
-    <value>Vill du skicka feedback angående BCU?</value>
+    <value>Vill du skicka feedback angående Neverwas?</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Details" xml:space="preserve">
     <value>Detta tar mindre än en minut och hjälper utvecklingen enormt! All feedback uppskattas, vare sig det är en buggrapport, en funktionsförfrågan eller ett enkelt tack!
@@ -214,19 +214,19 @@ Vill du ha någon funktionalitet tillagd eller en bugg fixad? Skicka gärna din 
     <value>Ett fel uppstod vid kontroll av uppdateringar</value>
   </data>
   <data name="MessageBoxes_UpdateFailed_Details" xml:space="preserve">
-    <value>Se till att BCUninstaller inte är blockerad i din brandvägg och att du har en fungerande internetanslutning.</value>
+    <value>Se till att Neverwas inte är blockerad i din brandvägg och att du har en fungerande internetanslutning.</value>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Message" xml:space="preserve">
     <value>Ny version {0} är tillgänglig, vill du uppgradera nu?</value>
     <comment>0 is version number</comment>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Details" xml:space="preserve">
-    <value>BCUninstaller kommer automatiskt att hämta uppdateringen och tillämpa den efter en omstart. Observera att du kanske förlorar dina inställningar i processen.
+    <value>Neverwas kommer automatiskt att hämta uppdateringen och tillämpa den efter en omstart. Observera att du kanske förlorar dina inställningar i processen.
 
 Ändringslogg:
 - {0}
 
-Varning: Under uppdateringen kommer mappen "Update" och filen "Update.zip" inuti BCU-mappen att tas bort.</value>
+Varning: Under uppdateringen kommer mappen "Update" och filen "Update.zip" inuti Neverwas-mappen att tas bort.</value>
     <comment>0 is a list of changes separated by "- "</comment>
   </data>
   <data name="MessageBoxes_UninstallMsiGuidMissing_Title" xml:space="preserve">
@@ -300,7 +300,7 @@ Varning: Under uppdateringen kommer mappen "Update" och filen "Update.zip" inuti
     <value>Om felet kvarstår, försök spara till en annan plats, till exempel till skrivbordet.</value>
   </data>
   <data name="MessageBoxes_GetSystemRestoreDescription" xml:space="preserve">
-    <value>BCUninstaller avinstallerar {0} app(ar)</value>
+    <value>Neverwas avinstallerar {0} app(ar)</value>
     <comment>0 is the uninstaller count</comment>
   </data>
   <data name="MessageBoxes_Title_Rename_uninstaller" xml:space="preserve">
@@ -347,13 +347,13 @@ Varning: Under uppdateringen kommer mappen "Update" och filen "Update.zip" inuti
     <value>Inget att söka efter</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Title" xml:space="preserve">
-    <value>Avinstallera BCUninstaller</value>
+    <value>Avinstallera Neverwas</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Message" xml:space="preserve">
-    <value>Är du säker på att du vill avinstallera BCUninstaller?</value>
+    <value>Är du säker på att du vill avinstallera Neverwas?</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Details" xml:space="preserve">
-    <value>Tråkigt att du lämnar! Om du har en minut eller två, vänligen lämna några ord om varför du avinstallerade BCU på min webbplats (http://klocmansoftware.weebly.com/). Jag kommer att göra mitt bästa för att åtgärda eventuella legitima problem.</value>
+    <value>Tråkigt att du lämnar! Om du har en minut eller två, vänligen lämna några ord om varför du avinstallerade Neverwas på min webbplats (https://github.com/ErickuchoSan/Neverwas/discussions). Jag kommer att göra mitt bästa för att åtgärda eventuella legitima problem.</value>
   </data>
   <data name="MessageBoxes_SysRestoreBeginQuestion_Message" xml:space="preserve">
     <value>Vill du skapa en återställningspunkt innan du fortsätter?</value>
@@ -445,7 +445,7 @@ Vill du använda synliga avinstallationsprogram för dessa objekt, eller ska de 
     <value>Återställ standardinställningar</value>
   </data>
   <data name="MessageBoxes_ResetSettingsConfirmation_Details" xml:space="preserve">
-    <value>Alla dina inställningar kommer att gå förlorade permanent. BCUninstaller måste startas om för att slutföra denna åtgärd.</value>
+    <value>Alla dina inställningar kommer att gå förlorade permanent. Neverwas måste startas om för att slutföra denna åtgärd.</value>
   </data>
   <data name="MessageBoxes_Title_Open_Uninstall_List" xml:space="preserve">
     <value>Öppna avinstallationslistan</value>
@@ -534,7 +534,7 @@ Vill du använda synliga avinstallationsprogram för dessa objekt, eller ska de 
     <value>Vissa inställningar kommer inte att träda i kraft förrän appen har startats om.</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Message" xml:space="preserve">
-    <value>Vill du starta om BCU för att tillämpa nya inställningar?</value>
+    <value>Vill du starta om Neverwas för att tillämpa nya inställningar?</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Title" xml:space="preserve">
     <value>Ändra appinställningar</value>
@@ -760,10 +760,10 @@ Du kan försöka inaktivera kollisionsdetektering i inställningarna, men det re
     <value>Välj var säkerhetskopian ska sparas. En ny mapp kommer att skapas.</value>
   </data>
   <data name="NewsPopup_UpdatedTitle" xml:space="preserve">
-    <value>BCU har uppdaterats till v{0}!</value>
+    <value>Neverwas har uppdaterats till v{0}!</value>
   </data>
   <data name="NewsPopup_FirstStartTitle" xml:space="preserve">
-    <value>Välkommen till BCU version {0}!</value>
+    <value>Välkommen till Neverwas version {0}!</value>
   </data>
   <data name="UninstallProgressWindow_StatusPuttingToSleepInSeconds" xml:space="preserve">
     <value>Ställer datorn i viloläge om {0}s. Avmarkera kryssrutan för viloläge för att avbryta.</value>

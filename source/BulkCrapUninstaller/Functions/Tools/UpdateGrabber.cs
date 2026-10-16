@@ -112,11 +112,11 @@ namespace BulkCrapUninstaller.Functions.Tools
             }
         }
 
-        public static string LatestReleaseUrl = "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/latest";
+        public static string LatestReleaseUrl = "https://github.com/ErickuchoSan/Neverwas/releases/latest";
 
         public static Version CheckLatestVersion()
         {
-            // Should result in something like "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/tag/v4.1"
+            // Should result in something like "https://github.com/ErickuchoSan/Neverwas/releases/tag/v4.1"
             var url = GetFinalRedirect(LatestReleaseUrl);
             if (url != null)
             {

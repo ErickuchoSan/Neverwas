@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="labelInfo2.Text" xml:space="preserve">
-    <value>A kezdeti sorrend az eltávolítási beállításoktól függ, de az elemek áthúzásával megváltoztatható. Megjegyzés: A BCU megváltoztathatja a sorrendet, ha az egyidejű eltávolítás engedélyezve van.</value>
+    <value>A kezdeti sorrend az eltávolítási beállításoktól függ, de az elemek áthúzásával megváltoztatható. Megjegyzés: A Neverwas megváltoztathatja a sorrendet, ha az egyidejű eltávolítás engedélyezve van.</value>
   </data>
   <data name="labelInfo.Text" xml:space="preserve">
     <value>Ez az eltávolítandó alkalmazások listája, felülről lefelé haladva. Ha az „Eltávolítás” mezőt nem jelöli be, az alkalmazás nem lesz eltávolítva. Ha egy elemhez nem áll rendelkezésre a csendes eltávolítás, az nem jelölhető be</value>

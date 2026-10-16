@@ -136,7 +136,7 @@
     <value>Befejezés</value>
   </data>
   <data name="p5finishContact.Text" xml:space="preserve">
-    <value>Most már használhatja a BCUninstaller-t. Ha kérdése lenne, vagy egy újabb funkciót szeretne javasolni kattintson a lenti hivatkozásra.</value>
+    <value>Most már használhatja a Neverwas-t. Ha kérdése lenne, vagy egy újabb funkciót szeretne javasolni kattintson a lenti hivatkozásra.</value>
   </data>
   <data name="p5LinkContact.Text" xml:space="preserve">
     <value>Kapcsolat űrlap megnyitása</value>
@@ -154,7 +154,7 @@
     <value>Hálózati hozzáférés</value>
   </data>
   <data name="p4netDesc.Text" xml:space="preserve">
-    <value>A BCUninstaller a következők miatt, adott esetekben csatlakozhat az Internethez:</value>
+    <value>A Neverwas a következők miatt, adott esetekben csatlakozhat az Internethez:</value>
   </data>
   <data name="p4netDesc1.Text" xml:space="preserve">
     <value>● Programfrissítések keresése.</value>
@@ -169,7 +169,7 @@
     <value>● Alkalmazás minősítések fel- és letöltése.</value>
   </data>
   <data name="p4netErrors.Text" xml:space="preserve">
-    <value>Amikor hiba történik a program megkérdi önt, hogy szeretne-e arról jelentést küldeni. Csak jelölje ki az elküldendő jelentéseket, amelyek a BCUninstaller könyvtárában levő XML fájlokban találhatók. Az elküldött adatokat nem osztjuk meg semmilyen harmadik féllel.</value>
+    <value>Amikor hiba történik a program megkérdi önt, hogy szeretne-e arról jelentést küldeni. Csak jelölje ki az elküldendő jelentéseket, amelyek a Neverwas könyvtárában levő XML fájlokban találhatók. Az elküldött adatokat nem osztjuk meg semmilyen harmadik féllel.</value>
   </data>
   <data name="checkBoxUpdateSearch.Text" xml:space="preserve">
     <value>Frissítések automatikus keresése a program indításakor</value>
@@ -196,7 +196,7 @@
     <value>Sérült vagy hiányzó eltávolítók</value>
   </data>
   <data name="pCorViewInvalid.Text" xml:space="preserve">
-    <value>Néha az eltávolítók megsérülhetnek, így ezekkel nem lehetséges az eltávolítás. A BCUninstaller az ilyen jellegű bejegyzéseket is eltávolítja a "Kézi eltávolítás" opcióval.</value>
+    <value>Néha az eltávolítók megsérülhetnek, így ezekkel nem lehetséges az eltávolítás. A Neverwas az ilyen jellegű bejegyzéseket is eltávolítja a "Kézi eltávolítás" opcióval.</value>
   </data>
   <data name="checkBoxInvalidTest.Text" xml:space="preserve">
     <value>Érvénytelen eltávolítók jelölése</value>
@@ -221,7 +221,7 @@ Ha az eredeti eltávolító nem található meg, ezekhez használhatja a "Kézi 
     <value>Speciális felhasználók</value>
   </data>
   <data name="p3advDesc.Text" xml:space="preserve">
-    <value>A BCUninstaller ugyan egy alap eltávolítóként használható, azonban számos funkciója szakértő felhasználóknak ajánlott. Óvatosan menjen tovább!</value>
+    <value>A Neverwas ugyan egy alap eltávolítóként használható, azonban számos funkciója szakértő felhasználóknak ajánlott. Óvatosan menjen tovább!</value>
   </data>
   <data name="p3advSyscompTitle.Text" xml:space="preserve">
     <value>Rendszerelemek</value>
@@ -282,7 +282,7 @@ Ha az eredeti eltávolító nem található meg, ezekhez használhatja a "Kézi 
 Figyelem: Az ellenőrzés hosszabb ideig is eltarthat.</value>
   </data>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>Üdvözli Önt a BCUninstaller!</value>
+    <value>Üdvözli Önt a Neverwas!</value>
   </data>
   <data name="p1welcomeSubheading.Text" xml:space="preserve">
     <value>A varázslóban gyors segítséget kap az alkalmazás megfelelő beállításához.</value>
@@ -291,13 +291,13 @@ Figyelem: Az ellenőrzés hosszabb ideig is eltarthat.</value>
     <value>Kiválasztott nyelv</value>
   </data>
   <data name="p1languageDesc.Text" xml:space="preserve">
-    <value>Kényszerítheti a BCUninstaller-t, egy adott nyelv használatára, ha az alap nyelv nem felel meg. Az új nyelv alkalmazásához újra kell indítani a programot.</value>
+    <value>Kényszerítheti a Neverwas-t, egy adott nyelv használatára, ha az alap nyelv nem felel meg. Az új nyelv alkalmazásához újra kell indítani a programot.</value>
   </data>
   <data name="buttonLanguageApply.Text" xml:space="preserve">
     <value>Alkalmaz</value>
   </data>
   <data name="p1languageExtradetails.Text" xml:space="preserve">
-    <value>Ha lefordítaná a saját nyelvére a BCUninstaller-t, kattintson az alábbi hivatkozásra a kapcsolatfelvételhez. Minden segítséget szívesen fogadunk!</value>
+    <value>Ha lefordítaná a saját nyelvére a Neverwas-t, kattintson az alábbi hivatkozásra a kapcsolatfelvételhez. Minden segítséget szívesen fogadunk!</value>
   </data>
   <data name="p1linkLabelContact.Text" xml:space="preserve">
     <value>Kapcsolat űrlap megnyitása</value>
@@ -308,7 +308,7 @@ uninstaller</value>
     <comment>The missing B is in an image next to the text</comment>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Üdvözli a BCUninstaller</value>
+    <value>Üdvözli a Neverwas</value>
   </data>
   <data name="labelProgress.Text" xml:space="preserve">
     <value>1 / 6</value>
