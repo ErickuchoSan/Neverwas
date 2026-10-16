@@ -7,10 +7,16 @@ function Read-TextFile {
         throw "Rebrand does not support UTF-16 files: $Path"
     }
     $hasBom = $bytes.Length -ge 3 -and $bytes[0] -eq 0xEF -and $bytes[1] -eq 0xBB -and $bytes[2] -eq 0xBF
-    $encoding = New-Object System.Text.UTF8Encoding($hasBom)
+    # Throwing decoder: invalid bytes must fail loudly, not become U+FFFD and get written back.
+    $encoding = New-Object System.Text.UTF8Encoding($hasBom, $true)
     $offset = 0
     if ($hasBom) { $offset = 3 }
-    $text = $encoding.GetString($bytes, $offset, $bytes.Length - $offset)
+    try {
+        $text = $encoding.GetString($bytes, $offset, $bytes.Length - $offset)
+    }
+    catch [System.Text.DecoderFallbackException] {
+        throw "Rebrand only supports UTF-8 files; $Path is not valid UTF-8"
+    }
     [pscustomobject]@{ Text = $text; Encoding = $encoding }
 }
 

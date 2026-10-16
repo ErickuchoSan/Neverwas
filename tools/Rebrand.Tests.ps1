@@ -86,6 +86,11 @@ Describe 'Read-TextFile / Write-TextFile' {
         Write-TextFile -Path $p -Text $f.Text -Encoding $f.Encoding
         ([IO.File]::ReadAllBytes($p) -join ',') | Should Be '97,10'
     }
+    It 'refuses files that are not valid UTF-8' {
+        $p = Join-Path $TestDrive 'latin1.txt'
+        [IO.File]::WriteAllBytes($p, [byte[]](0x61,0xE9,0x62))
+        { Read-TextFile -Path $p } | Should Throw 'not valid UTF-8'
+    }
     It 'refuses UTF-16 files' {
         $p = Join-Path $TestDrive 'utf16.txt'
         [IO.File]::WriteAllBytes($p, [byte[]](0xFF,0xFE,0x61,0x00))
