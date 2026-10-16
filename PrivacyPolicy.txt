@@ -5,7 +5,9 @@ Neverwas collects no data and sends no data anywhere.
 - No application ratings are fetched or uploaded.
 - No usage statistics are collected or sent.
 
-The only network request Neverwas makes on its own is the optional update check. It is off by default; when you turn it on, Neverwas asks GitHub for the latest release of https://github.com/ErickuchoSan/Neverwas and nothing else is sent.
+Neverwas makes two kinds of network requests on its own:
+- The optional update check. It is off by default; when you turn it on, Neverwas asks GitHub for the latest release of https://github.com/ErickuchoSan/Neverwas and nothing else is sent.
+- Certificate revocation checks. To show whether an uninstaller's digital signature is valid, Windows asks the certificate authority that issued it whether that certificate was revoked. Only the certificate being checked is sent; your list of programs and personal data are not.
 
 Links you click (for example "search the web" or the project page) open in your web browser. What happens there is governed by the site you visit.
 
