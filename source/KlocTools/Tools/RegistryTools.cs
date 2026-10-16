@@ -419,7 +419,7 @@ namespace Klocman.Tools
             }
 
             var temp = Path.GetTempPath();
-            var tempDirectory = Directory.CreateDirectory(Path.Combine(temp, "BCU"));
+            var tempDirectory = Directory.CreateDirectory(Path.Combine(temp, "Neverwas"));
             var tempFile = Path.Combine(tempDirectory.FullName, "tempBackup.reg");
 
             File.Delete(tempFile);

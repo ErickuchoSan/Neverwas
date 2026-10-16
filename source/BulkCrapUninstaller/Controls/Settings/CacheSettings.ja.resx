@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>キャッシュは検索時間を大幅に短縮できますが、アプリケーションが変更された場合、BCUが変更に気づかないことがあります。（例: サイズ）
-注：これらの設定を反映するには、BCUの再起動が必要な場合があります。</value>
+    <value>キャッシュは検索時間を大幅に短縮できますが、アプリケーションが変更された場合、Neverwasが変更に気づかないことがあります。（例: サイズ）
+注：これらの設定を反映するには、Neverwasの再起動が必要な場合があります。</value>
   </data>
   <data name="checkBoxCerts.Text" xml:space="preserve">
     <value>アプリケーション証明書のスキャン結果をキャッシュする</value>

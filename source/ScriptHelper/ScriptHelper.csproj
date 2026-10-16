@@ -2,7 +2,7 @@
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
 
-		<AssemblyTitle>Provides various registry tweaks and scripts to BCU</AssemblyTitle>
+		<AssemblyTitle>Provides various registry tweaks and scripts to Neverwas</AssemblyTitle>
 
 		<StartupObject>ScriptHelper.Program</StartupObject>
 	</PropertyGroup>

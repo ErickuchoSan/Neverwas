@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>快取可以大大降低搜尋時間，但如果修改應用程式，BCU可能不會注意到變更。(例如大小)
-警告：要使設定生效，可能需要重新啟動BCU。</value>
+    <value>快取可以大大降低搜尋時間，但如果修改應用程式，Neverwas可能不會注意到變更。(例如大小)
+警告：要使設定生效，可能需要重新啟動Neverwas。</value>
   </data>
   <data name="checkBoxCerts.Text" xml:space="preserve">
     <value>快取應用程式證書掃描結果</value>

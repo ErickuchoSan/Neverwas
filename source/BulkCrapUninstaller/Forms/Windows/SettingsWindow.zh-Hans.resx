@@ -187,7 +187,7 @@
   <data name="label7.Text" xml:space="preserve">
     <value>你可以指定将在卸载前后运行的命令。一行一个命令，执行时就像使用"运行..."对话框一样。
 
-BCU将等待当前运行的命令完成后再执行下一个命令。</value>
+Neverwas将等待当前运行的命令完成后再执行下一个命令。</value>
   </data>
   <data name="groupBoxExternal.Text" xml:space="preserve">
     <value>外部应用程序</value>
@@ -263,7 +263,7 @@ BCU将等待当前运行的命令完成后再执行下一个命令。</value>
     <value>尝试自动检测自定义安装文件夹</value>
   </data>
   <data name="labelProgramFolders.Text" xml:space="preserve">
-    <value>你可以指定安装应用程序的自定义文件夹（例如D:\applications）。BCU将使用这些文件夹来搜索卸载遗留问题、未注册的应用程序和其他一些内容。虽然没有必要，但列出这些文件夹可以让BCU更好地工作。
+    <value>你可以指定安装应用程序的自定义文件夹（例如D:\applications）。Neverwas将使用这些文件夹来搜索卸载遗留问题、未注册的应用程序和其他一些内容。虽然没有必要，但列出这些文件夹可以让Neverwas更好地工作。
 
 默认的Windows文件夹总是被扫描的，不需要将它们包含在此列表中。
 

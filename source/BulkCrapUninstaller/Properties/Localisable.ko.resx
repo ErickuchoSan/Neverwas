@@ -198,7 +198,7 @@
     <value>피드백을 제출</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Message" xml:space="preserve">
-    <value>BCU에 관한 피드백을 보내겠습니까?</value>
+    <value>Neverwas에 관한 피드백을 보내겠습니까?</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Details" xml:space="preserve">
     <value>1분도 걸리지 않지만 개발에 큰 도움이 됩니다! 버그 보고, 기능 요청, 또는 단순한 감사 인사 등 어떠한 피드백이든 환영합니다!
@@ -361,7 +361,7 @@
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Details" xml:space="preserve">
     <value>떠난다니 아쉽습니다!
-1~2분 정도 여유가 있다면 제 누리집(https://github.com/ErickuchoSan/Neverwas/discussions)에 BCU를 제거한 이유를 남겨주세요. 
+1~2분 정도 여유가 있다면 제 누리집(https://github.com/ErickuchoSan/Neverwas/discussions)에 Neverwas를 제거한 이유를 남겨주세요. 
 타당한 문제점들은 최선을 다해 수정하겠습니다.</value>
   </data>
   <data name="MessageBoxes_SysRestoreBeginQuestion_Message" xml:space="preserve">
@@ -544,7 +544,7 @@
     <value>일부 설정은 응용 프로그램을 다시 시작할 때까지 적용되지 않습니다.</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Message" xml:space="preserve">
-    <value>새로운 설정을 적용하기 위해 BCU를 다시 시작하겠습니까?</value>
+    <value>새로운 설정을 적용하기 위해 Neverwas를 다시 시작하겠습니까?</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Title" xml:space="preserve">
     <value>응용 프로그램 설정들을 변경</value>
@@ -771,7 +771,7 @@ The lists are separated by a single newline.</comment>
     <value>백업을 저장할 위치를 선택하십시오. 새 디렉토리가 생성됩니다.</value>
   </data>
   <data name="NewsPopup_UpdatedTitle" xml:space="preserve">
-    <value>BCU가 v{0}로 업데이트되었습니다!</value>
+    <value>Neverwas가 v{0}로 업데이트되었습니다!</value>
   </data>
   <data name="NewsPopup_FirstStartTitle" xml:space="preserve">
     <value>Neverwas 버전 {0}에 오신 것을 환영합니다!</value>

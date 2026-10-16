@@ -172,7 +172,7 @@ Als u vragen hebt of een nieuwe functie wilt voorstellen, gelieve onderstaande l
   <data name="p4netErrors.Text" xml:space="preserve">
     <value>Wanneer er een fout optreedt vraag ik u, om mij daarvan een foutbericht te sturen.
 U kunt telkens controleren, welke gegevens in fout- en gebruiksrapportages gestuurd moeten worden.
-Controleer daarvoor de betreffende XML-bestanden in de BCUinstaller map.</value>
+Controleer daarvoor de betreffende XML-bestanden in de Neverwas map.</value>
   </data>
   <data name="checkBoxUpdateSearch.Text" xml:space="preserve">
     <value>Tijdens het starten automatisch naar updates zoeken.</value>

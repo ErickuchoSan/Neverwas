@@ -195,7 +195,7 @@
     <value>提交反馈</value>
   </data>
   <data name="MessageBoxes_AskToSubmitFeedback_Message" xml:space="preserve">
-    <value>你想发送有关BCU的反馈吗？</value>
+    <value>你想发送有关Neverwas的反馈吗？</value>
   </data>
   <data name="DefaultLanguage" xml:space="preserve">
     <value>默认</value>
@@ -230,7 +230,7 @@
 更新日志：
 - {0}
 
-警告:在更新过程中，BCU目录中的文件夹"update"和文件"update.zip"将被删除。</value>
+警告:在更新过程中，Neverwas目录中的文件夹"update"和文件"update.zip"将被删除。</value>
     <comment>0 is a list of changes separated by "- "</comment>
   </data>
   <data name="MessageBoxes_UninstallMsiGuidMissing_Title" xml:space="preserve">
@@ -357,7 +357,7 @@
     <value>你确定要卸载Neverwas吗?</value>
   </data>
   <data name="MessageBoxes_SelfUninstallQuestion_Details" xml:space="preserve">
-    <value>很遗憾看到你离开！如果你有一两分钟的时间，请在我的网站上留言说明你为什么卸载BCU(https://github.com/ErickuchoSan/Neverwas/discussions)。我会尽力解决任何合理的问题。</value>
+    <value>很遗憾看到你离开！如果你有一两分钟的时间，请在我的网站上留言说明你为什么卸载Neverwas(https://github.com/ErickuchoSan/Neverwas/discussions)。我会尽力解决任何合理的问题。</value>
   </data>
   <data name="MessageBoxes_SysRestoreBeginQuestion_Message" xml:space="preserve">
     <value>要在继续之前创建还原点吗?</value>
@@ -535,10 +535,10 @@ The lists are separated by a single newline.</comment>
     <value>存档</value>
   </data>
   <data name="NewsPopup_UpdatedTitle" xml:space="preserve">
-    <value>BCU已更新到v{0}!</value>
+    <value>Neverwas已更新到v{0}!</value>
   </data>
   <data name="NewsPopup_FirstStartTitle" xml:space="preserve">
-    <value>欢迎使用BCU版本{0}!</value>
+    <value>欢迎使用Neverwas版本{0}!</value>
   </data>
   <data name="UninstallProgressWindow_StatusPuttingToSleepInSeconds" xml:space="preserve">
     <value>PC{0}秒后进入睡眠状态。取消选择睡眠复选框以取消。</value>
@@ -613,7 +613,7 @@ The lists are separated by a single newline.</comment>
     <value>在重新启动应用程序之前，某些设置不会生效。</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Message" xml:space="preserve">
-    <value>想重新启动BCU以应用新设置吗?</value>
+    <value>想重新启动Neverwas以应用新设置吗?</value>
   </data>
   <data name="MessageBoxes_RestartNeededForSettingChangeQuestion_Title" xml:space="preserve">
     <value>更改应用程序设置</value>
@@ -782,7 +782,7 @@ The lists are separated by a single newline.</comment>
     <comment>Option for "Double clicking in application list..."</comment>
   </data>
   <data name="UninstallProgressWindow_TaskDoneNextStep" xml:space="preserve">
-    <value>任务已完成。关闭此窗口以继续；BCU可能会询问是否扫描残留项。</value>
+    <value>任务已完成。关闭此窗口以继续；Neverwas可能会询问是否扫描残留项。</value>
     <comment>Shown on the status bar after uninstallers finish</comment>
   </data>
   <data name="MessageBoxes_CantRenameUninstallerKind_Title" xml:space="preserve">

@@ -21,4 +21,9 @@ Describe 'rebrand-rules.psd1' {
     It 'uses repo-relative forward-slash paths' {
         @($rules.Literal | Where-Object { $_.File -match '\\' -or $_.File -match '^[A-Za-z]:' }).Count | Should Be 0
     }
+    It 'rebrands BCU next to CJK letters and known upstream typos, but not BCUX' {
+        $in  = '<data name="A"><value>BCU' + [char]0x304C + [char]0x5909 + [char]0x66F4 + ' ' + [char]0x91CD + [char]0x542F + 'BCU' + [char]0x3002 + ' BCU' + [char]0xB97C + ' delBCU BCUininstaller BCUinstaller BCUX</value></data>'
+        $exp = '<data name="A"><value>Neverwas' + [char]0x304C + [char]0x5909 + [char]0x66F4 + ' ' + [char]0x91CD + [char]0x542F + 'Neverwas' + [char]0x3002 + ' Neverwas' + [char]0xB97C + ' del Neverwas Neverwas Neverwas BCUX</value></data>'
+        Convert-ResxBrand -Text $in -ValueRules $rules.ResxValue | Should BeExactly $exp
+    }
 }

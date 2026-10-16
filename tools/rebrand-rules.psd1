@@ -26,6 +26,20 @@
         @{ File = 'source/NBug_custom/Handler.cs'; Find = 'BCUninstaller'; Replace = 'Neverwas' }
         @{ File = 'source/BCU-launcher/main.cpp'; Find = 'BCUninstaller'; Replace = 'Neverwas' }
         @{ File = 'source/BCU-launcher/BCU-launcher.rc'; Find = 'BCUninstaller'; Replace = 'Neverwas' }
+        @{ File = 'source/BulkCrapUninstaller/CleanLogs.bat'; Find = 'title Removing BCU log files'; Replace = 'title Removing Neverwas log files' }
+        @{ File = 'source/BulkCrapUninstaller/CleanLogs.bat'; Find = 'BCUninstaller'; Replace = 'Neverwas' }
+        @{ File = 'publish.bat'; Find = '"%publish%\BCUninstaller.exe"'; Replace = '"%publish%\Neverwas.exe"' }
+        @{ File = 'source/BulkCrapUninstaller/Forms/Windows/JunkRemoveWindow.Designer.cs'; Find = '"New BCUninstaller Junk Export"'; Replace = '"New Neverwas Junk Export"' }
+        @{ File = 'source/BulkCrapUninstaller/Forms/Windows/MainWindow.Designer.cs'; Find = '"New BCUninstaller Export"'; Replace = '"New Neverwas Export"' }
+        @{ File = 'source/BulkCrapUninstaller/Properties/Resources.resx'; Find = 'https://www.bcuninstaller.com/'; Replace = 'https://github.com/ErickuchoSan/Neverwas' }
+        @{ File = 'source/BulkCrapUninstaller/Forms/Windows/JunkRemoveWindow.cs'; Find = 'adding BCU to exclusions'; Replace = 'adding Neverwas to exclusions' }
+        @{ File = 'source/BulkCrapUninstaller/Forms/Helpers/DebugWindow.cs'; Find = '"BCU RESTORE POINT TEST "'; Replace = '"NEVERWAS RESTORE POINT TEST "' }
+        @{ File = 'source/BulkCrapUninstaller/Forms/Helpers/DebugWindow.Designer.cs'; Find = '"Override BCU is installed"'; Replace = '"Override Neverwas is installed"' }
+        @{ File = 'source/UninstallTools/Factory/InfoAdders/FastSizeGenerator.cs'; Find = 'valid BCU directory size'; Replace = 'valid Neverwas directory size' }
+        @{ File = 'source/KlocTools/Tools/RegistryTools.cs'; Find = 'Path.Combine(temp, "BCU")'; Replace = 'Path.Combine(temp, "Neverwas")' }
+        @{ File = 'source/BCU-console/BCU-console.csproj'; Find = "offers some of BCU's functionality"; Replace = "offers some of Neverwas's functionality" }
+        @{ File = 'source/ScriptHelper/ScriptHelper.csproj'; Find = 'registry tweaks and scripts to BCU'; Replace = 'registry tweaks and scripts to Neverwas' }
+        @{ File = 'source/UniversalUninstaller/UniversalUninstaller.csproj'; Find = 'Utility used by BCU in place'; Replace = 'Utility used by Neverwas in place' }
     )
 
     # Resx rules: applied inside <value> of plain string <data> elements only, in this order.
@@ -34,6 +48,11 @@
         @{ Find = 'http://klocmansoftware.weebly.com/'; Replace = 'https://github.com/ErickuchoSan/Neverwas/discussions'; Regex = $false }
         @{ Find = 'Bulk Crap Uninstaller'; Replace = 'Neverwas'; Regex = $false }
         @{ Find = 'BCUninstaller'; Replace = 'Neverwas'; Regex = $false }
-        @{ Find = '\bBCU\b'; Replace = 'Neverwas'; Regex = $true }
+        # Upstream typos of the product name (the boundary rule below does not catch them).
+        @{ Find = 'delBCU'; Replace = 'del Neverwas'; Regex = $false }
+        @{ Find = 'BCUininstaller'; Replace = 'Neverwas'; Regex = $false }
+        @{ Find = 'BCUinstaller'; Replace = 'Neverwas'; Regex = $false }
+        # ASCII-bounded instead of a word boundary: .NET treats CJK/Hangul letters as word chars, so a plain boundary misses them.
+        @{ Find = '(?<![A-Za-z0-9_])BCU(?![A-Za-z0-9_])'; Replace = 'Neverwas'; Regex = $true }
     )
 }

@@ -400,7 +400,7 @@ Puede enviarlo más tarde desde la barra de menú superior (Ayuda-&gt;Enviar com
 Lista de cambios:
 - {0}
 
-Advertencia: Durante la actualización serán eliminados la carpeta "Update" y el archivo "Update.zip" dentro del directorio delBCU.</value>
+Advertencia: Durante la actualización serán eliminados la carpeta "Update" y el archivo "Update.zip" dentro del directorio del Neverwas.</value>
     <comment>0 is a list of changes separated by "- "</comment>
   </data>
   <data name="MessageBoxes_UninstallMsiGuidMissing_Title" xml:space="preserve">

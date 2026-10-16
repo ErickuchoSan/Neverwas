@@ -893,7 +893,7 @@ namespace BulkCrapUninstaller.Forms
             // exportDialog
             // 
             exportDialog.DefaultExt = "txt";
-            exportDialog.FileName = "New BCUninstaller Export";
+            exportDialog.FileName = "New Neverwas Export";
             resources.ApplyResources(exportDialog, "exportDialog");
             exportDialog.RestoreDirectory = true;
             exportDialog.FileOk += exportDialog_FileOk;

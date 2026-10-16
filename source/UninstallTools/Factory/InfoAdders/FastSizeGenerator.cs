@@ -34,7 +34,7 @@ namespace UninstallTools.Factory.InfoAdders
             try
             {
                 if (EvGetSize(UninstallToolsGlobalConfig.AssemblyLocation).GetKbSize() == 0)
-                    throw new SystemException("Test failed to get valid BCU directory size");
+                    throw new SystemException("Test failed to get valid Neverwas directory size");
 
                 _everythingAvailable = true;
             }

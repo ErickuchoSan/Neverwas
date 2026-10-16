@@ -136,16 +136,16 @@
     <value>有甚麼問題或沒有的功能嗎？</value>
   </data>
   <data name="p1FeedbackDesc.Text" xml:space="preserve">
-    <value>如果你對BCU有任何問題，或者你想建議新功能，請查看以下連結：</value>
+    <value>如果你對Neverwas有任何問題，或者你想建議新功能，請查看以下連結：</value>
   </data>
   <data name="p1HelpHeading.Text" xml:space="preserve">
     <value>你也想幫忙嗎？</value>
   </data>
   <data name="p1HelpDesc.Text" xml:space="preserve">
-    <value>不是程式設計師也可以幫忙！你可以捐款來加速更新，或者把BCU翻譯成你的母語。非常感謝所有的幫助，不管有多小！</value>
+    <value>不是程式設計師也可以幫忙！你可以捐款來加速更新，或者把Neverwas翻譯成你的母語。非常感謝所有的幫助，不管有多小！</value>
   </data>
   <data name="buttonTranslate.Text" xml:space="preserve">
-    <value>翻譯BCU</value>
+    <value>翻譯Neverwas</value>
   </data>
   <data name="buttonIssues.Text" xml:space="preserve">
     <value>GitHub上的Issues</value>

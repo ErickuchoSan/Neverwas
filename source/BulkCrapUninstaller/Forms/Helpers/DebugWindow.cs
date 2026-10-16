@@ -207,7 +207,7 @@ namespace BulkCrapUninstaller.Forms
         private static long _currentRestoreId;
         private void button15_Click(object sender, EventArgs e)
         {
-            SysRestore.StartRestore("BCU RESTORE POINT TEST " + DateTime.Now.ToShortTimeString(), out _currentRestoreId);
+            SysRestore.StartRestore("NEVERWAS RESTORE POINT TEST " + DateTime.Now.ToShortTimeString(), out _currentRestoreId);
         }
 
         private void button16_Click(object sender, EventArgs e)

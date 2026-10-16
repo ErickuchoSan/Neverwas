@@ -223,7 +223,7 @@ Szeretné a funkciók bővítését, vagy hibával találkozott? Kérjük, hogy 
     <comment>0 is version number</comment>
   </data>
   <data name="MessageBoxes_UpdateAskToDownload_Details" xml:space="preserve">
-    <value>A BCUininstaller automatikusan letölti a frissítéseket, és telepíti azokat a program újraindítását követően. A folyamat során a saját beállításai elveszhetnek. 
+    <value>A Neverwas automatikusan letölti a frissítéseket, és telepíti azokat a program újraindítását követően. A folyamat során a saját beállításai elveszhetnek. 
 
 Módosítások:
 - {0}

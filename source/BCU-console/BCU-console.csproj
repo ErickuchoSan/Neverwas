@@ -4,7 +4,7 @@
 		<RootNamespace>BCU_console</RootNamespace>
 
 		<Product>Command Line Interface for Neverwas</Product><AssemblyName>neverwas-cli</AssemblyName>
-		<AssemblyTitle>Command line utility that offers some of BCU's functionality for scripting</AssemblyTitle>
+		<AssemblyTitle>Command line utility that offers some of Neverwas's functionality for scripting</AssemblyTitle>
 		
 		<ApplicationIcon>..\BulkCrapUninstaller\Resources\logo.ico</ApplicationIcon>
 		<StartupObject>BCU_console.Program</StartupObject>
