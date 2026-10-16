@@ -26,6 +26,8 @@
         @{ File = 'source/NBug_custom/Handler.cs'; Find = 'BCUninstaller'; Replace = 'Neverwas' }
         @{ File = 'source/BCU-launcher/main.cpp'; Find = 'BCUninstaller'; Replace = 'Neverwas' }
         @{ File = 'source/BCU-launcher/BCU-launcher.rc'; Find = 'BCUninstaller'; Replace = 'Neverwas' }
+        @{ File = 'source/BCU-launcher/BCU-launcher.rc'; Find = 'VALUE "CompanyName", "Marcin Szeniak"'; Replace = 'VALUE "CompanyName", "Erick Bores"' }
+        @{ File = 'source/BCU-launcher/BCU-launcher.rc'; Find = 'VALUE "LegalCopyright", "Copyright (C) 2023"'; Replace = 'VALUE "LegalCopyright", "Copyright (C) 2026 Erick Bores. Based on Bulk Crap Uninstaller by Marcin Szeniak"' }
         @{ File = 'source/BulkCrapUninstaller/CleanLogs.bat'; Find = 'title Removing BCU log files'; Replace = 'title Removing Neverwas log files' }
         @{ File = 'source/BulkCrapUninstaller/CleanLogs.bat'; Find = 'BCUninstaller'; Replace = 'Neverwas' }
         @{ File = 'publish.bat'; Find = '"%publish%\BCUninstaller.exe"'; Replace = '"%publish%\Neverwas.exe"' }
