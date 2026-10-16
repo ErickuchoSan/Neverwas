@@ -1,11 +1,9 @@
 <Project>
 	<PropertyGroup>
-		<!-- Neverwas: first three parts follow upstream BCU, the fourth is the Neverwas revision (reset to 1 on each upstream sync). -->
-		<Version>6.3.0.1</Version>
+		<Version>6.3</Version>
 
-		<Authors>Erick Bores (Neverwas); Marcin Szeniak (Bulk Crap Uninstaller)</Authors>
-		<Company>Erick Bores</Company>
-		<Copyright>Copyright © 2026 Erick Bores. Based on Bulk Crap Uninstaller © Marcin Szeniak. Apache-2.0</Copyright>
+		<Authors>https://github.com/Klocman/Bulk-Crap-Uninstaller</Authors>
+		<Copyright>Copyright Apache-2.0 © 2026</Copyright>
 
 		<Platforms>AnyCPU;x64;x86;ARM64</Platforms>
 		<TargetFramework>net8.0-windows10.0.18362.0</TargetFramework>
@@ -66,4 +64,5 @@
 			<Visible>False</Visible>
 		</None>
 	</ItemGroup>
+	<Import Project="Neverwas.props" />
 </Project>

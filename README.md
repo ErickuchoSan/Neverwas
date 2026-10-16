@@ -32,7 +32,13 @@ Requirements: Windows 10/11, Visual Studio 2022 or newer with the .NET desktop w
     powershell -NoProfile -ExecutionPolicy Bypass -File tools/rebrand.ps1 -Check
     powershell -NoProfile -ExecutionPolicy Bypass -File tools/check-endpoints.ps1
 
-Then set the fourth part of `<Version>` in `source/Directory.Build.props` back to 1.
+The version needs no manual edit: `source/Directory.Build.props` stays exactly as upstream has
+it apart from one `<Import Project="Neverwas.props" />` line, and `source/Neverwas.props` appends
+`.0.N` to upstream's `<Version>` (6.4 becomes 6.4.0.1). Bump `NeverwasRevision` there for
+Neverwas-only releases, and set it back to 1 when syncing a new upstream version.
+
+If you need to back out of a sync after `tools/rebrand.ps1` has rewritten files that the merge
+staged, `git merge --abort` can fail. Use `git reset --hard` on the throwaway sync branch instead.
 
 ## License
 

@@ -40,6 +40,19 @@ Describe 'Find-ForbiddenEndpoint' {
         $hits.Count | Should Be 1
         $hits[0].File | Should Be 'doc/BCU_manual.html'
     }
+    It "allows upstream's Authors URL in Directory.Build.props only (overridden by Neverwas.props)" {
+        $root = New-Tree
+        Set-Content (Join-Path $root 'source\Directory.Build.props') -Value @('<Project>', '		<Authors>https://github.com/Klocman/Bulk-Crap-Uninstaller</Authors>', '</Project>')
+        @(Find-ForbiddenEndpoint -Root $root).Count | Should Be 0
+    }
+    It 'still flags the same Authors line in any other file, and other upstream links in Directory.Build.props' {
+        $root = New-Tree
+        Set-Content (Join-Path $root 'source\App\Other.props') -Value '<Authors>https://github.com/Klocman/Bulk-Crap-Uninstaller</Authors>'
+        Set-Content (Join-Path $root 'source\Directory.Build.props') -Value @('<Project>', '<PackageProjectUrl>https://github.com/Klocman/Bulk-Crap-Uninstaller</PackageProjectUrl>', '<Authors>https://github.com/Klocman/Bulk-Crap-Uninstaller/releases</Authors>', '</Project>')
+        $hits = @(Find-ForbiddenEndpoint -Root $root)
+        ($hits | ForEach-Object { '{0}:{1}' -f $_.File, $_.Line } | Sort-Object) -join ';' |
+            Should Be 'source/App/Other.props:1;source/Directory.Build.props:2;source/Directory.Build.props:3'
+    }
     It 'ignores comment lines' {
         $root = New-Tree
         Set-Content (Join-Path $root 'source\App\A.cs') -Value @('    // was http://bugsklocman.ddns.net', '/// similar to http://klocmansoftware.weebly.com/', ' * dappcdn')
