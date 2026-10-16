@@ -65,7 +65,25 @@
         @{ Find = 'delBCU'; Replace = 'del Neverwas'; Regex = $false }
         @{ Find = 'BCUininstaller'; Replace = 'Neverwas'; Regex = $false }
         @{ Find = 'BCUinstaller'; Replace = 'Neverwas'; Regex = $false }
+        # Any other misspelling ("BCUnintstaller", "BCUnInstaller"). Not after "." or "/": a domain or URL path such as
+        # www.bcuninstaller.com must stay as it is, so the endpoint guard still sees it.
+        @{ Find = '(?i)(?<![A-Za-z0-9_./])bcu[a-z]*?stall?er'; Replace = 'Neverwas'; Regex = $true }
         # ASCII-bounded instead of a word boundary: .NET treats CJK/Hangul letters as word chars, so a plain boundary misses them.
         @{ Find = '(?<![A-Za-z0-9_])BCU(?![A-Za-z0-9_])'; Replace = 'Neverwas'; Regex = $true }
+    )
+
+    # Residual scan (rebrand.ps1 -Check): exact tokens that may keep the old name because they are identifiers,
+    # file names or attribution, not product branding. Matching is case-sensitive.
+    ResidualAllowlist = @(
+        '.bcul'                                 # uninstall list file extension (file format, kept for compatibility)
+        'BCU_manual'                            # help file name; the code opens it by this name
+        'uninstallBCUninstall'                  # control/menu item identifiers in resx metadata
+        'lBCUninstall'
+        'BCU-launcher'                          # project, folder and build output names
+        'BCU-console'
+        'BCU_console'
+        'BulkCrapUninstaller.'                  # namespaces and type names
+        'BCUninstaller/Bulk-Crap-Uninstaller'   # attribution link to the upstream repository
+        'Based on Bulk Crap Uninstaller'        # attribution in version info
     )
 }

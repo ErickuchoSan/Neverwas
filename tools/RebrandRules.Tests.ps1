@@ -47,6 +47,19 @@ Describe 'rebrand-rules.psd1' {
         $exp = '<data name="A" xml:space="preserve"><value>https://github.com/ErickuchoSan/Neverwas/issues</value></data>'
         Convert-ResxBrand -Text $text -ValueRules $rules.ResxValue | Should BeExactly $exp
     }
+    It 'rebrands misspelled product names that no exact rule knows' {
+        $in  = '<data name="A"><value>' + [char]0x611F + [char]0x8B1D + 'BCUnintstaller' + [char]0xFF01 + ' / ' + [char]0x5C06 + 'BCUnInstaller' + [char]0x5C06 + '</value></data>'
+        $exp = '<data name="A"><value>' + [char]0x611F + [char]0x8B1D + 'Neverwas' + [char]0xFF01 + ' / ' + [char]0x5C06 + 'Neverwas' + [char]0x5C06 + '</value></data>'
+        Convert-ResxBrand -Text $in -ValueRules $rules.ResxValue | Should BeExactly $exp
+    }
+    It 'leaves the old homepage domain for the endpoint guard instead of renaming it' {
+        $text = '<data name="A"><value>https://www.bcuninstaller.com/</value></data>'
+        Convert-ResxBrand -Text $text -ValueRules $rules.ResxValue | Should BeExactly $text
+    }
+    It 'documents a residual allowlist' {
+        @($rules.ResidualAllowlist).Count | Should BeGreaterThan 0
+        $rules.ResidualAllowlist -contains 'BCU_manual' | Should Be $true
+    }
     It 'leaves type-qualified namespace values alone' {
         $text = '<data name="A" xml:space="preserve"><value>BulkCrapUninstaller.Functions.Tracking.UsageTracker, Neverwas, Culture=neutral</value></data>'
         Convert-ResxBrand -Text $text -ValueRules $rules.ResxValue | Should BeExactly $text

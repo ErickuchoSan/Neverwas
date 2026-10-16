@@ -557,7 +557,7 @@ The lists are separated by a single newline.</comment>
     <value>还原默认设置</value>
   </data>
   <data name="MessageBoxes_ResetSettingsConfirmation_Details" xml:space="preserve">
-    <value>你的所有设置将永久丢失。 BCUnInstaller将必须重新启动以完成此操作。</value>
+    <value>你的所有设置将永久丢失。 Neverwas将必须重新启动以完成此操作。</value>
   </data>
   <data name="MessageBoxes_Title_Open_Uninstall_List" xml:space="preserve">
     <value>打开卸载列表</value>

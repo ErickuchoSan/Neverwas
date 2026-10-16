@@ -149,3 +149,77 @@ Describe 'Invoke-Rebrand' {
         { Invoke-Rebrand -Root $root -Rules $bad -Check } | Should Throw 'missing file: source/App/Missing.cs'
     }
 }
+
+Describe 'Find-BrandResidual' {
+    function New-Tree {
+        $root = Join-Path $TestDrive ([guid]::NewGuid().ToString('N'))
+        foreach ($d in 'source\App', 'source\App\obj', 'source\BulkCrapUninstallerTests') { New-Item -ItemType Directory -Path (Join-Path $root $d) -Force | Out-Null }
+        $root
+    }
+    function Set-File([string]$Root, [string]$Rel, [string[]]$Lines) {
+        [IO.File]::WriteAllText((Join-Path $Root $Rel), ($Lines -join "`r`n"), (New-Object System.Text.UTF8Encoding($false)))
+    }
+    $noRules = @{ Literal = @(); ResxValue = @(); ResidualAllowlist = @('.bcul', 'BCU-console', 'BulkCrapUninstaller.') }
+
+    It 'reports a brand name left in a resx string value, with file and line' {
+        $root = New-Tree
+        Set-File $root 'source\App\S.resx' @('<root>', '<data name="A" xml:space="preserve">', '  <value>Thanks for using BCUnintstaller!</value>', '</data></root>')
+        $hits = @(Find-BrandResidual -Root $root -Rules $noRules)
+        $hits.Count | Should Be 1
+        $hits[0].File | Should Be 'source/App/S.resx'
+        $hits[0].Line | Should Be 3
+        $hits[0].Text | Should Match 'BCUnintstaller'
+    }
+    It 'applies the rules in memory before scanning, without writing' {
+        $root = New-Tree
+        Set-File $root 'source\App\S.resx' @('<root><data name="A"><value>Thanks for using BCUnintstaller!</value></data></root>')
+        $fixed = @{ Literal = @(); ResxValue = @(@{ Find = 'BCUnintstaller'; Replace = 'Neverwas'; Regex = $false }); ResidualAllowlist = @() }
+        @(Find-BrandResidual -Root $root -Rules $fixed).Count | Should Be 0
+        [IO.File]::ReadAllText((Join-Path $root 'source\App\S.resx')) | Should Match 'BCUnintstaller'
+    }
+    It 'ignores typed resources, data names and comments' {
+        $root = New-Tree
+        Set-File $root 'source\App\S.resx' @('<root><data name="BCU_x" type="System.Byte[], mscorlib"><value>AABCUAA</value><comment>BCU</comment></data></root>')
+        @(Find-BrandResidual -Root $root -Rules $noRules).Count | Should Be 0
+    }
+    It 'passes allowlisted tokens' {
+        $root = New-Tree
+        Set-File $root 'source\App\S.resx' @('<root><data name="A"><value>Default.bcul</value></data><data name="B"><value>BulkCrapUninstaller.Controls.X, Neverwas</value></data></root>')
+        Set-File $root 'source\App\C.cs' @('var p = "BCU-console.exe";')
+        @(Find-BrandResidual -Root $root -Rules $noRules).Count | Should Be 0
+    }
+    It 'reports a brand name in a code string literal' {
+        $root = New-Tree
+        Set-File $root 'source\App\C.cs' @('var a = 1;', 'var t = "Close BCU now";')
+        $hits = @(Find-BrandResidual -Root $root -Rules $noRules)
+        $hits.Count | Should Be 1
+        $hits[0].File | Should Be 'source/App/C.cs'
+        $hits[0].Line | Should Be 2
+    }
+    It 'ignores comments and code outside string literals' {
+        $root = New-Tree
+        Set-File $root 'source\App\C.cs' @('// "BCU" here', '    /// <summary>"Bulk Crap" docs</summary>', 'namespace BulkCrapUninstaller.Forms', 'var BCU = "Neverwas";')
+        Set-File $root 'source\App\L.bat' @('REM Wait for BCU', 'rem Since BCU is new', ':: BCU', 'echo Neverwas')
+        @(Find-BrandResidual -Root $root -Rules $noRules).Count | Should Be 0
+    }
+    It 'scans whole batch lines, including publish.bat at the root' {
+        $root = New-Tree
+        Set-File $root 'publish.bat' @('@echo off', 'echo Building BCU')
+        $hits = @(Find-BrandResidual -Root $root -Rules $noRules)
+        $hits.Count | Should Be 1
+        $hits[0].File | Should Be 'publish.bat'
+    }
+    It 'scans code files that are not UTF-8 instead of failing (read-only, never written)' {
+        $root = New-Tree
+        [IO.File]::WriteAllBytes((Join-Path $root 'source\App\L.cs'), [byte[]](0x22,0x42,0x43,0x55,0x20,0xE9,0x22))
+        [IO.File]::WriteAllBytes((Join-Path $root 'source\App\W.cs'), [byte[]](0xFF,0xFE,0x22,0x00,0x42,0x00,0x43,0x00,0x55,0x00,0x22,0x00))
+        $hits = @(Find-BrandResidual -Root $root -Rules $noRules)
+        ($hits | ForEach-Object { $_.File } | Sort-Object) -join ';' | Should Be 'source/App/L.cs;source/App/W.cs'
+    }
+    It 'skips the upstream test project and build output' {
+        $root = New-Tree
+        Set-File $root 'source\BulkCrapUninstallerTests\T.cs' @('var t = "BCU";')
+        Set-File $root 'source\App\obj\G.cs' @('var t = "BCU";')
+        @(Find-BrandResidual -Root $root -Rules $noRules).Count | Should Be 0
+    }
+}

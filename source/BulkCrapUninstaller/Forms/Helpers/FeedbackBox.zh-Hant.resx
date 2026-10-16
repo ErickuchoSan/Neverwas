@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="p1welcomeHeading.Text" xml:space="preserve">
-    <value>感謝你使用BCUnintstaller！</value>
+    <value>感謝你使用Neverwas！</value>
   </data>
   <data name="p1welcomeSubheading.Text" xml:space="preserve">
     <value>如果你覺得這個免費的開源工具有用，請考慮花一分鐘幫忙！告訴你的朋友，在社交媒體上分享，給予回饋——一切都很重要！</value>
