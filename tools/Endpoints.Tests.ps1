@@ -27,6 +27,11 @@ Describe 'Find-ForbiddenEndpoint' {
         Set-Content (Join-Path $root 'source\App\R.resx') -Value '<value>https://www.bcuninstaller.com/</value>'
         @(Find-ForbiddenEndpoint -Root $root).Count | Should Be 2
     }
+    It 'finds a repo link mangled by the generic name rule' {
+        $root = New-Tree
+        Set-Content (Join-Path $root 'source\App\R.resx') -Value '<value>https://github.com/Neverwas/Bulk-Crap-Uninstaller/issues</value>'
+        @(Find-ForbiddenEndpoint -Root $root).Count | Should Be 1
+    }
     It 'ignores comment lines' {
         $root = New-Tree
         Set-Content (Join-Path $root 'source\App\A.cs') -Value @('    // was http://bugsklocman.ddns.net', '/// similar to http://klocmansoftware.weebly.com/', ' * dappcdn')

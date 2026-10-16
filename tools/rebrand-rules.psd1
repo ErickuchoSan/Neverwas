@@ -49,6 +49,8 @@
         @{ Find = 'BCUninstaller (Bulk Crap Uninstaller)'; Replace = 'Neverwas'; Regex = $false }
         @{ Find = 'http://klocmansoftware.weebly.com/'; Replace = 'https://github.com/ErickuchoSan/Neverwas/discussions'; Regex = $false }
         @{ Find = 'Bulk Crap Uninstaller'; Replace = 'Neverwas'; Regex = $false }
+        # Upstream's renamed repo link, as a whole: the generic rule below would leave "Neverwas/Bulk-Crap-Uninstaller".
+        @{ Find = 'github.com/BCUninstaller/Bulk-Crap-Uninstaller'; Replace = 'github.com/ErickuchoSan/Neverwas'; Regex = $false }
         @{ Find = 'BCUninstaller'; Replace = 'Neverwas'; Regex = $false }
         # Case and spelling variants of the full name ("Bulk crap uninstaller", "Bulk crap unistaller").
         @{ Find = '(?i)(?<![A-Za-z0-9_])bulk\s+crap\s+un[A-Za-z]*'; Replace = 'Neverwas'; Regex = $true }

@@ -1,6 +1,6 @@
 Set-StrictMode -Version 2.0
 
-$script:Patterns = @('bugsklocman', 'klocmansoftware', 'Klocman/Bulk-Crap-Uninstaller', 'BCUninstaller/Bulk-Crap-Uninstaller', 'bcuninstaller.com', 'dappcdn')
+$script:Patterns = @('bugsklocman', 'klocmansoftware', 'Klocman/Bulk-Crap-Uninstaller', 'BCUninstaller/Bulk-Crap-Uninstaller', 'Neverwas/Bulk-Crap-Uninstaller', 'bcuninstaller.com', 'dappcdn')
 $script:Extensions = @('.cs', '.resx', '.cpp', '.h', '.rc', '.csproj', '.vcxproj', '.props', '.targets', '.config', '.json', '.yml', '.yaml', '.bat')
 $script:ExcludedDirs = @('.git', '.superpowers', 'bin', 'obj', 'tools', 'docs', 'doc', 'installer')
 

@@ -42,6 +42,11 @@ Describe 'rebrand-rules.psd1' {
             Convert-ResxBrand -Text $text -ValueRules $rules.ResxValue | Should BeExactly $exp
         }
     }
+    It 'rewrites the renamed upstream repo link as a whole, before the generic name rule' {
+        $text = '<data name="A" xml:space="preserve"><value>https://github.com/BCUninstaller/Bulk-Crap-Uninstaller/issues</value></data>'
+        $exp = '<data name="A" xml:space="preserve"><value>https://github.com/ErickuchoSan/Neverwas/issues</value></data>'
+        Convert-ResxBrand -Text $text -ValueRules $rules.ResxValue | Should BeExactly $exp
+    }
     It 'leaves type-qualified namespace values alone' {
         $text = '<data name="A" xml:space="preserve"><value>BulkCrapUninstaller.Functions.Tracking.UsageTracker, Neverwas, Culture=neutral</value></data>'
         Convert-ResxBrand -Text $text -ValueRules $rules.ResxValue | Should BeExactly $text
