@@ -27,9 +27,14 @@ namespace BulkCrapUninstaller.Forms
         {
             InitializeComponent();
 
-            // Neverwas: no usage statistics or online ratings.
+            // Neverwas: no usage statistics, online ratings or error report uploads.
             checkBoxSendStats.Visible = false;
             checkBoxRatings.Visible = false;
+            p4netDesc2.Visible = false;
+            p4netDesc3.Visible = false;
+            p4netDesc4.Visible = false;
+            p4netErrors.Visible = false;
+            p4netUsageAdd.Visible = false;
 
             if (DesignMode) return;
 
