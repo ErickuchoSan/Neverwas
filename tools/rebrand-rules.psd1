@@ -42,8 +42,6 @@
         @{ File = 'source/BCU-console/BCU-console.csproj'; Find = "offers some of BCU's functionality"; Replace = "offers some of Neverwas's functionality" }
         @{ File = 'source/ScriptHelper/ScriptHelper.csproj'; Find = 'registry tweaks and scripts to BCU'; Replace = 'registry tweaks and scripts to Neverwas' }
         @{ File = 'source/UniversalUninstaller/UniversalUninstaller.csproj'; Find = 'Utility used by BCU in place'; Replace = 'Utility used by Neverwas in place' }
-        # The Greek wizard label carries the full name although the "B" image sits next to it; the image is now an "N".
-        @{ File = 'source/BulkCrapUninstaller/Forms/Wizards/FirstStartBox.el.resx'; Find = '<value>Bulk crap unistaller</value>'; Replace = '<value>everwas</value>' }
         # Help manual (Help > F1). Its file name stays BCU_manual.html: the code opens it by that name.
         @{ File = 'doc/BCU_manual.html'; Find = 'https://www.bcuninstaller.com/'; Replace = 'https://github.com/ErickuchoSan/Neverwas' }
         @{ File = 'doc/BCU_manual.html'; Find = 'https://github.com/Klocman/Bulk-Crap-Uninstaller'; Replace = 'https://github.com/ErickuchoSan/Neverwas' }
@@ -69,9 +67,10 @@
         @{ Find = 'BCUninstaller'; Replace = 'Neverwas'; Regex = $false }
         # Case and spelling variants of the full name ("Bulk crap uninstaller", "Bulk crap unistaller").
         @{ Find = '(?i)(?<![A-Za-z0-9_])bulk\s+crap\s+un[A-Za-z]*'; Replace = 'Neverwas'; Regex = $true }
-        # First-start wizard: the "B" lives in an image next to the label, so the text starts at "ulk crap".
+        # First-start wizard: upstream's "B" image stands for the first letter, so the label starts at "ulk crap".
+        # Neverwas' image is the symbol, not a letter, so the label carries the whole name.
         # The trailing "uninstaller" is optional: the zh-Hans/zh-Hant labels only carry "ulk crap".
-        @{ Find = '(?i)(?<![A-Za-z])ulk\s+crap(?:\s+uninstaller)?'; Replace = 'everwas'; Regex = $true }
+        @{ Find = '(?i)(?<![A-Za-z])ulk\s+crap(?:\s+uninstaller)?'; Replace = 'Neverwas'; Regex = $true }
         # nl About box: "Neverwas" is followed by the old name on the next lines.
         @{ Find = '\r?\n\(BulkCrap\s+Uninstaller\)'; Replace = ''; Regex = $true }
         # Upstream typos of the product name (the boundary rule below does not catch them).
