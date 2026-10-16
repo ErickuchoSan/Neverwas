@@ -30,10 +30,10 @@ Describe 'rebrand-rules.psd1' {
         $cases = @(
             @{ In = 'Bulk crap uninstaller'; Out = 'Neverwas' }
             @{ In = 'Bulk crap unistaller'; Out = 'Neverwas' }
-            @{ In = 'ulk crap' + "`n" + 'uninstaller'; Out = 'everwas' }
-            @{ In = 'ulk Crap' + "`n" + 'Uninstaller'; Out = 'everwas' }
-            @{ In = 'ulk crap uninstaller'; Out = 'everwas' }
-            @{ In = 'ulk crap'; Out = 'everwas' }
+            @{ In = 'ulk crap' + "`n" + 'uninstaller'; Out = 'Neverwas' }
+            @{ In = 'ulk Crap' + "`n" + 'Uninstaller'; Out = 'Neverwas' }
+            @{ In = 'ulk crap uninstaller'; Out = 'Neverwas' }
+            @{ In = 'ulk crap'; Out = 'Neverwas' }
             @{ In = 'Neverwas' + "`n" + '(BulkCrap' + "`n" + 'Uninstaller)'; Out = 'Neverwas' }
         )
         foreach ($case in $cases) {
