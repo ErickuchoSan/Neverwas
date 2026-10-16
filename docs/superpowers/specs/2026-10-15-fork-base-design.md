@@ -27,7 +27,7 @@ proyectos, solución `source/BulkCrapUninstaller.sln`, launcher nativo C++ (`BCU
 | Decisión | Elegido | Descartado y por qué |
 |---|---|---|
 | Estrategia de fork | **Liviano**: solo lo visible cambia | Completo (renombrar namespaces): cada merge de upstream choca en cientos de archivos. App separada: el monitor no se integraría a la lista |
-| Hosting | GitHub `ErickuchoSan/Neverwas` + push mirror a Forgejo | Solo Forgejo: el runner es Linux y no corre tests WinForms |
+| Hosting | GitHub `ErickuchoSan/Neverwas` + pull mirror en Forgejo | Solo Forgejo: el runner es Linux y no corre tests WinForms |
 | Rama principal | `main` | `master` de upstream queda como referencia local |
 | Marca en traducciones | Script idempotente `tools/rebrand.ps1` | Edición a mano de 22 idiomas: conflictos en cada merge de traducciones |
 | Alcance de publicación | Pensado para publicarse, pero A no incluye instalador ni release | — |
@@ -40,7 +40,9 @@ proyectos, solución `source/BulkCrapUninstaller.sln`, launcher nativo C++ (`BCU
 - Remotos:
   - `origin` → `https://github.com/ErickuchoSan/Neverwas` (fork en GitHub de `Klocman/Bulk-Crap-Uninstaller`, renombrado)
   - `upstream` → `https://github.com/Klocman/Bulk-Crap-Uninstaller`
-  - `forgejo` → `ssh://git@100.123.247.5:2222/ErickuchoSan/Neverwas.git` (espejo, solo push)
+- Espejo en Forgejo: repo `ErickuchoSan/Neverwas` creado como **pull mirror** de GitHub
+  (Forgejo trae los cambios solo; sin remoto local). Se fuerza la sincronización con
+  `POST /api/v1/repos/ErickuchoSan/Neverwas/mirror-sync`.
 - `main` es la rama de Neverwas. El trabajo entra por ramas `feature/*`, `fix/*`, `chore/*` y PR.
 - Sincronizar con upstream: rama `chore/sync-upstream-vX.Y` → `git merge upstream/master` →
   procedimiento de la sección 2.3 → PR a `main`.
@@ -57,11 +59,15 @@ proyectos, solución `source/BulkCrapUninstaller.sln`, launcher nativo C++ (`BCU
 | Launcher nativo | busca `BCUninstaller.exe` | busca `Neverwas.exe` | `BCU-launcher/main.cpp`, `.rc` |
 | Íconos | logo de BCU | ícono provisorio de Neverwas | `Resources/logo.ico` y los `<ApplicationIcon>` del launcher/consola |
 | Títulos, "Acerca de" | BCU | Neverwas + crédito "basado en Bulk Crap Uninstaller de Marcin Szeniak" | `.resx` neutros e `Localisable` |
-| Configuración | `BCUninstaller.settings` junto al exe | `Neverwas.settings` junto al exe | Automático: `Program.cs` arma el nombre con el nombre del exe |
+| Configuración | `BCUninstaller.settings` junto al exe | `Neverwas.settings` junto al exe | Constante `exeName` en `Program.PrepareSettings` |
+| Satélites de idioma | `BCUninstaller.resources.dll` | `Neverwas.resources.dll` | El nombre sale del `AssemblyName`; `CultureConfigurator.cs` lo busca por nombre fijo |
+| Tipos en `.resx` | `…, BCUninstaller, Culture=neutral…` | `…, Neverwas, Culture=neutral…` | Nombres de tipo con assembly; sin esto el diseñador de formularios falla al cargar |
+| Instancia única | mutex `Global\BCU-singleinstance` | `Global\Neverwas-singleinstance` | `EntryPoint.cs`; permite abrir Neverwas con BCU abierto |
+| Versión | `6.3` | `6.3.0.1` | `Directory.Build.props`. Las tres primeras cifras siguen a upstream; la cuarta es la revisión de Neverwas y vuelve a 1 en cada sync |
 
-La configuración es portable (archivo junto al ejecutable, ver `Program.cs` y
-`PortableSettingsProvider`). Al cambiar el nombre del exe, el archivo cambia solo, y Neverwas
-convive con un BCU instalado en otra carpeta.
+La configuración es portable: un archivo junto al ejecutable (ver `Program.PrepareSettings` y
+`PortableSettingsProvider`). Su nombre es una constante, no se deriva del exe, así que se cambia
+explícitamente. Con eso Neverwas convive con un BCU instalado en otra carpeta.
 
 #### 2.2 Qué NO cambia
 
@@ -70,15 +76,19 @@ carpetas, cabeceras de copyright de los archivos existentes, `Licence.txt`.
 
 #### 2.3 `tools/rebrand.ps1`
 
-- Reemplaza las cadenas de marca **visibles** en todos los `.resx` (neutros y los 22 idiomas) y en
-  los archivos de la tabla 2.1 que no se editen a mano.
-- Lista de reemplazos explícita y versionada dentro del script (p. ej. `Bulk Crap Uninstaller` →
-  `Neverwas`, `BCUninstaller` → `Neverwas`), con exclusiones para cabeceras de copyright, URLs de
-  atribución y nombres de tipos o namespaces.
+- Aplica **todo** el cambio de marca, en dos tipos de reglas versionadas dentro del script:
+  - **Reglas de `.resx`** (neutros y los 22 idiomas): solo dentro de `<value>` de recursos de texto
+    (se saltean los `<data>` con `type=` o `mimetype=`, que llevan binarios en base64). Reemplazan
+    `Bulk Crap Uninstaller`, `BCUninstaller`, `BCU` (palabra completa) y el sitio de Klocman.
+  - **Reglas literales por archivo** para código, csproj, launcher y links: `archivo + texto exacto
+    → reemplazo`. Cada regla tiene que encontrar su texto original o su reemplazo; si no encuentra
+    ninguno de los dos, el script falla (upstream cambió esa línea y hay que actualizar la regla).
+- No toca namespaces, nombres de tipos C# ni cabeceras de copyright.
 - **Idempotente:** correrlo dos veces deja el árbol igual que correrlo una.
 - Modo `-Check`: sale con código ≠ 0 si quedan cadenas sin reemplazar (lo usa la CI).
-- Procedimiento de merge con upstream: en conflictos de `.resx` se toma la versión de upstream
-  (`git checkout --theirs`), se corre `tools/rebrand.ps1`, se verifica con `-Check`.
+- Procedimiento de merge con upstream: en conflictos de archivos que solo cambian por marca
+  (`.resx` y archivos con reglas literales) se toma la versión de upstream (`git checkout --theirs`),
+  se corre `tools/rebrand.ps1` y se verifica con `-Check`.
 
 ### 3. Red y privacidad
 
@@ -86,10 +96,16 @@ Hoy BCU contacta a servidores de Klocman. En Neverwas:
 
 | Componente | Endpoint actual | Acción |
 |---|---|---|
-| Reporte de crashes (NBug) | `http://bugsklocman.ddns.net:7721` (`Program.ConnectionString`) | **Apagado.** El diálogo de error queda local, sin opción de enviar |
-| Calificaciones (`UninstallerRatingManager`) | mismo host, rutas relativas | **Apagado.** Columna de calificación oculta y sin peticiones |
+| Reporte de crashes (`NBugConfigurator`) | `http://bugsklocman.ddns.net:7721` vía `Program.HomeServerClient` | **Apagado.** Se quita el destino de envío; el diálogo de error sigue mostrándose, pero no manda nada |
+| Calificaciones (`UninstallerRatingManager`) | mismo host, rutas relativas | **Apagado.** Opción oculta en Configuración y en el asistente de primer inicio |
+| Estadísticas de uso (`DatabaseStatSender`) | mismo host, `SendStats` | **Apagado.** Opción oculta en Configuración y en el asistente de primer inicio |
+
+Los tres usan `Program.HomeServerClient`. Ese punto único pasa a devolver un cliente con un
+handler sin red (`OfflineHttpHandler`) que falla sin abrir conexión, y `ConnectionString` deja de
+apuntar a Klocman. Los tres ya atrapan la excepción, así que un usuario que tenga activada una
+opción vieja tampoco genera tráfico.
 | Actualizaciones (`UpdateGrabber.LatestReleaseUrl`) | `github.com/Klocman/.../releases/latest` | **Reapuntado** a `github.com/ErickuchoSan/Neverwas/releases/latest` |
-| Links de donación y contacto | `klocmansoftware.weebly.com` | Reemplazados por el repo de Neverwas; el crédito a BCU se mantiene en "Acerca de" |
+| Links de donación, contacto, reseña, issues y traducción | `klocmansoftware.weebly.com`, `Klocman/Bulk-Crap-Uninstaller`, dappcdn | Reemplazados por el repo de Neverwas (`Resources.resx`, `FeedbackWindow.cs`, textos traducidos); el crédito a BCU se mantiene en "Acerca de" |
 
 Regla: Neverwas solo contacta GitHub (actualizaciones) y los servicios que el usuario dispare
 a mano (por ejemplo "buscar en la web").
@@ -103,7 +119,8 @@ a mano (por ejemplo "buscar en la web").
   2. Guardia de endpoints: falla si aparece `bugsklocman`, `klocmansoftware` o
      `Klocman/Bulk-Crap-Uninstaller/releases` fuera de comentarios, `NOTICE`, `README` o créditos.
 - `winget.yml` de upstream se elimina: publica el paquete de Klocman.
-- Espejo a Forgejo: push mirror configurado en Forgejo (sin workflow en Forgejo).
+- Espejo en Forgejo: pull mirror (sección 1), sin workflow en Forgejo.
+- En el fork hay que habilitar GitHub Actions: GitHub las deja apagadas en forks nuevos.
 - Build local de referencia: `msbuild source\BulkCrapUninstaller.sln /t:Restore;Build /p:Configuration=Release /p:Platform="Any CPU"`
   y `dotnet test source\BulkCrapUninstallerTests\BulkCrapUninstallerTests.csproj`.
 
@@ -127,16 +144,19 @@ A está terminado cuando, **con evidencia pegada** de cada punto:
 3. Con la app abierta y una desinstalación de prueba cancelada, no hay conexiones a
    `bugsklocman.ddns.net` (verificado con `Get-NetTCPConnection` filtrando por el PID del proceso, o con Resource Monitor).
 4. `neverwas-cli.exe --help` corre y muestra la marca Neverwas.
-5. Merge de prueba: en una rama descartable, `git merge upstream/master` desde un commit anterior
-   de upstream + procedimiento 2.3 deja `-Check` en verde sin editar `.resx` a mano.
+5. Merge de prueba: una rama descartable simula un cambio de upstream que toca cadenas de marca
+   en un `.resx` y una línea con regla literal; al mergearla sobre Neverwas, el procedimiento 2.3
+   deja `-Check` en verde y el build compilando, sin editar a mano.
 6. `NOTICE`, `Licence.txt` y `README.md` cumplen la sección 5.
-7. `forgejo` refleja `main` después de un push a `origin`.
+7. El mirror de Forgejo muestra el mismo commit de `main` que GitHub después de `mirror-sync`.
 
 ## Fuera de alcance
 
 - Monitor de instalaciones con ETW y desinstalación desde log (subproyecto B).
 - Escaneo híbrido de restos (C), limpiadores extra (D), interfaz nueva (E).
-- Logo definitivo e identidad visual (se hará con `brand-system`).
+- Logo definitivo e identidad visual (se hará con `brand-system`). En A solo cambia el ícono del
+  ejecutable; los íconos de barra de título embebidos en el `.resx` de cada formulario siguen siendo
+  los de BCU hasta ese subproyecto.
 - Instalador, firma de código, releases publicados, paquete de winget.
 - Renombrar namespaces o reestructurar proyectos.
 
