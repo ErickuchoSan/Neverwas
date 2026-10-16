@@ -1,6 +1,7 @@
 ﻿/*
     Copyright (c) 2017 Marcin Szeniak (https://github.com/Klocman/)
     Apache License Version 2.0
+    Modified by Erick Bores, 2026 (Neverwas)
 */
 
 using System;
@@ -48,7 +49,7 @@ namespace BulkCrapUninstaller
 
             Settings.ReleaseMode = true;
 
-            Settings.Destinations.Add(new NBugDatabaseSenderWrapper());
+            // Neverwas: crash reports are never sent anywhere.
 
             AppDomain.CurrentDomain.UnhandledException += Handler.UnhandledException;
             Application.ThreadException += Handler.ThreadException;
