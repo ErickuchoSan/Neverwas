@@ -1,5 +1,6 @@
 ﻿/*
     Copyright (c) 2017 Marcin Szeniak (https://github.com/Klocman/)
+    Modified by Erick Bores, 2026 (Neverwas)
     Apache License Version 2.0
 */
 
@@ -116,16 +117,22 @@ namespace BulkCrapUninstaller.Functions.Tools
 
         public static Version CheckLatestVersion()
         {
-            // Should result in something like "https://github.com/ErickuchoSan/Neverwas/releases/tag/v4.1"
-            var url = GetFinalRedirect(LatestReleaseUrl);
-            if (url != null)
-            {
-                var i = url.LastIndexOf('/');
-                var tag = url.Substring(i).TrimStart('/', 'v');
-                return new Version(tag);
-            }
+            // Should result in something like "https://github.com/ErickuchoSan/Neverwas/releases/tag/v6.3.0.1"
+            return ParseVersionFromReleaseUrl(GetFinalRedirect(LatestReleaseUrl));
+        }
 
-            return null;
+        /// <summary>
+        /// Returns the version in a ".../releases/tag/v1.2.3.4" URL, or null when the URL has no version tag
+        /// (for example when the repository has no releases yet and GitHub redirects to ".../releases").
+        /// </summary>
+        internal static Version ParseVersionFromReleaseUrl(string url)
+        {
+            if (string.IsNullOrWhiteSpace(url)) return null;
+            const string marker = "/releases/tag/";
+            var i = url.LastIndexOf(marker, StringComparison.OrdinalIgnoreCase);
+            if (i < 0) return null;
+            var tag = url.Substring(i + marker.Length).TrimStart('v', 'V');
+            return Version.TryParse(tag, out var version) ? version : null;
         }
 
         /// <summary>
