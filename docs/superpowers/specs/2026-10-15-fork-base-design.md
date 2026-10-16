@@ -63,7 +63,7 @@ proyectos, solución `source/BulkCrapUninstaller.sln`, launcher nativo C++ (`BCU
 | Satélites de idioma | `BCUninstaller.resources.dll` | `Neverwas.resources.dll` | El nombre sale del `AssemblyName`; `CultureConfigurator.cs` lo busca por nombre fijo |
 | Tipos en `.resx` | `…, BCUninstaller, Culture=neutral…` | `…, Neverwas, Culture=neutral…` | Nombres de tipo con assembly; sin esto el diseñador de formularios falla al cargar |
 | Instancia única | mutex `Global\BCU-singleinstance` | `Global\Neverwas-singleinstance` | `EntryPoint.cs`; permite abrir Neverwas con BCU abierto |
-| Versión | `6.3` | `6.3.0.1` | `Directory.Build.props`. Las tres primeras cifras siguen a upstream; la cuarta es la revisión de Neverwas y vuelve a 1 en cada sync |
+| Versión | `6.3` | `6.3.0.1` | `source/Neverwas.props`, importado al final de `Directory.Build.props` (única línea que cambia ahí). Toma la versión de upstream y le agrega `.0.<NeverwasRevision>`; un salto de versión de upstream no genera conflicto |
 
 La configuración es portable: un archivo junto al ejecutable (ver `Program.PrepareSettings` y
 `PortableSettingsProvider`). Su nombre es una constante, no se deriva del exe, así que se cambia
@@ -109,6 +109,15 @@ opción vieja tampoco genera tráfico.
 
 Regla: Neverwas solo contacta GitHub (actualizaciones) y los servicios que el usuario dispare
 a mano (por ejemplo "buscar en la web").
+
+**Excepción aprobada (2026-10-16): verificación de certificados.** La columna "Certificate"
+valida la firma de cada desinstalador con `X509Certificate2.Verify()`
+(`UninstallTools/ApplicationUninstallerEntry.cs`). Windows consulta por HTTP (puerto 80) las
+listas de revocación (CRL/OCSP) de la autoridad certificadora de cada firma, típicamente detrás
+de CDNs como Akamai o Cloudflare. Se mantiene con conexión para que "Verified" signifique que el
+certificado no fue revocado. Lo único que la autoridad ve es qué certificados se consultan: no
+recibe datos del usuario ni la lista de programas instalados. Se observó en la verificación del
+criterio 3: 4 conexiones a CDNs de autoridades certificadoras y ninguna a servidores de Klocman.
 
 ### 4. Build y CI
 
